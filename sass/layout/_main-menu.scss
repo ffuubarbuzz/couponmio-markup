@@ -1,0 +1,64 @@
+$sections: popular, exclusive, new, categories, shops;
+.main-menu {
+	font-size: 1.17em;
+	.layout-inner {
+		background: linear-gradient(#4e4d4d, #424242);
+		border-radius: 0 0 .3em .3em;
+		box-shadow: 0 3px 4px rgba(0, 0, 0, .4);
+	}
+	@each $section in $sections {
+		.#{$section}:before {
+			background: url('../img/main-menu/' + $section + '.svg');
+		}
+		.#{$section}:hover:before {
+			background: url('../img/main-menu/' + $section + '-hover.svg');
+		}
+	}
+	ul {
+		@include reset-list;
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+	}
+	li {
+		flex: 1 0 auto;
+	}
+	a {
+		text-transform: uppercase;
+		color: #fdfdfd;
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding: .5em 0;
+		&:before {
+			content: '';
+			display: inline-block;
+			margin-right: .7em;
+		}
+
+	}
+	.popular:before {
+		width: 20px;
+		height: 19px;
+	}
+	.exclusive:before {
+		width: 31px;
+		height: 12px;
+	}
+	.new:before {
+		width: 20px;
+		height: 20px;
+	}
+	.categories:before {
+		width: 19px;
+		height: 15px;
+	}
+	.shops:before {
+		width: 20px;
+		height: 16px;
+	}
+	.current {
+		background: #2f2f2f;
+	}
+}

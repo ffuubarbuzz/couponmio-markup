@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Couponmio</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="auth-menu">
+			<div class="layout-inner unauthorised">
+				<p>Здравствуйте, наш дорогой гость! Если вы хотите в полной мере насладиться экономией, то <a class="action sign-up" href=""> зарегистрируйтесь</a>  или <a href=""class="action sign-in">авторизуйтесь</a>.</p>
+			</div>
+		</div>
+
+		<div class="auth-menu">
+			<div class="layout-inner">
+				<ul class="user-menu">
+
+					<!-- Class 'empty' is only needed, if user has no favourites  -->
+					<li>
+						<a class="action liked empty" href=""></a>
+						<div class="submenu">
+							<div class="submenu-title">Нет избранных купонов</div>
+							<div class="info">
+								<p>Для того, чтобы добавить купон в избранное, нажмите на этот символ:</p>
+								<div class="liked"></div>
+								<p>Купон автоматически отобразится здесь</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a class="action liked" href=""></a>
+						<div class="submenu">
+							<div class="submenu-title">Ваши избранные купоны</div>
+							<ul class="coupon-list">
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+										<div class="coupon-shop">GRand Flora</div>
+										<div class="coupon-title">Горшки для цветов и детей! Один кушает удобрения второй производит!</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+										<div class="coupon-shop">GRand Flora</div>
+										<div class="coupon-title">Горшки для цветов и детей! Один кушает удобрения второй производит!</div>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+										<div class="coupon-shop">GRand Flora</div>
+										<div class="coupon-title">Горшки для цветов и детей! Один кушает удобрения второй производит!</div>
+									</a>
+								</li>
+							</ul>
+							<a href="" class="action list-link">Посмотреть все избранные</a>
+						</div>
+					</li>
+
+					<li>
+						<a class="action favourites" href=""></a>
+						<div class="submenu">
+							<div class="submenu-title">Ваши любимые магазины</div>
+							<ul class="favourite-shop-list">
+							<!-- Up to 8 list items: up to 7 items + one always present link to add favourite shop-->
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="" class="action add-favourite-shop" title="Добавить любимый магазин"></a>
+								</li>
+							</ul>
+							<a href="" class="list-link">Посмотреть все любимые магазины</a>
+						</div>
+					</li>
+					<li>
+						<a class="action help" href=""></a>
+					</li>
+					<li>
+						<a class="action settings" href=""></a>
+					</li>
+					<li>
+						<a href=""><img src="http://lorempixel.com/22/22/people" width="22" height="22" alt="" class="avatar"> Алеся Королева</a>
+					</li>
+					<li>
+						<a class="action sign-out" href=""></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<header class="main-header">
+			<div class="layout-inner">
+				<img src="assets/img/logo.svg" width="229" height="52" alt="">
+				<!-- Don't remove form tag, it's needed for native validation. Just do event.preventDefault() on form.submit event -->
+				<form class="search-box">
+					<input type="search" name="" id="">
+					<button class="action search">Искать</button>
+				</form>
+			</div>
+		</header>
+		<nav class="main-menu">
+			<div class="layout-inner">
+				<ul>
+					<li><a href="" class="popular">Популярные</a></li>
+					<li><a href="" class="exclusive">Эксклюзивные</a></li>
+					<li class="current"><a href="" class="new">Новые</a></li>
+					<li><a href="" class="categories">Купоны по Категориям</a></li>
+					<li><a href="" class="shops">Магазины</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<main></main>
+
+		<footer class="main-footer">
+			<div class="layout-inner">
+				<ul class="links">
+					<li><a class="about" href="">О компании</a></li>
+					<li><a class="contacts" href="">Обратная связь</a></li>
+					<li><a class="categories" href="">Все категории</a></li>
+					<li><a class="blog" href="">Блог couponmio</a></li>
+				</ul>
+				<div>
+					<img src="http://lorempixel.com/200/50" class="logo" alt="">
+					<p>Copyright © 2012 «exBonus.Ru». Все права защищены.</p>
+					<p>Каталог самых выгодных купонов и скидок в России.</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+	</body>
+</html>

@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic,latin);
+
+$content-width: 960px;
+
+html {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+	background: url(../img/site-bg.png) 0 0 repeat;
+}
+
+body {
+	min-width: $content-width + 20px;
+}
+
+*,
+*:before,
+*:after,
+input[type="search"] {
+	box-sizing: border-box;
+}
+
+.layout-inner {
+	width: $content-width;
+	margin: 0 auto;
+}
+
+a {
+	color: #21a5d6;
+	text-decoration: none;
+	&:hover {
+		color: #4dc9f7;
+	}
+}
+
+.action {
+	color: #f88d1a;
+	&:hover {
+		color: #ffa646;
+	}
+}
+
+.list-link {
+	display: block;
+	padding: .6em 0;
+	border-top: 1px dashed #f88d1a;
+	text-align: center;
+	font-size: 1.33em;
+	text-align: center;
+}

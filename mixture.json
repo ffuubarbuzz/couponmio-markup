@@ -1,0 +1,41 @@
+{
+	"convertHtml": {
+		"relativePaths": false
+	},
+	"debug": true,
+	"domain": null,
+	"lintScripts": true,
+	"modelSource": null,
+	"preprocessorLocations": [
+		"sass",
+		"assets/css"
+	],
+	"preprocessorScriptOutput": "assets/js",
+	"preprocessorStyleOutput": "assets/css",
+	"projectDescription": "Couponmio redesign",
+	"projectName": "couponmio-markup",
+	"publishedId": null,
+	"serverHostname": null,
+	"serverPort": null,
+	"simpleModePartnerServer": null,
+	"type": "simple",
+	"useCompass": false,
+	"optimiseImages": true,
+	"autoPrefixer": {
+		"active": true,
+		"sourceMap": true,
+		"browsers": [
+			"last 2 versions", 
+			"> 1%", 
+			"ie 8",
+			"opera 12.1"
+		]
+	},
+	"sass": {
+		"outputStyle": "expanded",
+		"sourceMap": true,
+		"lineNumbers": false,
+		"useLibSass": true
+	},
+	"optimiseSVG": true
+}

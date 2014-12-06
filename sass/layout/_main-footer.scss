@@ -1,0 +1,42 @@
+$links: about, contacts, categories, blog;
+.main-footer {
+	background-image: linear-gradient(#2f2f2f, #191818);
+	color: #9b9b9b;
+	text-align: right;
+	.layout-inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.8em .8em 8em;
+	}
+	.links {
+		@include reset-list;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 1.17em;
+		font-weight: bold;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin: 1.75em 4em 0 2.3em;
+		flex-grow: 1;
+	}
+	a {
+		display: block;
+		color: #9b9b9b;
+		&:before {
+			display: block;
+		}
+	}
+	p {
+		margin: 0;
+	}
+	@each $link in $links {
+		.#{$link}:before {
+			content: url('../img/main-footer/' + $link + '.svg');
+		}
+		.#{$link}:hover:before {
+			content: url('../img/main-footer/' + $link + '-hover.svg');
+		}
+	}
+}
