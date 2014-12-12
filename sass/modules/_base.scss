@@ -7,10 +7,23 @@ html {
 	font-size: 12px;
 	line-height: 1.5;
 	background: url(../img/site-bg.png) 0 0 repeat;
+	height: 100%;
 }
 
 body {
+	display: flex;
 	min-width: $content-width + 20px;
+	min-height: 100%;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	>* {
+		flex: 0 0 auto;
+	}
+}
+
+main {
+	flex-grow: 1;
 }
 
 *,

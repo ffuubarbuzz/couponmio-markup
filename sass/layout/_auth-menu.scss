@@ -1,5 +1,3 @@
-$actions: favourites, help, liked, settings, sign-in, sign-out, sign-up, add-favourite-shop;
-
 .auth-menu {
 	background: #464646;
 	color: #9b9b9b;
@@ -8,20 +6,19 @@ $actions: favourites, help, liked, settings, sign-in, sign-out, sign-up, add-fav
 	.layout-inner {
 		background: #464646;	//duplicated for covering animated submenus
 		height: 3em;
+		padding: 0 .8em;
 	}
-	@each $action in $actions {
-		.#{$action}:before {
-			content: url('../img/auth-menu/' + $action + '.svg');
+	.action {
+		.icon {
+			fill: #f88d1a;
 		}
-		.#{$action}:hover:before {
-			content: url('../img/auth-menu/' + $action + '-hover.svg');
+		&:hover .icon {
+			fill: #ffa646;
 		}
 	}
-	.liked.empty:hover:before {
-		content: url('../img/auth-menu/liked-empty-hover.svg');
-	}
-	.action:before {
-		vertical-align: middle;
+	.icon {
+		display: inline-block;
+		fill: #f88d1a;
 	}
 	.submenu {
 		position: absolute;
