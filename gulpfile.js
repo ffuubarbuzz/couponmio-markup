@@ -1,6 +1,5 @@
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
-var cssBase64 = require('gulp-css-base64');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
@@ -8,6 +7,9 @@ var csso = require('gulp-csso');
 var rename = require('gulp-rename');
 var del = require('del');
 var plumber = require('gulp-plumber');
+var svgstore = require('gulp-svgstore');
+var csscomb = require('gulp-csscomb');	//TODO: use that, there is already config
+var csscomb = require('gulp-load-plugins');	//TODO: use that
 
 gulp.task('minifyImg', [], function () {
 	return gulp.src('./assets/img/**/*')
@@ -18,15 +20,13 @@ gulp.task('minifyImg', [], function () {
 		.pipe(gulp.dest('./assets/img'));
 });
 
-gulp.task('inlineSvg', ['minifyCss'], function () {
-	return gulp.src('./assets/css/*.css')
+gulp.task('concatSvg', ['minifyImg',], function () {
+	return gulp.src(['./assets/img/icons/**/*.svg', '!./assets/img/sprite.svg'])
 		.pipe(plumber())
-		// .pipe(sourcemaps.init({
-		// 	loadMaps: true
-		// }))
-		.pipe(cssBase64())
-		// .pipe(sourcemaps.write('.'))
-		.pipe(gulp.dest('./assets/css'));
+		.pipe(svgstore({
+			fileName: 'sprite.svg'
+		}))
+		.pipe(gulp.dest('./assets/img'));
 });
 
 gulp.task('sass', ['removeCss'], function () {
@@ -74,12 +74,19 @@ gulp.task('removeCss', function (cb) {
 	], cb);
 });
 
-gulp.task('styles', ['sass', 'autoprefixer', 'minifyCss', 'inlineSvg']);
+gulp.task('removeSpriteSvg', function (cb) {
+	del([
+		'./assets/img/sprite.svg'
+	], cb);
+});
+
+gulp.task('styles', ['sass', 'autoprefixer', 'minifyCss']);
 
 gulp.task('watch', [], function () {
 	gulp.watch('./assets/img/**/*', ['minifyImg']);
 	gulp.watch('./sass/**/*', ['styles']);
+	gulp.watch('./assets/img/**/*.svg', ['concatSvg']);
 	gulp.watch('gulpfile.js', ['default']);
 });
 
-gulp.task('default', ['minifyImg', 'styles']);
+gulp.task('default', ['concatSvg', 'styles']);
