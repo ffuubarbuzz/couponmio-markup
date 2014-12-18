@@ -11,8 +11,8 @@ var svgstore = require('gulp-svgstore');
 var csscomb = require('gulp-csscomb');	//TODO: use that, there is already config
 var csscomb = require('gulp-load-plugins');	//TODO: use that
 
-gulp.task('minifyImg', [], function () {
-	return gulp.src('./assets/img/**/*')
+gulp.task('minifyImg', ['concatSvg'], function () {
+	return gulp.src(['./assets/img/**/*.png', './assets/img/**/*.jpg', './assets/img/sprite.svg'])
 		.pipe(plumber())
 		.pipe(imagemin({
 			progressive: true
@@ -20,11 +20,16 @@ gulp.task('minifyImg', [], function () {
 		.pipe(gulp.dest('./assets/img'));
 });
 
-gulp.task('concatSvg', ['minifyImg',], function () {
+gulp.task('concatSvg', [], function () {
 	return gulp.src(['./assets/img/icons/**/*.svg', '!./assets/img/sprite.svg'])
 		.pipe(plumber())
 		.pipe(svgstore({
-			fileName: 'sprite.svg'
+			fileName: 'sprite.svg',
+			transformSvg: function ($svg, done) {
+				// $svg.find('[fill]').removeAttr('fill');
+				// $svg.find('style').remove();
+				done(null, $svg)
+			}
 		}))
 		.pipe(gulp.dest('./assets/img'));
 });
@@ -85,8 +90,7 @@ gulp.task('styles', ['sass', 'autoprefixer', 'minifyCss']);
 gulp.task('watch', [], function () {
 	gulp.watch('./assets/img/**/*', ['minifyImg']);
 	gulp.watch('./sass/**/*', ['styles']);
-	gulp.watch('./assets/img/**/*.svg', ['concatSvg']);
 	gulp.watch('gulpfile.js', ['default']);
 });
 
-gulp.task('default', ['concatSvg', 'styles']);
+gulp.task('default', ['minifyImg', 'styles']);
