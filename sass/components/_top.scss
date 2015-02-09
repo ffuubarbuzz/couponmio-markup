@@ -1,0 +1,59 @@
+.top {
+	h1:after {
+		content: '';
+		display: block;
+		height: .4rem;
+		@include lines-pattern;
+	}
+}
+.top-list {
+	@include reset-list;
+	margin: 1.4rem 0 4.8rem;
+	padding: 1.7rem 0;
+	font-size: 0;
+	background: #fff;
+	border-radius: 4px;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+	border: 1px solid #e1e1e1;
+	position: relative;
+	a {
+		display: block;
+		padding: 0 1.6em;
+		height: 2.6em;
+		line-height: 2.6em;
+	}
+	.icon {
+		fill: currentColor;
+		vertical-align: middle;
+		margin-right: .8em;
+	}
+	li {
+		display: inline-block;
+		width: 25%;
+		font-size: 1.2rem;
+		&:nth-child(8n-7),
+		&:nth-child(8n-6),
+		&:nth-child(8n-5),
+		&:nth-child(8n-4) {
+			background: #f0f9fc;
+			border: 0 dotted #a6dbef;
+			border-top-width: 1px;
+			border-bottom-width: 1px;
+		}
+		&:nth-child(1),
+		&:nth-child(2),
+		&:nth-child(3) {
+			&:after {
+				content: '';
+				display: block;
+				width: 1px;
+				margin-left: 25%;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				background: #fff;
+				box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.04);
+			}
+		}
+	}
+}

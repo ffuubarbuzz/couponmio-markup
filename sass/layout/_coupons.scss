@@ -1,0 +1,268 @@
+.coupons-layout {
+	display: flex;
+
+	justify-content: space-between;
+	.coupon-list {
+		//to create stacking context
+		position: relative;
+		z-index: 1;
+
+		width: 620px;
+	}
+}
+
+.coupon-list-aside {
+	width: 300px;
+	article {
+		overflow: hidden;
+
+		color: #464646;
+		border: 1px solid #e7e7e7;
+		border-radius: 5px;
+		background: #fff;
+		box-shadow: 0 0 3px 0 rgba(0, 0, 0, .19);
+		h1 {
+			font-size: 1.5em;
+			font-weight: bold;
+
+			position: relative;
+
+			padding: .7em 1.33em;
+
+			border-bottom: 2px dashed #e4e4e4;
+			background-clip: padding-box;
+			background-origin: padding-box;
+			.first-word {
+				color: #fff;
+			}
+			.icon {
+				margin-right: .5em;
+
+				vertical-align: text-bottom;
+
+				fill: rgba(255, 255, 255, .6);
+			}
+			&:after {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				left: 0;
+
+				display: block;
+
+				height: 3px;
+
+				content: '';
+			}
+		}
+		+article {
+			margin-top: 2.6em;
+		}
+	}
+	.list-link {
+		padding-bottom: 1.3em;
+
+		border-top: 1px solid #e1edf1;
+	}
+	.follow-us {
+		h1 {
+			background-image: linear-gradient(#ff612c, #e2403c);
+			&:after {
+				background-image: linear-gradient(#ff7b7b, #ffabab);
+			}
+		}
+		.social-list {
+			display: flex;
+
+			padding: 1em;
+
+			justify-content: space-around;
+			a:hover {
+				transform: scale(1.15);
+			}
+		}
+	}
+	.favourite-shops {
+		h1 {
+			background-image: linear-gradient(#ffa646, #f57f00);
+			&:after {
+				background-image: linear-gradient(#f8b11a, #ffb400);
+			}
+		}
+		.favourite-shop-list {
+			padding: .5rem 0 1rem;
+			li {
+				padding: .83em 0;
+			}
+		}
+	}
+	.categories {
+		h1 {
+			background-image: linear-gradient(#1fade2, #1184b3);
+			&:after {
+				background-image: linear-gradient(#59cffa, #21a5d6);
+			}
+		}
+		h3 {
+			font-weight: normal;
+		}
+		h2,
+		h3 {
+			margin: 0;
+			color: #21a5d6;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			ul {
+				display: none;
+			}
+		}
+		li {
+			border-bottom: 1px solid #e1edf1;
+			&:last-child {
+				border-bottom: none;
+			}
+			li {
+				border-bottom: none;
+				border-top: 1px dashed #a6dbef;
+			}
+		}
+		.open {
+			border-bottom: 1px dashed #a6dbef;
+			ul {
+				display: block;
+			}
+		}
+		img {
+			width: 52px;
+			height: 52px;
+			border: 1px solid #f0f0f0;
+			float: left;
+			margin-right: 1.25em;
+		}
+		a {
+			display: block;
+			overflow: hidden;
+			padding: .75em 1em;
+			color: #656565;
+			&:hover {
+				h2,
+				h3 {
+					color: #4dc9f7;
+				}
+			}
+		}
+	}
+	.pars {
+		h1 {
+			background-image: linear-gradient(#a8c838, #85b70c);
+			&:after {
+				background-image: linear-gradient(#aed231, #85b70c);
+			}
+		}
+		.par {
+			display: block;
+
+			padding: 0 .7rem;
+			&:hover {
+				h2 {
+					color: #f78f8f;
+				}
+				p {
+					color: #a2a2a2;
+				}
+			}
+		}
+		h2 {
+			font-size: 1.33em;
+			font-weight: normal;
+
+			margin: 0;
+
+			color: #ef5c5c;
+		}
+		p {
+			margin: 0;
+
+			color: #464646;
+		}
+		img {
+			display: block;
+
+			max-width: 100%;
+			margin: .7em auto 1em;
+
+			border: 1px solid #f0f0f0;
+		}
+		.list-link {
+			margin-top: 1em;
+		}
+	}
+	.subscribe {
+		height: 282px;
+		padding: 0;
+
+		border: none;
+		border-radius: 0;
+		background: url('../img/subscribe-bg.svg') center 0 no-repeat;
+		box-shadow: none;
+		&:after {
+			content: none;
+		}
+		form {
+			display: block;
+
+			text-align: center;
+		}
+		input[type='email'] {
+			font-size: 1.2em;
+			line-height: normal;
+
+			display: block;
+
+			width: 230px;
+			height: auto;
+			margin: 1.5em auto;
+			padding: .5em .8em;
+
+			border: 1px solid rgba(173, 223, 241, .3);
+			border-radius: .3em;
+			background-image: linear-gradient(rgb(239,239,239), rgb(255,255,255));
+			box-shadow: inset 0 3px 3px rgba(0, 0, 0, .35),
+			inset 0 -3px 3px rgba(255, 255, 255, .7);
+			&:focus {
+				outline: none;
+				background: #fff;
+				box-shadow: none;
+			}
+		}
+	}
+}
+
+.more-coupons {
+	font-size: 1.7em;
+
+	display: block;
+
+	width: 100%;
+	margin: 2em 0;
+	padding: .4em;
+
+	text-align: center;
+
+	color: #fdfdfd;
+	border: 2px solid #58c3ea;
+	border-radius: .15em;
+	background: #21a5d6;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
+	&:hover {
+		background: #33b6e6;
+	}
+	&:active {
+		padding: .5em .4em .3em;
+
+		background: #10739b;
+	}
+}

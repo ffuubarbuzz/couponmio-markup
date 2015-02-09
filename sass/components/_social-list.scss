@@ -1,0 +1,19 @@
+.social-list {
+	@include reset-list;
+	li {
+		display: inline-block;
+		&:not(:first-child) {
+			margin-left: .8em;
+		}
+	}
+	a {
+		display: block;
+		transition: transform ease-in-out .2s;
+		&:hover {
+			transform: scale(1.3);
+		}
+	}
+	.icon {
+		vertical-align: top;
+	}
+}

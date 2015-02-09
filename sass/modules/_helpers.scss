@@ -3,3 +3,28 @@
 	padding: 0;
 	list-style: none;
 }
+
+@mixin lines-pattern($color1: #21a5d6, $color2: #48c1ed, $color3: #1899c9) {
+	background: linear-gradient(to right,
+								$color1 0%,
+								$color1 10%,
+								$color2 10%,
+								$color2 23%,
+								$color3 23%,
+								$color3 33%,
+								$color1 33%,
+								$color1 39%,
+								$color2 39%,
+								$color2 56%,
+								$color3 56%,
+								$color3 70%,
+								$color1 70%,
+								$color1 75%,
+								$color3 75%,
+								$color3 84%,
+								$color2 84%,
+								$color2 94%,
+								$color1 94%,
+								$color1 100%);
+	background-size: 100% 620px;
+}

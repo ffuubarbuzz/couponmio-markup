@@ -8,6 +8,7 @@ html {
 	line-height: 1.5;
 	background: url(../img/site-bg.png) 0 0 repeat;
 	height: 100%;
+	color: #9b9b9b;
 }
 
 body {
@@ -24,6 +25,16 @@ body {
 
 main {
 	flex-grow: 1;
+	h1 {
+		font-size: 2em;
+		color: #2f2f2f;
+		text-transform: uppercase;
+		font-weight: normal;
+		margin: 0;
+		+p {
+			margin: .2em 0 1.5em;
+		}
+	}
 }
 
 *,

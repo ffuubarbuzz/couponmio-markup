@@ -44,7 +44,7 @@
 							<div class="submenu-title">Нет избранных купонов</div>
 							<div class="info">
 								<p>Для того, чтобы добавить купон в избранное, нажмите на этот символ:</p>
-								<div class="liked"></div>
+								<svg role="img" class="icon icon-liked" xmlns="http://www.w3.org/2000/svg" width="28" height="26"><use xlink:href="assets/img/sprite.svg#liked"></use></svg>
 								<p>Купон автоматически отобразится здесь</p>
 							</div>
 						</div>
@@ -126,7 +126,9 @@
 									</a>
 								</li>
 								<li>
-									<a href="" class="action add-favourite-shop" title="Добавить любимый магазин"></a>
+									<a href="" class="action" title="Добавить любимый магазин">
+										<svg role="img" class="icon-add-favourite-shop" xmlns="http://www.w3.org/2000/svg" width="52" height="52"><use xlink:href="assets/img/sprite.svg#add-favourite-shop"></use></svg>
+									</a>
 								</li>
 							</ul>
 							<a href="" class="list-link">Посмотреть все любимые магазины</a>
@@ -204,7 +206,863 @@
 			</div>
 		</nav>
 
-		<main></main>
+		<section class="user-block">
+			<div class="layout-inner">
+				<div class="user-info">
+						<img src="http://lorempixel.com/110/110/people" width="110" height="110" alt="" class="avatar">
+						<div>
+							<h1>Алеся Королева</h1>
+							<a href="">редактировать профиль</a>
+						</div>
+				</div>
+				<ul class="user-links">
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-feed" xmlns="http://www.w3.org/2000/svg" width="26" height="23"><use xlink:href="assets/img/sprite.svg#user-feed"></use></svg>
+							<span>Лента</span>
+						</a>
+					</li>
+					<li class="current">
+						<a href="">
+							<svg role="img" class="icon icon-favourites" xmlns="http://www.w3.org/2000/svg" width="30" height="26"><use xlink:href="assets/img/sprite.svg#favourites"></use></svg>
+							<span>Любимые магазины</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-liked" xmlns="http://www.w3.org/2000/svg" width="26" height="25"><use xlink:href="assets/img/sprite.svg#user-liked"></use></svg>
+							<span>Избранное</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-tickets" xmlns="http://www.w3.org/2000/svg" width="12" height="22"><use xlink:href="assets/img/sprite.svg#user-tickets"></use></svg>
+							<span>Тикеты</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-notifications" xmlns="http://www.w3.org/2000/svg" width="30" height="16"><use xlink:href="assets/img/sprite.svg#user-notifications"></use></svg>
+							<span>Уведомления</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<main class="layout-inner">
+			<section class="coupon-slider">
+				<ul class="coupon-list">
+					<li class="current">
+						<article class="coupon campaign">
+							<div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90" alt="">
+									</a>
+								</div>
+							</div>
+							<div>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#campaign"></use></svg>
+										Шампанское в подарок
+									</a>
+								</h1>
+								<p class="description">При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!</p>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+								<a href="" class="shop-coupons-link">
+									<svg role="img" class="icon icon-search" xmlns="http://www.w3.org/2000/svg" width="16" height="19"><use xlink:href="assets/img/sprite.svg#search-glass"></use></svg>
+									Показать все купоны Foodpanda (34)
+								</a>
+							</div>
+						</article>
+						
+					</li>
+					<li>
+						<article class="coupon">
+							<div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90/sports/2" alt="">
+									</a>
+								</div>
+							</div>
+							<div>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+										Отмычка в носке
+									</a>
+								</h1>
+								<p class="description">При заказе от 123 руб, носок, а в нём и отмычка, в подарок!</p>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+							</div>
+						</article>
+					</li>
+					<li>
+						<article class="coupon">
+							<div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90/sports/3" alt="">
+									</a>
+								</div>
+							</div>
+							<div>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+										Отмычка в носке
+									</a>
+								</h1>
+								<p class="description">При заказе от 123 руб, носок, а в нём и отмычка, в подарок!</p>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+							</div>
+						</article>
+					</li>
+					<li>
+						<article class="coupon">
+							<div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90/sports/4" alt="">
+									</a>
+								</div>
+							</div>
+							<div>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+										Отмычка в носке
+									</a>
+								</h1>
+								<p class="description">При заказе от 123 руб, носок, а в нём и отмычка, в подарок!</p>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+							</div>
+						</article>
+					</li>
+					<li>
+						<article class="coupon">
+							<div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90/sports/5" alt="">
+									</a>
+								</div>
+							</div>
+							<div>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+										Отмычка в носке
+									</a>
+								</h1>
+								<p class="description">При заказе от 123 руб, носок, а в нём и отмычка, в подарок!</p>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+							</div>
+						</article>
+					</li>
+				</ul>
+				<ul class="coupon-slider-actions">
+					<li>
+						<button class="action next"></button>
+					</li>
+					<li>
+						<button class="action prev"></button>
+					</li>
+				</ul>
+			</section>
+			<p class="breadcrumbs">
+				<a href="">Главная страница</a> /
+				<span>Избранное</span>
+			</p>
+			<h1>Избранное</h1>
+			<p>Персонализируйте свою главную страницу: <a href="">зарегистрируйтесь</a> или <a href="">войдите</a></p>
+			<div class="coupons-layout">
+				<section class="coupon-list">
+					<article class="coupon social-open type-cashback">
+						<div>
+							<div class="rating">
+								<div class="rating-inner" style="width: 90%">
+								</div>
+								<span class="value-title" title="4.5"></span>
+								<button class="rate" title="Оценить в 5 звезд"></button>
+								<button class="rate" title="Оценить в 4 звезды"></button>
+								<button class="rate" title="Оценить в 3 звезды"></button>
+								<button class="rate" title="Оценить в 2 звезды"></button>
+								<button class="rate" title="Оценить в 1 звезду"></button>
+							</div>
+							<div class="shop">
+								<a href="">
+									<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+									<div class="text">Все купоны магазина</div>
+								</a>
+							</div>
+						</div>
+						<div>
+							<ul class="actions">
+								<li>
+									<button class="action send-to-mobile" title="Отправить купон на телефон">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-mobile"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action send-to-email" title="Отправить купон на e-mail">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-email"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action like liked" title="Добавить купон в избранные">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+									</button>
+								</li>
+							</ul>
+							<a href="" class="category">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="18"><use xlink:href="assets/img/sprite.svg#category-meal"></use></svg>
+								Еда & Рестораны
+							</a>
+							<h1>
+								<a href="">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+									При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+								</a>
+							</h1>
+							<!-- .expiring-soon for <= 42h -->
+							<div class="valid-for expiring-soon">
+								Действителен ещё
+								<!-- if more than 42h, then datetime="PxD" where x = days -->
+								<time datetime="PT42H">42 часа</time>
+							</div>
+							<a href="" class="action primary">
+								Показать промо-код
+							</a>
+						</div>
+						<footer>
+							<button class="action share">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="13" height="11"><use xlink:href="assets/img/sprite.svg#coupon-share"></use></svg>
+								Поделиться купоном?
+							</button>
+							<div class="valid-till">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#coupon-valid-till"></use></svg>
+								Активен до: <time datetime="2013-01-23">23 января 2013</time>
+							</div>
+							<button class="action add-comment">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
+								Оставить комментарий
+							</button>
+							<div class="social">
+								Помоги своим друзьям сэкономить деньги...
+								<ul class="social-list">
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</footer>
+						<div class="tag exclusive"></div>
+					</article>
+					<article class="coupon campaign type-delivery">
+						<div>
+							<div class="rating">
+								<div class="rating-inner" style="width: 90%">
+								</div>
+								<span class="value-title" title="4.5"></span>
+								<button class="rate" title="Оценить в 5 звезд"></button>
+								<button class="rate" title="Оценить в 4 звезды"></button>
+								<button class="rate" title="Оценить в 3 звезды"></button>
+								<button class="rate" title="Оценить в 2 звезды"></button>
+								<button class="rate" title="Оценить в 1 звезду"></button>
+							</div>
+							<div class="shop">
+								<a href="">
+									<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+									<div class="text">Все купоны магазина</div>
+								</a>
+							</div>
+						</div>
+						<div>
+							<ul class="actions">
+								<li>
+									<button class="action send-to-mobile" title="Отправить купон на телефон">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-mobile"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action send-to-email" title="Отправить купон на e-mail">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-email"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action like" title="Добавить купон в избранные">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+									</button>
+								</li>
+							</ul>
+							<a href="" class="category">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="17"><use xlink:href="assets/img/sprite.svg#category-adult"></use></svg>
+								Для взрослых
+							</a>
+							<h1>
+								<a href="">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#campaign"></use></svg>
+									При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+								</a>
+							</h1>
+							<!-- .expiring-soon for <= 42h -->
+							<div class="valid-for">
+								Действителен ещё
+								<!-- if more than 42h, then datetime="PxD" where x = days -->
+								<time datetime="P13D">13 дней</time>
+							</div>
+							<a href="" class="action primary">
+								Показать промо-код
+							</a>
+						</div>
+						<footer>
+							<button class="action share">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="13" height="11"><use xlink:href="assets/img/sprite.svg#coupon-share"></use></svg>
+								Поделиться купоном?
+							</button>
+							<div class="valid-till">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#coupon-valid-till"></use></svg>
+								Активен до: <time datetime="2013-01-23">23 января 2013</time>
+							</div>
+							<button class="action add-comment">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
+								Оставить комментарий
+							</button>
+							<div class="social">
+								Помоги своим друзьям сэкономить деньги...
+								<ul class="social-list">
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</footer>
+						<div class="tag exclusive"></div>
+					</article>
+
+					<article class="coupon campaign archive type-discount">
+						<div>
+							<div class="rating">
+								<div class="rating-inner" style="width: 90%">
+								</div>
+								<span class="value-title" title="4.5"></span>
+								<button class="rate" title="Оценить в 5 звезд"></button>
+								<button class="rate" title="Оценить в 4 звезды"></button>
+								<button class="rate" title="Оценить в 3 звезды"></button>
+								<button class="rate" title="Оценить в 2 звезды"></button>
+								<button class="rate" title="Оценить в 1 звезду"></button>
+							</div>
+							<div class="shop">
+								<a href="">
+									<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+									<div class="text">Все купоны магазина</div>
+								</a>
+							</div>
+						</div>
+						<div>
+							<ul class="actions">
+								<li>
+									<button class="action like" title="Добавить купон в избранные">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+									</button>
+								</li>
+							</ul>
+							<a href="" class="category">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="17"><use xlink:href="assets/img/sprite.svg#category-adult"></use></svg>
+								Для взрослых
+							</a>
+							<h1>
+								<a href="">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#campaign"></use></svg>
+									При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+								</a>
+							</h1>
+							<div class="valid-for">
+								Срок действия
+								<div class="expired">Истёк</div>
+							</div>
+							<a class="action primary">
+								Увы, данный промокод истёк
+							</a>
+						</div>
+						<div class="tag archive"></div>
+					</article>
+
+					<article class="promo">
+						<!-- size multiplier for category icons is x5 -->
+						<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#category-compas"></use></svg>
+
+						<h1>Путешествия & Туризм</h1>
+						<p>Подпишитесь на новые купоны категории путешествия и туризм</p>
+						<form action="">
+							<input type="email" name="" id="" placeholder="Введите ваш e-mail" required>
+							<button class="action primary">Подписаться</button>
+						</form>
+					</article>
+
+					<article class="promo">
+						<!-- size multiplier for category icons is x5 -->
+						<svg role="img" class="icon icon-favourites" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#category-compas"></use></svg>
+
+						<h1>Путешествия & Туризм</h1>
+						<p>Тепрь вы будете знать о самых свежих купонах данной категории! <a href="">Отписаться</a></p>
+					</article>
+
+					<article class="promo add-favourites">
+						<svg role="img" class="icon icon-favourites" xmlns="http://www.w3.org/2000/svg" width="60" height="53"><use xlink:href="assets/img/sprite.svg#favourites"></use></svg>
+						<h1>Добавьте любимые магазины</h1>
+						<p>И наслаждайтесь самыми свежими акциями прямо на главной странице</p>
+						<a href="" class="action primary">Добавить любимые магазины</a>
+					</article>
+					<article class="coupon type-gift">
+						<div>
+							<div class="rating">
+								<div class="rating-inner" style="width: 90%">
+								</div>
+								<span class="value-title" title="4.5"></span>
+								<button class="rate" title="Оценить в 5 звезд"></button>
+								<button class="rate" title="Оценить в 4 звезды"></button>
+								<button class="rate" title="Оценить в 3 звезды"></button>
+								<button class="rate" title="Оценить в 2 звезды"></button>
+								<button class="rate" title="Оценить в 1 звезду"></button>
+							</div>
+							<div class="shop">
+								<a href="">
+									<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+								</a>
+							</div>
+						</div>
+						<div>
+							<ul class="actions">
+								<li>
+									<button class="action send-to-mobile" title="Отправить купон на телефон">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-mobile"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action send-to-email" title="Отправить купон на e-mail">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-email"></use></svg>
+									</button>
+								</li>
+								<li>
+									<button class="action like" title="Добавить купон в избранные">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+									</button>
+								</li>
+							</ul>
+							<a href="" class="category">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="17"><use xlink:href="assets/img/sprite.svg#category-adult"></use></svg>
+								Для взрослых
+							</a>
+							<h1>
+								<a href="">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+									При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+								</a>
+							</h1>
+							<!-- .expiring-soon for <= 42h -->
+							<div class="valid-for">
+								Действителен ещё
+								<!-- if more than 42h, then datetime="PxD" where x = days -->
+								<time datetime="P13D">13 дней</time>
+							</div>
+							<a href="" class="action primary">
+								Перейти на сайт
+							</a>
+						</div>
+						<div class="core">
+							<div class="code-block">
+								<p>Введите данный код во время оформления заказа:</p>
+								<span class="code">NFA3KF512</span>
+								<button class="action primary">
+									<svg role="img" class="icon icon-copy" xmlns="http://www.w3.org/2000/svg" width="20" height="27"><use xlink:href="assets/img/sprite.svg#copy"></use></svg>
+									Копировать
+								</button>
+							</div>
+							<div class="social">
+								Помоги своим друзьям сэкономить деньги...
+								<ul class="social-list">
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</article>
+					<button class="more-coupons">
+						Нужно больше пуконов!!!
+					</button>
+					<section>
+						<h1>ТОП-10 купонов за сегодня</h1>
+						<p>Самые свежие и популярные купоны только для вас!</p>
+
+						<article class="coupon campaign">
+							<div>
+								<div class="rating">
+									<div class="rating-inner" style="width: 90%">
+									</div>
+									<span class="value-title" title="4.5"></span>
+									<button class="rate" title="Оценить в 5 звезд"></button>
+									<button class="rate" title="Оценить в 4 звезды"></button>
+									<button class="rate" title="Оценить в 3 звезды"></button>
+									<button class="rate" title="Оценить в 2 звезды"></button>
+									<button class="rate" title="Оценить в 1 звезду"></button>
+								</div>
+								<div class="shop">
+									<a href="">
+										<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+										<div class="text">Все купоны магазина</div>
+									</a>
+								</div>
+							</div>
+							<div>
+								<ul class="actions">
+									<li>
+										<button class="action send-to-mobile" title="Отправить купон на телефон">
+											<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-mobile"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button class="action send-to-email" title="Отправить купон на e-mail">
+											<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-email"></use></svg>
+										</button>
+									</li>
+									<li>
+										<button class="action like" title="Добавить купон в избранные">
+											<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+										</button>
+									</li>
+								</ul>
+								<a href="" class="category">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="17"><use xlink:href="assets/img/sprite.svg#category-adult"></use></svg>
+									Для взрослых
+								</a>
+								<h1>
+									<a href="">
+										<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#campaign"></use></svg>
+										При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+									</a>
+								</h1>
+								<!-- .expiring-soon for <= 42h -->
+								<div class="valid-for">
+									Действителен ещё
+									<!-- if more than 42h, then datetime="PxD" where x = days -->
+									<time datetime="P13D">13 дней</time>
+								</div>
+								<a href="" class="action primary">
+									Показать промо-код
+								</a>
+							</div>
+							<footer>
+								<button class="action share">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="13" height="11"><use xlink:href="assets/img/sprite.svg#coupon-share"></use></svg>
+									Поделиться купоном?
+								</button>
+								<div class="valid-till">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#coupon-valid-till"></use></svg>
+									Активен до: <time datetime="2013-01-23">23 января 2013</time>
+								</div>
+								<button class="action add-comment">
+									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
+									Оставить комментарий
+								</button>
+								<div class="social">
+									Помоги своим друзьям сэкономить деньги...
+									<ul class="social-list">
+										<li>
+											<a href="">
+												<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+											</a>
+										</li>
+										<li>
+											<a href="">
+												<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</footer>
+							<div class="tag exclusive"></div>
+						</article>
+					</section>
+				</section>
+				<aside class="coupon-list-aside">
+					<article class="follow-us">
+						<h1>
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="25" height="23"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#aside-follow-us"></use></svg>
+							<span class="first-word">Следите</span> за нами
+						</h1>
+						<ul class="social-list">
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</article>
+					<article class="promo subscribe">
+						<form action="">
+							<input type="email" name="" id="" required placeholder="Введите ваш e-mail">
+							<button class="action primary">Подписаться</button>
+						</form>
+					</article>
+					<article class="favourite-shops">
+						<h1>
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="23" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#aside-favourites"></use></svg>
+							<span class="first-word">Любимые</span> магазины
+						</h1>
+						<ul class="favourite-shop-list">
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+							<li><a href=""><img src="http://lorempixel.com/50/50" alt=""></a></li>
+						</ul>
+						<a href="" class="list-link">Редактировать любимые</a>
+					</article>
+					<article class="categories">
+						<h1>
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="18"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#aside-categories"></use></svg>
+							<span class="first-word">Категории</span> купонов
+						</h1>
+						<ul>
+							<li>
+								<a href="">
+									<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									<h2>Мода и красота</h2>
+									233 предложения
+								</a>
+								<ul>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="">
+									<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									<h2>Мода и красота</h2>
+									233 предложения
+								</a>
+								<ul>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="">
+									<img src="http://lorempixel.com/50/50" width="50" height="50" alt="">
+									<h2>Мода и красота</h2>
+									233 предложения
+								</a>
+								<ul>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<h3>ASOS</h3>
+											Просто невероятное предложение: -183%
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<a href="" class="list-link">Все купоны по категориям</a>
+					</article>
+					<article class="pars">
+						<h1>
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="30" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#aside-pars"></use></svg>
+							<span class="first-word">ПАРы</span> YVES ROSHER
+						</h1>
+						<a href="" class="par">
+							<img src="http://lorempixel.com/288/158" alt="">
+							<h2>
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/img/sprite.svg#par"></use></svg>
+								Основной ПАР на октябрь 2014
+							</h2>
+							<p>Подарки за заказ от 790 руб. и 1300 руб.</p>
+						</a>
+						<a href="" class="list-link">Все ПАРы от Yves Rosher</a>
+					</article>
+				</aside>
+			</div>
+			<section class="top">
+				<h1>Топ интернет-магазинов</h1>
+				<ul class="top-list">
+					<li>
+						<a href="">
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg"  width="13" height="22"><use xlink:href="assets/img/sprite.svg#category-polisher"></use></svg>
+							Wildberiies
+						</a>
+					</li>
+					<li><a href="">ASOS</a></li>
+					<li><a href="">Lamoda</a></li>
+					<li><a href="">Mascotte</a></li>
+					<li><a href="">Сотмаркет</a></li>
+					<li><a href="">Белый ветер</a></li>
+					<li><a href="">Лередут</a></li>
+					<li><a href="">Quelle</a></li>
+					<li><a href="">E5</a></li>
+					<li><a href="">Wildberries.by</a></li>
+					<li><a href="">Wikimart</a></li>
+					<li><a href="">Евросеть</a></li>
+					<li><a href="">SAPATO</a></li>
+					<li><a href="">Dostavka.ru</a></li>
+					<li><a href="">BonPrix</a></li>
+					<li><a href="">YOOX</a></li>
+					<li><a href="">Butik.ru</a></li>
+					<li><a href="">Ozon</a></li>
+					<li><a href="">Лоредут</a></li>
+					<li><a href="">TOPBrands</a></li>
+					<li><a href="">E96</a></li>
+					<li><a href="">OTTO</a></li>
+					<li><a href="">myToys</a></li>
+					<li><a href="">Elios</a></li>
+					<li><a href="">003.ru</a></li>
+					<li><a href="">Эльдорадо</a></li>
+					<li><a href="">Yves Rosher</a></li>
+					<li><a href="">Enter</a></li>
+				</ul>
+			</section>
+		</main>
 
 		<footer class="main-footer">
 			<div class="layout-inner">
@@ -222,7 +1080,7 @@
 					<ul>
 						<li>
 							<a href="">
-								<svg role="img" class="icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-about"></use></svg>
+								<svg role="img" class="nav-icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-about"></use></svg>
 								<div class="title">О компании</div>
 							</a>
 							<div class="text">
@@ -232,7 +1090,7 @@
 						</li>
 						<li>
 							<a href="">
-								<svg role="img" class="icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-categories"></use></svg>
+								<svg role="img" class="nav-icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-categories"></use></svg>
 								<div class="title">Все категории</div>
 							</a>
 							<div class="text">
@@ -243,26 +1101,34 @@
 							</div>
 						</li>
 						<li class="social">
-								<svg role="img" class="icon icon-social" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#footer-social"></use></svg>
+								<svg role="img" class="nav-icon icon-social" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#footer-social"></use></svg>
 								<div class="title">Следите за нами</div>
-							<div class="text">
-								<a href="">
-									<svg role="img" class="icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
-								</a>
-								<a href="">
-									<svg role="img" class="icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
-								</a>
-								<a href="">
-									<svg role="img" class="icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
-								</a>
-								<a href="">
-									<svg role="img" class="icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
-								</a>
-							</div>
+							<ul class="social-list">
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+									</a>
+								</li>
+							</ul>
 						</li>
 						<li>
 							<a href="">
-								<svg role="img" class="icon icon-feedback" xmlns="http://www.w3.org/2000/svg" width="58" height="40"><use xlink:href="assets/img/sprite.svg#footer-feedback"></use></svg>
+								<svg role="img" class="nav-icon icon-feedback" xmlns="http://www.w3.org/2000/svg" width="58" height="40"><use xlink:href="assets/img/sprite.svg#footer-feedback"></use></svg>
 								<div class="title">Обратная связь</div>
 							</a>
 							<div class="text">
@@ -271,7 +1137,7 @@
 						</li>
 						<li>
 							<a href="">
-								<svg role="img" class="icon icon-blog" xmlns="http://www.w3.org/2000/svg" width="52" height="40"><use xlink:href="assets/img/sprite.svg#footer-blog"></use></svg>
+								<svg role="img" class="nav-icon icon-blog" xmlns="http://www.w3.org/2000/svg" width="52" height="40"><use xlink:href="assets/img/sprite.svg#footer-blog"></use></svg>
 								<div class="title">Блог couponmio</div>
 							</a>
 							<div class="text">
@@ -292,5 +1158,6 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
 		<script src="assets/js/vendor/svg4everybody.min.js"></script>
+		<script src="assets/js/demo.js"></script>
 	</body>
 </html>

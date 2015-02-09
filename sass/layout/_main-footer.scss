@@ -1,6 +1,5 @@
 .main-footer {
 	background-image: url(../img/footer-bg.png);
-	color: #9b9b9b;
 	.layout-inner {
 		padding: 0 .8em;
 	}
@@ -20,7 +19,7 @@
 			width: 18px;
 			height: 12px;
 			fill: #fff;
-			margin-right: 1em;
+			margin-right: .6em;
 		}
 		input[type='email'] {
 			flex-grow: 1;
@@ -35,6 +34,7 @@
 			border: .25em solid #2e2e2e;
 			border-radius: .6em;
 			padding: 0 .8em;
+			color: #555;
 		}
 	}
 	.credits {
@@ -43,7 +43,7 @@
 		padding: 2em 0;
 	}
 	nav {
-		ul {
+		>ul {
 			@include reset-list;
 			font-size: 0;
 			overflow: hidden;
@@ -52,40 +52,40 @@
 			align-items: flex-start;
 			flex-wrap: wrap;
 			position: relative;
-		}
-		li {
-			display: inline-block;
-			vertical-align: top;
-			width: 50%;
-			font-size: 1rem;
-			padding-right: 3em;
-			flex-shrink: 0;
-			width: 33.3%;
-			margin: 2.5em 0;
-			&:nth-child(-n+2) {
+			>li {
+				display: inline-block;
+				vertical-align: top;
 				width: 50%;
-			}
-			&:nth-child(3):before {
-				content: '';
-				display: block;
-				position: absolute;
-				width: 100%;
-				border-top: 1px dashed #464646;
-				margin-top: -2.5em;
-			}
-			>a {
-				display: block;
-				&:hover {
-					.title {
-						color: #f88d1a;
-					}
-					.icon {
-						fill: #f88d1a;
+				font-size: 1rem;
+				padding-right: 3em;
+				flex-shrink: 0;
+				width: 33.3%;
+				margin: 2.5em 0;
+				&:nth-child(-n+2) {
+					width: 50%;
+				}
+				&:nth-child(3):before {
+					content: '';
+					display: block;
+					position: absolute;
+					width: 100%;
+					border-top: 1px dashed #464646;
+					margin-top: -2.5em;
+				}
+				>a {
+					display: block;
+					&:hover {
+						.title {
+							color: #f88d1a;
+						}
+						.nav-icon {
+							fill: #f88d1a;
+						}
 					}
 				}
 			}
 		}
-		.icon {
+		.nav-icon {
 			fill: #464646;
 			float: left;
 			margin-right: 1.7em;
@@ -111,10 +111,8 @@
 				}
 			}
 		}
-		.social .text a {
-			display: inline-block;
-			font-size: 0;
-			margin: .75rem .8rem 0 0;
+		.social-list li {
+			margin-top: .75em;
 		}
 	}
 	small {

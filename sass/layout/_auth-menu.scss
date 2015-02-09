@@ -1,8 +1,7 @@
 .auth-menu {
 	background: #464646;
-	color: #9b9b9b;
 	position: relative;
-	z-index: 1;
+	z-index: 3;
 	.layout-inner {
 		background: #464646;	//duplicated for covering animated submenus
 		height: 3em;
@@ -121,15 +120,7 @@
 		margin-right: .7em;
 	}
 	.favourite-shop-list {
-		@include reset-list;
-		text-align: center;
-		font-size: 0;
-		position: relative;
 		li {
-			font-size: 1rem;
-			display: inline-block;
-			width: 25%;
-			padding: 1em 0;
 			&:nth-child(4n-3):after {
 				content: '';
 				display: block;
@@ -140,13 +131,52 @@
 				border-top: 1px dashed #d5d5d5;
 			}
 		}
+		+.list-link {
+			border-top: none;
+		}
+	}
+	.icon-add-favourite-shop {
+		fill: #e3e3e3;
+		color: #ddd;
+		vertical-align: top;
+	}
+	a:hover .icon-add-favourite-shop {
+		fill: #4dc9f7;
+		color: #4dc9f7;
+	}
+	.coupon-list {
+		@include reset-list;
+		li {
+			&:nth-child(even) {
+				background: #fff8f1;
+			}
+			border-top: 1px dashed #f88d1a;
+			&:first-child {
+				border-top-width: 0;
+			}
+		}
+		a {
+			display: block;
+			overflow: hidden;
+			padding: .75em .6em .5em;
+			&:hover .coupon-shop {
+				color: #ffa646;
+			}
+		}
 		img {
 			border: 1px solid #f0f0f0;
+			float: left;
+			margin-right: 1.25em;
 			width: 52px;
 			height: 52px;
 		}
-		+.list-link {
-			border-top: none;
+		.coupon-shop {
+			font-size: 1.2em;
+			font-weight: bold;
+			color: #f88d1a;
+		}
+		.coupon-title {
+			color: #656565;
 		}
 	}
 }

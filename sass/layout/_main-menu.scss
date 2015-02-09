@@ -1,5 +1,7 @@
 .main-menu {
 	font-size: 1.17em;
+	position: relative;
+	z-index: 1;
 	ul {
 		@include reset-list;
 		display: flex;

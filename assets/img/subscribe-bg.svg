@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="315" height="282" viewBox="0 0 315 282">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #000000;
+        filter: url(#drop-shadow-1);
+        fill-opacity: 0;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-1);
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-5 {
+        fill: #b8dbe8;
+        stroke: #8ed5ef;
+        stroke-width: 4px;
+        filter: url(#filter-chain-1);
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-7 {
+        fill: #000000;
+        stroke: #ffffff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#filter-chain-2);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-3);
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-4);
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-5);
+        stroke: url(#linear-gradient-6);
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#inner-shadow-1);
+      }
+    </style>
+
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="0"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="2.646"/>
+      <feFlood flood-color="#000000" flood-opacity="0.15"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+    </filter>
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="10" y1="69.063" x2="310" y2="69.063">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="0.22" stop-color="#fff9f2"/>
+      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#efefef"/>
+    </linearGradient>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="-3"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="1"/>
+      <feFlood flood-color="#000000" flood-opacity="0.05"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+    </filter>
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feImage x="13" y="36.78125" preserveAspectRatio="none" width="294" height="79.21875" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjk0IiBoZWlnaHQ9Ijc5LjIxODc1Ij48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCIgeTE9IjM5LjYwOSIgeDI9IjI5NCIgeTI9IjM5LjYwOSI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMDAwMDAwIi8+CiAgPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBvcGFjaXR5PSIwLjExIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+      <feFlood flood-color="#98e3ff" flood-opacity="1"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="multiply" in2="gradientFill" result="colorOverlay"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" gradientUnits="userSpaceOnUse" x1="157" y1="114" x2="157" y2="106">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.49" stop-color="#fdfdfd" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="filter-chain-2" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="2"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="2"/>
+      <feFlood flood-color="#000000" flood-opacity="0.15"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+      <feImage x="29" y="3" preserveAspectRatio="none" width="266" height="156" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjY2IiBoZWlnaHQ9IjE1NiI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAiIHkxPSI3OCIgeDI9IjI2NiIgeTI9Ijc4Ij4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmN2Y4ZjgiLz4KICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZiZmJmYiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="dropShadow" result="gradientFill"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" gradientUnits="userSpaceOnUse" x1="7" y1="192.141" x2="307" y2="192.141">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="0.22" stop-color="#fff9f2"/>
+      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8f8f8"/>
+    </linearGradient>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="-2"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="2.236"/>
+      <feFlood flood-color="#000000" flood-opacity="0.1"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" gradientUnits="userSpaceOnUse" x1="11" y1="212.406" x2="307" y2="212.406">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="0.22" stop-color="#fff9f2"/>
+      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#efefef"/>
+    </linearGradient>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="-2"/>
+      <feGaussianBlur result="dropShadow" stdDeviation="1.732"/>
+      <feFlood flood-color="#000000" flood-opacity="0.22"/>
+      <feComposite operator="in" in2="dropShadow"/>
+      <feComposite in="SourceGraphic" result="dropShadow"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" gradientUnits="userSpaceOnUse" x1="13" y1="214.563" x2="309" y2="214.563">
+      <stop offset="0" stop-color="#f8f8f8"/>
+      <stop offset="0.22" stop-color="#fff9f2"/>
+      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8f8f8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" gradientUnits="userSpaceOnUse" x1="161" y1="278" x2="161" y2="151.125">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="0.1" stop-color="#f8f8f8"/>
+      <stop offset="0.43" stop-color="#ececec"/>
+      <stop offset="1" stop-color="#ececec"/>
+    </linearGradient>
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="0" dy="-4"/>
+      <feGaussianBlur result="innerShadowBlur" stdDeviation="4.123"/>
+      <feFlood flood-color="#000000" flood-opacity="0.04"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="multiply" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g id="subscribe-bgsvg">
+    <path d="M314.500,115.890 C314.500,115.890 314.500,279.890 314.500,279.890 C314.500,280.995 313.605,281.890 312.500,281.890 C312.500,281.890 14.500,281.890 14.500,281.890 C13.395,281.890 12.500,280.995 12.500,279.890 C12.500,279.890 12.500,115.890 12.500,115.890 C12.500,121.890 49.832,119.140 87.165,114.890 C87.165,114.890 14.500,114.890 14.500,114.890 C13.395,114.890 12.500,113.995 12.500,112.890 C12.500,112.890 18.000,103.890 22.500,99.890 C27.000,95.890 147.033,42.557 152.500,39.890 C156.575,37.902 168.184,38.640 171.500,39.890 C175.567,41.423 299.500,96.390 304.500,99.890 C309.500,103.390 314.500,112.890 314.500,112.890 C314.500,113.995 313.605,114.890 312.500,114.890 C312.500,114.890 248.197,114.890 248.197,114.890 C282.742,118.232 314.500,120.147 314.500,115.890 Z" id="path-1" class="cls-3" fill-rule="evenodd"/>
+    <path d="M151.500,13.062 C155.167,10.395 167.833,10.728 170.500,13.062 C173.167,15.395 296.500,89.562 301.500,93.062 C306.500,96.562 311.500,106.062 311.500,106.062 C311.500,107.166 311.500,131.062 311.500,131.062 C311.500,131.062 11.500,131.062 11.500,131.062 C11.500,131.062 11.500,107.166 11.500,106.062 C11.500,106.062 17.000,97.062 21.500,93.062 C26.000,89.062 147.833,15.729 151.500,13.062 Z" id="path-2" class="cls-4" fill-rule="evenodd"/>
+    <g id="inner_material" style="fill: #b8dbe8; filter: url(#filter-chain-1);">
+      <path d="M152.000,40.000 C156.075,38.012 167.684,38.749 171.000,40.000 C175.067,41.533 294.000,96.499 299.000,100.000 C304.000,103.500 309.000,116.000 309.000,116.000 C309.000,117.104 308.105,117.999 307.000,117.999 C307.000,117.999 17.000,117.999 17.000,117.999 C15.895,117.999 15.000,117.104 15.000,116.000 C15.000,116.000 20.500,103.999 25.000,100.000 C29.500,96.000 146.533,42.666 152.000,40.000 Z" id="path-3" class="cls-5" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+    </g>
+    <use xlink:href="#path-3" style="stroke: #8ed5ef; fill: none; filter: none;"/>
+    <g id="paper" style="fill: #000000; filter: url(#filter-chain-2);">
+      <rect id="rect-1" class="cls-7" x="29" y="3" width="266" height="156" style="stroke: inherit; filter: none; fill: inherit;"/>
+    </g>
+    <use xlink:href="#rect-1" style="stroke: #ffffff; fill: none; filter: none;"/>
+    <path d="M31.500,116.640 C39.833,119.974 151.500,156.640 151.500,156.640 C151.500,156.640 161.000,168.640 161.000,168.640 C161.000,168.640 170.500,156.640 170.500,156.640 C170.500,156.640 285.833,118.640 291.500,116.640 C297.167,114.640 311.500,113.536 311.500,114.640 C311.500,114.640 311.500,277.640 311.500,277.640 C311.500,278.745 310.605,279.640 309.500,279.640 C309.500,279.640 13.500,279.640 13.500,279.640 C12.395,279.640 11.500,278.745 11.500,277.640 C11.500,277.640 11.500,114.640 11.500,114.640 C11.500,113.536 23.167,113.307 31.500,116.640 Z" id="path-4" class="cls-8" fill-rule="evenodd"/>
+    <path d="M146.500,157.906 C152.500,151.049 169.643,150.906 175.500,157.906 C181.357,164.906 205.062,185.043 211.500,189.906 C244.625,214.926 309.500,255.572 309.500,263.906 C309.500,274.239 309.500,275.906 309.500,275.906 C309.500,277.010 308.605,277.906 307.500,277.906 C307.500,277.906 15.500,277.906 15.500,277.906 C14.395,277.906 13.500,277.010 13.500,275.906 C13.500,275.906 13.500,275.906 13.500,263.906 C13.500,253.239 73.091,217.162 106.500,191.906 C113.060,186.947 140.500,164.763 146.500,157.906 Z" id="path-5" class="cls-9" fill-rule="evenodd"/>
+    <g id="bottom" style="fill: url(#linear-gradient-5); filter: url(#inner-shadow-1);">
+      <path d="M151.500,153.499 C155.167,150.833 167.833,151.166 170.500,153.499 C173.167,155.833 309.500,252.499 309.500,263.499 C309.500,274.499 309.500,276.500 309.500,276.500 C309.500,277.604 308.605,278.499 307.500,278.499 C307.500,278.499 15.500,278.499 15.500,278.499 C14.395,278.499 13.500,277.604 13.500,276.500 C13.500,276.500 13.500,275.500 13.500,263.499 C13.500,251.500 147.833,156.166 151.500,153.499 Z" id="path-6" class="cls-10" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+    </g>
+    <use xlink:href="#path-6" style="stroke: url(#linear-gradient-6); fill: none; filter: none;"/>
+  </g>
+</svg>

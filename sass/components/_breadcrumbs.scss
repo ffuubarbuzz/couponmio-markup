@@ -1,0 +1,10 @@
+.breadcrumbs {
+	font-size: 1.2em;
+	a,
+	span {
+		margin: 0 .2em;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}

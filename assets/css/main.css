@@ -1,4 +1,3 @@
-/* [sass, sass, main.scss] */
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic,latin);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -6,7 +5,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -18,7 +16,6 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 body {
   margin: 0; }
 
@@ -30,7 +27,6 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
@@ -38,7 +34,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 audio, canvas, progress, video {
   display: inline-block;
   /* 1 */
@@ -49,7 +44,6 @@ audio, canvas, progress, video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -58,7 +52,6 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 78, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 [hidden], template {
   display: none; }
 
@@ -67,14 +60,12 @@ audio:not([controls]) {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 a {
   background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 98, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 a:active, a:hover {
   outline: 0; }
 
@@ -83,21 +74,18 @@ a:active, a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 b, strong {
   font-weight: bold; }
 
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 dfn {
   font-style: italic; }
 
@@ -105,7 +93,6 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -113,7 +100,6 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 mark {
   background: #ff0;
   color: #000; }
@@ -121,25 +107,21 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline; }
 
-/* line 169, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 sup {
   top: -0.5em; }
 
-/* line 173, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 sub {
   bottom: -0.25em; }
 
@@ -148,14 +130,12 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -164,31 +144,27 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 hr {
-  -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 code, kbd, pre, samp {
   font-family: monospace, monospace;
   font-size: 1em; }
@@ -205,7 +181,6 @@ code, kbd, pre, samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button, input, optgroup, select, textarea {
   color: inherit;
   /* 1 */
@@ -217,7 +192,6 @@ button, input, optgroup, select, textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button {
   overflow: visible; }
 
@@ -227,7 +201,6 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button, select {
   text-transform: none; }
 
@@ -238,7 +211,6 @@ button, select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -248,14 +220,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button[disabled], html input[disabled] {
   cursor: default; }
 
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
@@ -264,7 +234,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 input {
   line-height: normal; }
 
@@ -275,7 +244,6 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 input[type="checkbox"], input[type="radio"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -289,7 +257,6 @@ input[type="checkbox"], input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
@@ -298,13 +265,12 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 /**
@@ -312,14 +278,12 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 371, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -329,7 +293,6 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 legend {
   border: 0;
   /* 1 */
@@ -339,7 +302,6 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 textarea {
   overflow: auto; }
 
@@ -347,7 +309,6 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 optgroup {
   font-weight: bold; }
 
@@ -356,24 +317,21 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 425, /Users/tnk/work/couponmio-markup/sass/vendor/normalize */
 td, th {
   padding: 0; }
 
-/* line 5, /Users/tnk/work/couponmio-markup/sass/modules/base */
 html {
   font-family: 'PT Sans', sans-serif;
   font-size: 12px;
   line-height: 1.5;
   background: url(../img/site-bg.png) 0 0 repeat;
-  height: 100%; }
+  height: 100%;
+  color: #9b9b9b; }
 
-/* line 13, /Users/tnk/work/couponmio-markup/sass/modules/base */
 body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -384,57 +342,56 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start; }
-  /* line 20, /Users/tnk/work/couponmio-markup/sass/modules/base */
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
   body > * {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto; }
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto; }
 
-/* line 25, /Users/tnk/work/couponmio-markup/sass/modules/base */
 main {
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1; }
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+  main h1 {
+    font-size: 2em;
+    color: #2f2f2f;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0; }
+    main h1 + p {
+      margin: 0.2em 0 1.5em; }
 
-/* line 32, /Users/tnk/work/couponmio-markup/sass/modules/base */
 *, *:before, *:after, input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 36, /Users/tnk/work/couponmio-markup/sass/modules/base */
 .layout-inner {
   width: 960px;
   margin: 0 auto; }
 
-/* line 41, /Users/tnk/work/couponmio-markup/sass/modules/base */
 a {
   color: #21a5d6;
   text-decoration: none; }
-  /* line 44, /Users/tnk/work/couponmio-markup/sass/modules/base */
   a:hover {
     color: #4dc9f7; }
 
-/* line 49, /Users/tnk/work/couponmio-markup/sass/modules/base */
 .action {
   color: #f88d1a; }
-  /* line 51, /Users/tnk/work/couponmio-markup/sass/modules/base */
   .action:hover {
     color: #ffa646; }
 
-/* line 56, /Users/tnk/work/couponmio-markup/sass/modules/base */
 .list-link {
   display: block;
   padding: 0.6em 0;
@@ -443,29 +400,16 @@ a {
   font-size: 1.33em;
   text-align: center; }
 
-/* line 2, /Users/tnk/work/couponmio-markup/sass/modules/controls */
 .confirm-controls .action {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   height: 3.2em;
   padding: 0 1em;
   vertical-align: middle;
   border: 0.25em solid transparent;
   border-radius: 0.5em;
   color: #fdfdfd;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#33bef2), to(#0c90c1)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
   background-image: -webkit-linear-gradient(#33bef2, #0c90c1), -webkit-linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#33bef2), to(#0c90c1)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
   background-image: linear-gradient(#33bef2, #0c90c1), linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
   -webkit-background-clip: padding-box, border-box;
   background-clip: padding-box, border-box;
@@ -473,86 +417,71 @@ a {
   background-origin: padding-box, border-box;
   -webkit-box-shadow: inset 0 1px #43f9ff, inset 0 -1px #00499a;
   box-shadow: inset 0 1px #43f9ff, inset 0 -1px #00499a; }
-  /* line 21, /Users/tnk/work/couponmio-markup/sass/modules/controls */
   .confirm-controls .action:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#28aee0), to(#31bcf0)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
     background-image: -webkit-linear-gradient(#28aee0, #31bcf0), -webkit-linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#28aee0), to(#31bcf0)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
     background-image: linear-gradient(#28aee0, #31bcf0), linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
     -webkit-box-shadow: inset 0 1px #34e3ff, inset 0 -1px #31bcef;
     box-shadow: inset 0 1px #34e3ff, inset 0 -1px #31bcef; }
-  /* line 27, /Users/tnk/work/couponmio-markup/sass/modules/controls */
   .confirm-controls .action:active {
     padding-top: 2px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0f698d), to(#2698c6)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
     background-image: -webkit-linear-gradient(#0f698d, #2698c6), -webkit-linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0f698d), to(#2698c6)), -webkit-gradient(linear, left top, left bottom, from(rgba(136, 210, 237, 0.2)), to(rgba(21, 90, 118, 0.2)));
     background-image: linear-gradient(#0f698d, #2698c6), linear-gradient(rgba(136, 210, 237, 0.2), rgba(21, 90, 118, 0.2));
     -webkit-box-shadow: inset 0 1px #1489b8, inset 0 -1px #00529f;
     box-shadow: inset 0 1px #1489b8, inset 0 -1px #00529f; }
-  /* line 34, /Users/tnk/work/couponmio-markup/sass/modules/controls */
   .confirm-controls .action.link {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#c0dc5e), to(#a8c838)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
     background-image: -webkit-linear-gradient(#c0dc5e, #a8c838), -webkit-linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#c0dc5e), to(#a8c838)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
     background-image: linear-gradient(#c0dc5e, #a8c838), linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
     -webkit-box-shadow: inset 0 1px #faff7b, inset 0 -1px #6fa500;
     box-shadow: inset 0 1px #faff7b, inset 0 -1px #6fa500; }
-    /* line 39, /Users/tnk/work/couponmio-markup/sass/modules/controls */
     .confirm-controls .action.link:hover {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#d9f281), to(#a8c838)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
       background-image: -webkit-linear-gradient(#d9f281, #a8c838), -webkit-linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#d9f281), to(#a8c838)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
       background-image: linear-gradient(#d9f281, #a8c838), linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
       -webkit-box-shadow: inset 0 1px #ffffa9, inset 0 -1px #70a500;
       box-shadow: inset 0 1px #ffffa9, inset 0 -1px #70a500; }
-    /* line 45, /Users/tnk/work/couponmio-markup/sass/modules/controls */
     .confirm-controls .action.link:active {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#a8c838), to(#c0dc5e)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
       background-image: -webkit-linear-gradient(#a8c838, #c0dc5e), -webkit-linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#a8c838), to(#c0dc5e)), -webkit-gradient(linear, left top, left bottom, from(rgba(189, 204, 138, 0.2)), to(rgba(93, 125, 16, 0.2)));
       background-image: linear-gradient(#a8c838, #c0dc5e), linear-gradient(rgba(189, 204, 138, 0.2), rgba(93, 125, 16, 0.2));
       -webkit-box-shadow: inset 0 1px #dbff49, inset 0 -1px #96c400;
       box-shadow: inset 0 1px #dbff49, inset 0 -1px #96c400; }
-  /* line 52, /Users/tnk/work/couponmio-markup/sass/modules/controls */
   .confirm-controls .action.confirm {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#f88d1a), to(#f87501)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
     background-image: -webkit-linear-gradient(#f88d1a, #f87501), -webkit-linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f88d1a), to(#f87501)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
     background-image: linear-gradient(#f88d1a, #f87501), linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
     -webkit-box-shadow: inset 0 1px #f31b00, inset 0 -1px #ffb822;
     box-shadow: inset 0 1px #f31b00, inset 0 -1px #ffb822; }
-    /* line 57, /Users/tnk/work/couponmio-markup/sass/modules/controls */
     .confirm-controls .action.confirm:hover {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb746), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
       background-image: -webkit-linear-gradient(#ffb746, #f88d1a), -webkit-linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb746), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
       background-image: linear-gradient(#ffb746, #f88d1a), linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
       -webkit-box-shadow: inset 0 1px #ffef5b, inset 0 -1px #f44400;
       box-shadow: inset 0 1px #ffef5b, inset 0 -1px #f44400; }
-    /* line 63, /Users/tnk/work/couponmio-markup/sass/modules/controls */
     .confirm-controls .action.confirm:active {
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#f57f00), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
       background-image: -webkit-linear-gradient(#f57f00, #f88d1a), -webkit-linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#f57f00), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(rgba(241, 170, 15, 0.2)), to(rgba(248, 132, 16, 0.2)));
       background-image: linear-gradient(#f57f00, #f88d1a), linear-gradient(rgba(241, 170, 15, 0.2), rgba(248, 132, 16, 0.2));
       -webkit-box-shadow: inset 0 1px #ffa600, inset 0 -1px #f34200;
       box-shadow: inset 0 1px #ffa600, inset 0 -1px #f34200; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
 .auth-menu {
   background: #464646;
-  color: #9b9b9b;
   position: relative;
-  z-index: 1; }
-  /* line 6, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
+  z-index: 3; }
   .auth-menu .layout-inner {
     background: #464646;
     height: 3em;
     padding: 0 0.8em; }
-  /* line 12, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .auth-menu .action .icon {
     fill: #f88d1a; }
-  /* line 15, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .auth-menu .action:hover .icon {
     fill: #ffa646; }
-  /* line 19, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .auth-menu .icon {
     display: inline-block;
     fill: #f88d1a; }
-  /* line 23, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .auth-menu .submenu {
     position: absolute;
     top: 100%;
@@ -565,14 +494,13 @@ a {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08), inset 0 9px 5px -5px rgba(0, 0, 0, 0.2), inset 0 0 0 2px #fff;
     background: url('../img/submenu-bg.png');
     -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+            transform: translateY(-100%);
     -webkit-transition: all ease-in-out 0.3s;
-    transition: all ease-in-out 0.3s;
+            transition: all ease-in-out 0.3s;
     visibility: hidden;
     opacity: 0;
     z-index: -1; }
-    /* line 40, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
     .auth-menu .submenu:before {
       content: '';
       display: block;
@@ -585,29 +513,24 @@ a {
       border-top-width: 4px;
       border-bottom-width: 0;
       border-top-color: #464646; }
-    /* line 53, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
     .auth-menu .submenu .submenu-title {
       text-transform: uppercase;
       text-align: center;
       font-size: 1.5em;
       color: #000;
       margin: 1.8em 0 0.6em; }
-    /* line 60, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
     .auth-menu .submenu .liked {
       pointer-events: none;
       margin: 1.7em 0 1.25em; }
-      /* line 63, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
       .auth-menu .submenu .liked:before {
         display: inline-block;
         -webkit-transform: scale(2);
-        -ms-transform: scale(2);
-        transform: scale(2); }
-    /* line 68, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
+            -ms-transform: scale(2);
+                transform: scale(2); }
     .auth-menu .submenu .info {
       text-align: center;
       padding: 0.5em 1em 1.2em; }
 
-/* line 74, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
 .unauthorised {
   display: -webkit-box;
   display: -webkit-flex;
@@ -615,20 +538,17 @@ a {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  /* line 78, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
+      -ms-flex-pack: center;
+          justify-content: center; }
   .unauthorised .action:before {
     margin: 0 0.3em 0 0.4em; }
-  /* line 81, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .unauthorised p {
     margin: 0; }
 
-/* line 85, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
 .user-menu {
   margin: 0;
   padding: 0;
@@ -641,32 +561,29 @@ a {
   display: flex;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch; }
-  /* line 92, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
+      -ms-flex-align: stretch;
+          align-items: stretch; }
   .user-menu > li {
     height: 100%;
     position: relative;
-    background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#464646)), -webkit-gradient(linear, left top, left bottom, from(#3b3b3b), to(transparent));
     background: -webkit-linear-gradient(#464646, #464646), -webkit-linear-gradient(#3b3b3b, transparent);
+    background: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#464646)), -webkit-gradient(linear, left top, left bottom, from(#3b3b3b), to(transparent));
     background: linear-gradient(#464646, #464646), linear-gradient(#3b3b3b, transparent);
     border-left: 1px solid transparent;
     -webkit-background-origin: content-box, border-box;
     background-origin: content-box, border-box;
     -webkit-background-clip: content-box, border-box;
     background-clip: content-box, border-box; }
-    /* line 102, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
     .user-menu > li:hover .submenu {
       visibility: visible;
       -webkit-transform: none;
-      -ms-transform: none;
-      transform: none;
+          -ms-transform: none;
+              transform: none;
       opacity: 1; }
-    /* line 107, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
     .user-menu > li > a {
       height: 100%;
       display: -webkit-box;
@@ -675,62 +592,74 @@ a {
       display: flex;
       -webkit-box-pack: center;
       -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       -webkit-box-align: center;
       -webkit-align-items: center;
-      -ms-flex-align: center;
-      align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
       padding: 0 0.8em;
       min-width: 3em;
       color: #fff; }
-  /* line 117, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
   .user-menu .avatar {
     border-radius: 50%;
     overflow: hidden;
     vertical-align: middle;
     margin-right: 0.7em; }
-  /* line 123, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
-  .user-menu .favourite-shop-list {
+  .user-menu .favourite-shop-list li:nth-child(4n-3):after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+    border-top: 1px dashed #d5d5d5; }
+  .user-menu .favourite-shop-list + .list-link {
+    border-top: none; }
+  .user-menu .icon-add-favourite-shop {
+    fill: #e3e3e3;
+    color: #ddd;
+    vertical-align: top; }
+  .user-menu a:hover .icon-add-favourite-shop {
+    fill: #4dc9f7;
+    color: #4dc9f7; }
+  .user-menu .coupon-list {
     margin: 0;
     padding: 0;
-    list-style: none;
-    text-align: center;
-    font-size: 0;
-    position: relative; }
-    /* line 128, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
-    .user-menu .favourite-shop-list li {
-      font-size: 1rem;
-      display: inline-block;
-      width: 25%;
-      padding: 1em 0; }
-      /* line 133, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
-      .user-menu .favourite-shop-list li:nth-child(4n-3):after {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin-top: 1em;
-        border-top: 1px dashed #d5d5d5; }
-    /* line 143, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
-    .user-menu .favourite-shop-list img {
+    list-style: none; }
+    .user-menu .coupon-list li {
+      border-top: 1px dashed #f88d1a; }
+      .user-menu .coupon-list li:nth-child(even) {
+        background: #fff8f1; }
+      .user-menu .coupon-list li:first-child {
+        border-top-width: 0; }
+    .user-menu .coupon-list a {
+      display: block;
+      overflow: hidden;
+      padding: 0.75em 0.6em 0.5em; }
+      .user-menu .coupon-list a:hover .coupon-shop {
+        color: #ffa646; }
+    .user-menu .coupon-list img {
       border: 1px solid #f0f0f0;
+      float: left;
+      margin-right: 1.25em;
       width: 52px;
       height: 52px; }
-    /* line 148, /Users/tnk/work/couponmio-markup/sass/layout/auth-menu */
-    .user-menu .favourite-shop-list + .list-link {
-      border-top: none; }
+    .user-menu .coupon-list .coupon-shop {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #f88d1a; }
+    .user-menu .coupon-list .coupon-title {
+      color: #656565; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
 .main-header {
-  background: -webkit-gradient(linear, left top, left bottom, from(#2f2f2f), to(#191818));
   background: -webkit-linear-gradient(#2f2f2f, #191818);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2f2f2f), to(#191818));
   background: linear-gradient(#2f2f2f, #191818);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  position: relative; }
-  /* line 5, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
+  position: relative;
+  z-index: 2; }
   .main-header .layout-inner {
     display: -webkit-box;
     display: -webkit-flex;
@@ -738,47 +667,41 @@ a {
     display: flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0.9em 0.8em; }
-  /* line 11, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
   .main-header .logo {
     margin-left: 10px; }
 
-/* line 16, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
 .search-box {
   font-size: 0; }
-  /* line 20, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
   .search-box input[type="search"], .search-box input[type="text"], .search-box .action.search {
     font-size: 1.17rem;
     height: 3em;
     line-height: 2.5em;
     border: none;
     padding: 0;
-    background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
     background: -webkit-linear-gradient(#e8e8e8, #fff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
     background: linear-gradient(#e8e8e8, #fff);
     -webkit-box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
     box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
     border: 0.25em solid #2e2e2e;
     vertical-align: middle; }
-  /* line 32, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
   .search-box input[type="search"], .search-box input[type="text"] {
     border-radius: 0.6em 0 0 0.6em;
     border-right-width: 0;
     width: 530px;
     padding: 0 0.8em; }
-  /* line 38, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
   .search-box .icon-search {
     display: inline-block;
     vertical-align: middle;
     margin-right: 0.8em;
     fill: #9b9b9b; }
-  /* line 44, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
   .search-box .action.search {
     position: relative;
     color: #464646;
@@ -786,7 +709,6 @@ a {
     border-radius: 0 0.6em 0.6em 0;
     border-left-width: 0;
     padding: 0 1.4em 0 0.8em; }
-    /* line 51, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
     .search-box .action.search:after {
       content: '';
       display: block;
@@ -795,14 +717,13 @@ a {
       bottom: 0;
       left: 0;
       border-left: 1px dotted #bebebe; }
-    /* line 60, /Users/tnk/work/couponmio-markup/sass/layout/main-header */
     .search-box .action.search:active {
       padding-top: 1px; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
 .main-menu {
-  font-size: 1.17em; }
-  /* line 3, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
+  font-size: 1.17em;
+  position: relative;
+  z-index: 1; }
   .main-menu ul {
     margin: 0;
     padding: 0;
@@ -813,26 +734,24 @@ a {
     display: flex;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    background: -webkit-gradient(linear, left top, left bottom, from(#4e4d4d), to(#424242));
+        -ms-flex-align: stretch;
+            align-items: stretch;
     background: -webkit-linear-gradient(#4e4d4d, #424242);
+    background: -webkit-gradient(linear, left top, left bottom, from(#4e4d4d), to(#424242));
     background: linear-gradient(#4e4d4d, #424242);
     border-radius: 0 0 0.3em 0.3em;
     -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden; }
-  /* line 13, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
   .main-menu li {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 auto;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto; }
-  /* line 16, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; }
   .main-menu a {
     text-transform: uppercase;
     color: #fdfdfd;
@@ -843,33 +762,26 @@ a {
     width: 100%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0.5em 0; }
-  /* line 25, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
   .main-menu .current {
     background: #2f2f2f; }
-  /* line 28, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
   .main-menu .icon {
     display: inline-block;
     margin-right: 0.7em;
     fill: #9b9b9b; }
-  /* line 33, /Users/tnk/work/couponmio-markup/sass/layout/main-menu */
   .main-menu a:hover .icon {
     fill: #f88d1a; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
 .main-footer {
-  background-image: url(../img/footer-bg.png);
-  color: #9b9b9b; }
-  /* line 4, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
+  background-image: url(../img/footer-bg.png); }
   .main-footer .layout-inner {
     padding: 0 0.8em; }
-  /* line 7, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
   .main-footer .subscribe {
     display: -webkit-box;
     display: -webkit-flex;
@@ -878,51 +790,46 @@ a {
     margin: 2.1em 0 2.3em;
     -webkit-box-align: center;
     -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: #fdfdfd; }
-    /* line 12, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
     .main-footer .subscribe p {
       margin: 0;
       font-size: 1.17em; }
-    /* line 16, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
     .main-footer .subscribe .confirm-controls {
       display: inline-block; }
-    /* line 19, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
     .main-footer .subscribe .icon-subscribe {
       width: 18px;
       height: 12px;
       fill: #fff;
-      margin-right: 1em; }
-    /* line 25, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
+      margin-right: 0.6em; }
     .main-footer .subscribe input[type='email'] {
       -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-      flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1;
       font-size: 1.17rem;
       height: 3em;
       line-height: 2.5em;
       border: none;
       padding: 0;
       margin: 0 0.5em 0 1.5em;
-      background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
       background: -webkit-linear-gradient(#e8e8e8, #fff);
+      background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
       background: linear-gradient(#e8e8e8, #fff);
       -webkit-box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
       box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
       border: 0.25em solid #2e2e2e;
       border-radius: 0.6em;
-      padding: 0 0.8em; }
-  /* line 40, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
+      padding: 0 0.8em;
+      color: #555; }
   .main-footer .credits {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#191818));
     background-image: -webkit-linear-gradient(#000, #191818);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#191818));
     background-image: linear-gradient(#000, #191818);
     text-align: center;
     padding: 2em 0; }
-  /* line 46, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-  .main-footer nav ul {
+  .main-footer nav > ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -935,115 +842,1255 @@ a {
     display: flex;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     position: relative; }
-  /* line 56, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-  .main-footer nav li {
-    display: inline-block;
-    vertical-align: top;
-    width: 50%;
-    font-size: 1rem;
-    padding-right: 3em;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    width: 33.3%;
-    margin: 2.5em 0; }
-    /* line 65, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-    .main-footer nav li:nth-child(-n+2) {
-      width: 50%; }
-    /* line 68, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-    .main-footer nav li:nth-child(3):before {
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      border-top: 1px dashed #464646;
-      margin-top: -2.5em; }
-    /* line 76, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-    .main-footer nav li > a {
-      display: block; }
-      /* line 79, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-      .main-footer nav li > a:hover .title {
-        color: #f88d1a; }
-      /* line 82, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-      .main-footer nav li > a:hover .icon {
-        fill: #f88d1a; }
-  /* line 88, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-  .main-footer nav .icon {
+    .main-footer nav > ul > li {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      font-size: 1rem;
+      padding-right: 3em;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      width: 33.3%;
+      margin: 2.5em 0; }
+      .main-footer nav > ul > li:nth-child(-n+2) {
+        width: 50%; }
+      .main-footer nav > ul > li:nth-child(3):before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        border-top: 1px dashed #464646;
+        margin-top: -2.5em; }
+      .main-footer nav > ul > li > a {
+        display: block; }
+        .main-footer nav > ul > li > a:hover .title {
+          color: #f88d1a; }
+        .main-footer nav > ul > li > a:hover .nav-icon {
+          fill: #f88d1a; }
+  .main-footer nav .nav-icon {
     fill: #464646;
     float: left;
     margin-right: 1.7em; }
-  /* line 93, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
   .main-footer nav .title {
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: bold;
     color: #fff; }
-  /* line 100, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
   .main-footer nav .text p {
     margin: 0; }
-  /* line 103, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
   .main-footer nav .text a {
     color: #f57f00;
     text-decoration: underline; }
-    /* line 106, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
     .main-footer nav .text a:hover {
       text-decoration: none; }
-    /* line 109, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
     .main-footer nav .text a + a {
       margin-left: 0.6em; }
-  /* line 114, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
-  .main-footer nav .social .text a {
-    display: inline-block;
-    font-size: 0;
-    margin: 0.75rem 0.8rem 0 0; }
-  /* line 120, /Users/tnk/work/couponmio-markup/sass/layout/main-footer */
+  .main-footer nav .social-list li {
+    margin-top: 0.75em; }
   .main-footer small {
     display: block;
     font-size: 1em;
     color: #464646;
     margin: 1em 0; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-.coupon-list {
+.user-block {
+  background: #2f2f2f;
+  color: #f0f0f0;
+  margin: -3em 0 3px;
+  padding: 4.6em 0 1.8em;
+  border-bottom: 5px solid #464646;
+  -webkit-box-shadow: 0 3px #adcc40;
+  box-shadow: 0 3px #adcc40; }
+  .user-block .layout-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .user-block .user-info {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .user-block .user-links {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .user-block .user-links li {
+      display: inline-block; }
+      .user-block .user-links li:not(:first-child) {
+        margin-left: 1.4em; }
+    .user-block .user-links a {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #191818;
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative;
+      color: #f88d1a; }
+      .user-block .user-links a span {
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 120px;
+        margin: 0.4em 0 0 -60px;
+        text-align: center;
+        -webkit-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+                transform: translateY(-100%);
+        -webkit-transition: all ease-in-out 0.3s;
+                transition: all ease-in-out 0.3s; }
+    .user-block .user-links a:hover .icon, .user-block .user-links .current a .icon {
+      fill: #f88d1a;
+      -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+              transform: scale(1.2); }
+    .user-block .user-links a:hover span {
+      visibility: visible;
+      opacity: 1;
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none; }
+  .user-block .avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 2.5em; }
+  .user-block h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0; }
+  .user-block .icon {
+    fill: #c9c9c9;
+    -webkit-transition: -webkit-transform ease-in-out 0.3s;
+            transition: transform ease-in-out 0.3s; }
+
+.coupons-layout {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .coupons-layout .coupon-list {
+    position: relative;
+    z-index: 1;
+    width: 620px; }
+
+.coupon-list-aside {
+  width: 300px; }
+  .coupon-list-aside article {
+    overflow: hidden;
+    color: #464646;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.19); }
+    .coupon-list-aside article h1 {
+      font-size: 1.5em;
+      font-weight: bold;
+      position: relative;
+      padding: 0.7em 1.33em;
+      border-bottom: 2px dashed #e4e4e4;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box;
+      -webkit-background-origin: padding-box;
+      background-origin: padding-box; }
+      .coupon-list-aside article h1 .first-word {
+        color: #fff; }
+      .coupon-list-aside article h1 .icon {
+        margin-right: 0.5em;
+        vertical-align: text-bottom;
+        fill: rgba(255, 255, 255, 0.6); }
+      .coupon-list-aside article h1:after {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        height: 3px;
+        content: ''; }
+    .coupon-list-aside article + article {
+      margin-top: 2.6em; }
+  .coupon-list-aside .list-link {
+    padding-bottom: 1.3em;
+    border-top: 1px solid #e1edf1; }
+  .coupon-list-aside .follow-us h1 {
+    background-image: -webkit-linear-gradient(#ff612c, #e2403c);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff612c), to(#e2403c));
+    background-image: linear-gradient(#ff612c, #e2403c); }
+    .coupon-list-aside .follow-us h1:after {
+      background-image: -webkit-linear-gradient(#ff7b7b, #ffabab);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#ff7b7b), to(#ffabab));
+      background-image: linear-gradient(#ff7b7b, #ffabab); }
+  .coupon-list-aside .follow-us .social-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    .coupon-list-aside .follow-us .social-list a:hover {
+      -webkit-transform: scale(1.15);
+          -ms-transform: scale(1.15);
+              transform: scale(1.15); }
+  .coupon-list-aside .favourite-shops h1 {
+    background-image: -webkit-linear-gradient(#ffa646, #f57f00);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffa646), to(#f57f00));
+    background-image: linear-gradient(#ffa646, #f57f00); }
+    .coupon-list-aside .favourite-shops h1:after {
+      background-image: -webkit-linear-gradient(#f8b11a, #ffb400);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#f8b11a), to(#ffb400));
+      background-image: linear-gradient(#f8b11a, #ffb400); }
+  .coupon-list-aside .favourite-shops .favourite-shop-list {
+    padding: 0.5rem 0 1rem; }
+    .coupon-list-aside .favourite-shops .favourite-shop-list li {
+      padding: 0.83em 0; }
+  .coupon-list-aside .categories h1 {
+    background-image: -webkit-linear-gradient(#1fade2, #1184b3);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#1fade2), to(#1184b3));
+    background-image: linear-gradient(#1fade2, #1184b3); }
+    .coupon-list-aside .categories h1:after {
+      background-image: -webkit-linear-gradient(#59cffa, #21a5d6);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#59cffa), to(#21a5d6));
+      background-image: linear-gradient(#59cffa, #21a5d6); }
+  .coupon-list-aside .categories h3 {
+    font-weight: normal; }
+  .coupon-list-aside .categories h2, .coupon-list-aside .categories h3 {
+    margin: 0;
+    color: #21a5d6; }
+  .coupon-list-aside .categories ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .coupon-list-aside .categories ul ul {
+      display: none; }
+  .coupon-list-aside .categories li {
+    border-bottom: 1px solid #e1edf1; }
+    .coupon-list-aside .categories li:last-child {
+      border-bottom: none; }
+    .coupon-list-aside .categories li li {
+      border-bottom: none;
+      border-top: 1px dashed #a6dbef; }
+  .coupon-list-aside .categories .open {
+    border-bottom: 1px dashed #a6dbef; }
+    .coupon-list-aside .categories .open ul {
+      display: block; }
+  .coupon-list-aside .categories img {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #f0f0f0;
+    float: left;
+    margin-right: 1.25em; }
+  .coupon-list-aside .categories a {
+    display: block;
+    overflow: hidden;
+    padding: 0.75em 1em;
+    color: #656565; }
+    .coupon-list-aside .categories a:hover h2, .coupon-list-aside .categories a:hover h3 {
+      color: #4dc9f7; }
+  .coupon-list-aside .pars h1 {
+    background-image: -webkit-linear-gradient(#a8c838, #85b70c);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a8c838), to(#85b70c));
+    background-image: linear-gradient(#a8c838, #85b70c); }
+    .coupon-list-aside .pars h1:after {
+      background-image: -webkit-linear-gradient(#aed231, #85b70c);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#aed231), to(#85b70c));
+      background-image: linear-gradient(#aed231, #85b70c); }
+  .coupon-list-aside .pars .par {
+    display: block;
+    padding: 0 0.7rem; }
+    .coupon-list-aside .pars .par:hover h2 {
+      color: #f78f8f; }
+    .coupon-list-aside .pars .par:hover p {
+      color: #a2a2a2; }
+  .coupon-list-aside .pars h2 {
+    font-size: 1.33em;
+    font-weight: normal;
+    margin: 0;
+    color: #ef5c5c; }
+  .coupon-list-aside .pars p {
+    margin: 0;
+    color: #464646; }
+  .coupon-list-aside .pars img {
+    display: block;
+    max-width: 100%;
+    margin: 0.7em auto 1em;
+    border: 1px solid #f0f0f0; }
+  .coupon-list-aside .pars .list-link {
+    margin-top: 1em; }
+  .coupon-list-aside .subscribe {
+    height: 282px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: url('../img/subscribe-bg.svg') center 0 no-repeat;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    .coupon-list-aside .subscribe:after {
+      content: none; }
+    .coupon-list-aside .subscribe form {
+      display: block;
+      text-align: center; }
+    .coupon-list-aside .subscribe input[type='email'] {
+      font-size: 1.2em;
+      line-height: normal;
+      display: block;
+      width: 230px;
+      height: auto;
+      margin: 1.5em auto;
+      padding: 0.5em 0.8em;
+      border: 1px solid rgba(173, 223, 241, 0.3);
+      border-radius: 0.3em;
+      background-image: -webkit-linear-gradient(#efefef, #ffffff);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#efefef), to(#ffffff));
+      background-image: linear-gradient(#efefef, #ffffff);
+      -webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.35), inset 0 -3px 3px rgba(255, 255, 255, 0.7);
+      box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.35), inset 0 -3px 3px rgba(255, 255, 255, 0.7); }
+      .coupon-list-aside .subscribe input[type='email']:focus {
+        outline: none;
+        background: #fff;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+
+.more-coupons {
+  font-size: 1.7em;
+  display: block;
+  width: 100%;
+  margin: 2em 0;
+  padding: 0.4em;
+  text-align: center;
+  color: #fdfdfd;
+  border: 2px solid #58c3ea;
+  border-radius: 0.15em;
+  background: #21a5d6;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); }
+  .more-coupons:hover {
+    background: #33b6e6; }
+  .more-coupons:active {
+    padding: 0.5em 0.4em 0.3em;
+    background: #10739b; }
+
+.coupon-slider .coupon-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 6px;
+  height: 215px;
+  padding: 215px 84px 0;
+  list-style: none;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #ffe8cf), url('../img/coupon-slider-bg.png');
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#ffe8cf)), url('../img/coupon-slider-bg.png');
+  background: linear-gradient(rgba(255, 255, 255, 0), #ffe8cf), url('../img/coupon-slider-bg.png'); }
+  .coupon-slider .coupon-list li {
+    position: relative;
+    z-index: 1;
+    margin-top: 22px; }
+    .coupon-slider .coupon-list li:not(.current) {
+      -webkit-transition: all ease-in-out 0.3s;
+              transition: all ease-in-out 0.3s; }
+      .coupon-slider .coupon-list li:not(.current):hover {
+        -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+                transform: scale(1.2); }
+.coupon-slider .coupon {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  margin: 0;
+  padding: 0; }
+  .coupon-slider .coupon:before {
+    content: none; }
+  .coupon-slider .coupon > div:first-child {
+    margin: 0;
+    width: auto; }
+  .coupon-slider .coupon > div:nth-child(2) {
+    display: none;
+    position: absolute;
+    left: 240px;
+    width: 540px; }
+  .coupon-slider .coupon h1 {
+    font-size: 2em;
+    margin: 0 0 0.2em;
+    text-transform: uppercase; }
+  .coupon-slider .coupon .action.primary {
+    width: 285px; }
+  .coupon-slider .coupon .shop {
+    margin: 0;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #c9c9c9;
+    background: #fff; }
+    .coupon-slider .coupon .shop a {
+      height: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .coupon-slider .coupon .shop img {
+      max-height: 100%; }
+.coupon-slider .current {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1; }
+  .coupon-slider .current .coupon {
+    width: 200px;
+    height: 200px;
+    -webkit-transform: translateY(-100%) translateY(15px);
+        -ms-transform: translateY(-100%) translateY(15px);
+            transform: translateY(-100%) translateY(15px); }
+    .coupon-slider .current .coupon .shop {
+      width: 200px;
+      height: 200px;
+      border-radius: 2px; }
+    .coupon-slider .current .coupon > div:nth-child(2) {
+      display: block; }
+
+.coupon-slider-actions {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 94px;
+  background-image: -webkit-linear-gradient(#464646, #191818);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#191818));
+  background-image: linear-gradient(#464646, #191818);
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-shadow: 0 -8px 0 -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -8px 0 -6px rgba(0, 0, 0, 0.2); }
+  .coupon-slider-actions:before, .coupon-slider-actions:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-bottom-color: #000; }
+  .coupon-slider-actions:before {
+    left: 0;
+    border-right-color: #000; }
+  .coupon-slider-actions:after {
+    right: 0;
+    border-left-color: #000; }
+  .coupon-slider-actions .action {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-image: -webkit-linear-gradient(#464646, #191818), -webkit-linear-gradient(#2a2a2a, #373737);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#464646), to(#191818)), -webkit-gradient(linear, left top, left bottom, from(#2a2a2a), to(#373737));
+    background-image: linear-gradient(#464646, #191818), linear-gradient(#2a2a2a, #373737);
+    -webkit-background-clip: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    -webkit-background-origin: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    -webkit-box-shadow: 0 3px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 3px rgba(0, 0, 0, 0.9);
+    width: 38px;
+    height: 38px; }
+    .coupon-slider-actions .action:before {
+      content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="14" height="23" viewBox="0 0 14 23"><defs><style>.cls-2 {fill: url(#linear-gradient-1);}</style><linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="7" y1="23" x2="7" y2="0"><stop offset="0" stop-color="#9b9b9b"/><stop offset="0.69" stop-color="#ffffff"/><stop offset="0.97" stop-color="#a4a4a4"/><stop offset="1" stop-color="#a4a4a4"/></linearGradient></defs><path d="M14.007,20.996 C14.007,20.996 5.638,11.500 5.638,11.500 C5.638,11.500 14.007,2.003 14.007,2.003 C14.007,2.003 13.000,-0.001 13.000,-0.001 C13.000,-0.001 -0.007,11.500 -0.007,11.500 C-0.007,11.500 13.000,23.000 13.000,23.000 C13.000,23.000 14.007,20.996 14.007,20.996 Z" id="path-1" class="cls-2" fill-rule="evenodd"/></svg>');
+      line-height: 0.6; }
+    .coupon-slider-actions .action:hover {
+      background-image: -webkit-linear-gradient(#ffc333, #f88d1a), -webkit-linear-gradient(#a7661f, #ecb579);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc333), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(#a7661f), to(#ecb579));
+      background-image: linear-gradient(#ffc333, #f88d1a), linear-gradient(#a7661f, #ecb579); }
+    .coupon-slider-actions .action:active {
+      background-image: -webkit-linear-gradient(#f87501, #f88d1a), -webkit-linear-gradient(#eca251, #9a560b);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#f87501), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(#eca251), to(#9a560b));
+      background-image: linear-gradient(#f87501, #f88d1a), linear-gradient(#eca251, #9a560b);
+      margin-top: 1px;
+      -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 1px rgba(0, 0, 0, 0.6); }
+    .coupon-slider-actions .action.next {
+      right: 45px;
+      -webkit-transform: translate(50%, -50%);
+          -ms-transform: translate(50%, -50%);
+              transform: translate(50%, -50%); }
+      .coupon-slider-actions .action.next:before {
+        -webkit-transform: translateX(3px) rotate(180deg);
+            -ms-transform: translateX(3px) rotate(180deg);
+                transform: translateX(3px) rotate(180deg); }
+    .coupon-slider-actions .action.prev {
+      left: 45px;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .coupon-slider-actions .action.prev:before {
+        -webkit-transform: translateX(-3px);
+            -ms-transform: translateX(-3px);
+                transform: translateX(-3px); }
+
+.breadcrumbs {
+  font-size: 1.2em; }
+  .breadcrumbs a, .breadcrumbs span {
+    margin: 0 0.2em; }
+    .breadcrumbs a:first-child, .breadcrumbs span:first-child {
+      margin-left: 0; }
+
+.rating {
+  height: 12px;
+  width: 85px;
+  position: relative;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="12" viewBox="0 0 13 12"><path d="M6.294,-0.001 C6.294,-0.001 8.370,3.770 8.370,3.770 C8.370,3.770 12.593,4.583 12.593,4.583 C12.593,4.583 9.653,7.726 9.653,7.726 C9.653,7.726 10.187,11.999 10.187,11.999 C10.187,11.999 6.294,10.170 6.294,10.170 C6.294,10.170 2.402,11.999 2.402,11.999 C2.402,11.999 2.935,7.726 2.935,7.726 C2.935,7.726 -0.004,4.583 -0.004,4.583 C-0.004,4.583 4.218,3.770 4.218,3.770 C4.218,3.770 6.294,-0.001 6.294,-0.001 " id="path-1" fill="#d5d4d4" fill-rule="evenodd"/></svg>'); }
+
+.rating-inner, .rating .rate {
+  height: 12px;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="17" height="12" viewBox="0 0 13 12"><path d="M6.299,-0.001 C6.299,-0.001 8.375,3.770 8.375,3.770 C8.375,3.770 12.597,4.583 12.597,4.583 C12.597,4.583 9.658,7.726 9.658,7.726 C9.658,7.726 10.192,11.999 10.192,11.999 C10.192,11.999 6.299,10.170 6.299,10.170 C6.299,10.170 2.406,11.999 2.406,11.999 C2.406,11.999 2.940,7.726 2.940,7.726 C2.940,7.726 0.001,4.583 0.001,4.583 C0.001,4.583 4.223,3.770 4.223,3.770 C4.223,3.770 6.299,-0.001 6.299,-0.001 " id="path-1" fill="#ffb618" fill-rule="evenodd"/></svg>'); }
+
+.rating:hover .rating-inner {
+  background: none; }
+
+.rating .rate {
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; }
+  .rating .rate:nth-of-type(1) {
+    width: 85px; }
+  .rating .rate:nth-of-type(2) {
+    width: 68px; }
+  .rating .rate:nth-of-type(3) {
+    width: 51px; }
+  .rating .rate:nth-of-type(4) {
+    width: 34px; }
+  .rating .rate:nth-of-type(5) {
+    width: 17px; }
+  .rating .rate:hover {
+    opacity: 1; }
+
+h1 + .coupon {
+  margin-top: 2.5em; }
+
+.coupon {
+  border-radius: 0.33em;
+  background: #fff;
+  padding: 1em 0.75em 0 1.7em;
+  margin: 4px 0 2.5em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  position: relative;
+  -webkit-transition: margin ease-in-out 0.3s;
+          transition: margin ease-in-out 0.3s; }
+  .coupon:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0.33em;
+    -webkit-box-shadow: 0 0 0 1px #e1e1e1, 0 0 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 0 1px #e1e1e1, 0 0 7px rgba(0, 0, 0, 0.15);
+    z-index: -1; }
+  .coupon:after {
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 10px; }
+  .coupon.social-open {
+    margin-bottom: 6.4em; }
+    .coupon.social-open .social {
+      -webkit-transform: none;
+          -ms-transform: none;
+              transform: none; }
+  .coupon.campaign .action.primary {
+    border-color: #e0ba36;
+    background-image: -webkit-linear-gradient(#f9c831 20%, #e17d24 77%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #f9c831), color-stop(77%, #e17d24));
+    background-image: linear-gradient(#f9c831 20%, #e17d24 77%); }
+    .coupon.campaign .action.primary:hover {
+      border-color: #f2c730;
+      background-image: -webkit-linear-gradient(#f9d631 20%, #e19c24 77%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #f9d631), color-stop(77%, #e19c24));
+      background-image: linear-gradient(#f9d631 20%, #e19c24 77%); }
+    .coupon.campaign .action.primary:active {
+      border-color: #e0ba36;
+      background-image: -webkit-linear-gradient(#f0bd21 20%, #d06f18 77%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #f0bd21), color-stop(77%, #d06f18));
+      background-image: linear-gradient(#f0bd21 20%, #d06f18 77%); }
+  .coupon.campaign h1, .coupon.campaign h1 a {
+    color: #ef5c5c; }
+  .coupon.campaign h1 a:hover {
+    color: #f09595; }
+  .coupon.archive .action.primary, .coupon.archive .action.primary:hover, .coupon.archive .action.primary:active {
+    background-color: #F87501;
+    background-image: -webkit-linear-gradient(bottom, #CCC 0%, #CCC 34%, #D8D8D8 63%, #D8D8D8 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#CCC), color-stop(34%, #CCC), color-stop(63%, #D8D8D8), to(#D8D8D8));
+    background-image: linear-gradient(to top, #CCC 0%, #CCC 34%, #D8D8D8 63%, #D8D8D8 100%);
+    border: 2px solid #D6D6D6;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 2px 9px rgba(0, 0, 0, 0.55);
+    box-shadow: inset 0 2px 9px rgba(0, 0, 0, 0.55);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    padding: 0.4em 0.9em; }
+  .coupon.type-cashback:after {
+    content: url('../img/icons/coupon/type-cashback.svg'); }
+  .coupon.type-delivery:after {
+    content: url('../img/icons/coupon/type-delivery.svg'); }
+  .coupon.type-discount:after {
+    content: url('../img/icons/coupon/type-discount.svg'); }
+  .coupon.type-gift:after {
+    content: url('../img/icons/coupon/type-gift.svg'); }
+  .coupon > div:first-child {
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    width: 150px;
+    margin-right: 1.7em; }
+  .coupon > div:nth-child(2) {
+    -webkit-flex-basis: 0;
+        -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-bottom: 1.5em; }
+  .coupon h1 {
+    font-size: 1.5em;
+    text-transform: none;
+    line-height: 1.2;
+    margin: 0.6em 0 1.4em;
+    color: #21a5d6; }
+  .coupon .rating {
+    margin: 0 auto; }
+  .coupon .shop {
+    margin: 1.2em 0 0.8em;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
+    .coupon .shop img {
+      max-width: 100%;
+      vertical-align: top; }
+    .coupon .shop a {
+      display: block;
+      text-align: center;
+      color: #9b9b9b; }
+      .coupon .shop a:hover {
+        color: #21a5d6; }
+    .coupon .shop .text {
+      background: -webkit-linear-gradient(#f5f5f5, #fff9f2);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#fff9f2));
+      background: linear-gradient(#f5f5f5, #fff9f2);
+      border-top: 1px dashed #e5e5e5; }
+  .coupon .actions {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right; }
+    .coupon .actions li {
+      display: inline-block; }
+      .coupon .actions li:not(:first-child) {
+        margin-left: 0.8em; }
+    .coupon .actions .action {
+      fill: #9b9b9b;
+      color: #9b9b9b; }
+      .coupon .actions .action:hover {
+        fill: #4dc9f7; }
+      .coupon .actions .action:active {
+        fill: #f88d1a; }
+      .coupon .actions .action.like {
+        fill: none; }
+        .coupon .actions .action.like:hover, .coupon .actions .action.like.liked:hover {
+          fill: none;
+          stroke-width: 2px;
+          color: #4dc9f7; }
+        .coupon .actions .action.like:active, .coupon .actions .action.like.liked {
+          fill: #ffc586;
+          stroke-width: 2px;
+          color: #ffa646; }
+        .coupon .actions .action.like.liked:active {
+          fill: none;
+          color: #9b9b9b;
+          stroke-width: 1px; }
+    .coupon .actions .icon {
+      vertical-align: top; }
+  .coupon .action {
+    border: none;
+    background: none;
+    padding: 0; }
+  .coupon .action.share {
+    color: #9b9b9b;
+    fill: #bfbfbf; }
+    .coupon .action.share:hover {
+      color: #21a5d6;
+      fill: #21a5d6; }
+  .coupon .category {
+    color: #9b9b9b;
+    fill: #d3d3d3;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .coupon .category .icon {
+      margin-right: 0.4em; }
+    .coupon .category:hover {
+      color: #21a5d6;
+      fill: #21a5d6; }
+  .coupon .valid-for {
+    float: right;
+    width: 130px;
+    margin-left: 1em; }
+    .coupon .valid-for time, .coupon .valid-for .expired {
+      display: block;
+      font-weight: bold;
+      font-size: 2.2em;
+      line-height: 1; }
+    .coupon .valid-for time {
+      color: #464646; }
+    .coupon .valid-for.expiring-soon time {
+      color: #f88d1a; }
+    .coupon .valid-for .expired {
+      color: #fa201b;
+      text-transform: uppercase; }
+  .coupon .action.primary {
+    display: block;
+    overflow: hidden;
+    padding: 0.4em 0.9em;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #a4c72c;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(#afd03e 37%, #8dc011 66%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #afd03e), color-stop(66%, #8dc011));
+    background: linear-gradient(#afd03e 37%, #8dc011 66%);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
+    font-size: 1.33em;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
+    .coupon .action.primary:hover {
+      border-color: #c0dc5e;
+      background-image: -webkit-linear-gradient(#c0dc5e 20%, #9ebe2f 77%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #c0dc5e), color-stop(77%, #9ebe2f));
+      background-image: linear-gradient(#c0dc5e 20%, #9ebe2f 77%); }
+    .coupon .action.primary:active {
+      padding: 0.41em 0.9em 0.39em;
+      border-color: #a4c72c;
+      background-image: -webkit-linear-gradient(#99c430 37%, #7eab10 66%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #99c430), color-stop(66%, #7eab10));
+      background-image: linear-gradient(#99c430 37%, #7eab10 66%); }
+  .coupon footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 90px 1.1em 0;
+    position: relative; }
+    .coupon footer .social {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      top: 100%;
+      right: -0.75em;
+      left: -1.7em;
+      background: #f3f7f8;
+      -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+      border-radius: 0 0 0.33em 0.33em;
+      z-index: -2;
+      padding: 0.7em 0 0.7em 1.7em;
+      -webkit-transition: -webkit-transform ease-in-out 0.3s;
+              transition: transform ease-in-out 0.3s;
+      -webkit-transform-origin: 50% 0;
+          -ms-transform-origin: 50% 0;
+              transform-origin: 50% 0;
+      -webkit-transform: perspective(400px) rotateX(-90deg);
+              transform: perspective(400px) rotateX(-90deg);
+      -webkit-backface-visibility: hidden; }
+  .coupon .social-list {
+    margin-left: 0.8em; }
+  .coupon .valid-till {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #c9c9c9;
+    fill: #c9c9c9; }
+    .coupon .valid-till time {
+      color: #9b9b9b;
+      margin-left: 0.2em; }
+    .coupon .valid-till .icon {
+      margin-right: 0.5em; }
+  .coupon .add-comment {
+    border-bottom: 1px dashed;
+    position: relative;
+    margin-left: 20px;
+    color: #21a5d6;
+    fill: #21a5d6;
+    line-height: 1; }
+    .coupon .add-comment:hover {
+      color: #4dc9f7;
+      fill: #4dc9f7; }
+    .coupon .add-comment .icon {
+      position: absolute;
+      top: 50%;
+      left: -20px;
+      margin-left: 3px;
+      margin-top: -7px; }
+  .coupon .tag {
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+    color: #fdfdfd;
+    width: 80px;
+    height: 80px;
+    overflow: hidden; }
+    .coupon .tag:before {
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 110px;
+      margin-left: -55px;
+      -webkit-transform-origin: 50% 0;
+          -ms-transform-origin: 50% 0;
+              transform-origin: 50% 0;
+      -webkit-transform: rotate(-45deg) translateY(8px);
+          -ms-transform: rotate(-45deg) translateY(8px);
+              transform: rotate(-45deg) translateY(8px);
+      background: -webkit-linear-gradient(225deg, #c9c9c9, #9b9b9b);
+      background: linear-gradient(225deg, #c9c9c9, #9b9b9b); }
+    .coupon .tag:after {
+      content: '';
+      display: block;
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -51px;
+      margin-top: -3px;
+      background: #ab2c29;
+      -webkit-box-shadow: 95px 0 #c96800;
+      box-shadow: 95px 0 #c96800;
+      -webkit-transform-origin: 51px 0;
+          -ms-transform-origin: 51px 0;
+              transform-origin: 51px 0;
+      -webkit-transform: rotate(-45deg) translateY(8px);
+          -ms-transform: rotate(-45deg) translateY(8px);
+              transform: rotate(-45deg) translateY(8px);
+      z-index: -1; }
+  .coupon .exclusive:before {
+    content: 'Exclusive';
+    background: -webkit-linear-gradient(225deg, #ffa646, #f8521a);
+    background: linear-gradient(225deg, #ffa646, #f8521a); }
+  .coupon .exclusive:after {
+    background: #ab2c29;
+    -webkit-box-shadow: 95px 0 #c96800;
+    box-shadow: 95px 0 #c96800; }
+  .coupon .archive:before {
+    content: 'Archive'; }
+  .coupon .archive:after {
+    background: #464646;
+    -webkit-box-shadow: 95px 0 #2f2f2f;
+    box-shadow: 95px 0 #2f2f2f; }
+  .coupon .core {
+    min-width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin: 1.4em -0.75em 1.4em -1.7em;
+    color: #fff;
+    background: -webkit-linear-gradient(#f88d1a, #f87501);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f88d1a), to(#f87501));
+    background: linear-gradient(#f88d1a, #f87501);
+    text-align: center;
+    border: 1px solid #f4f4f4;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative; }
+    .coupon .core:before, .coupon .core:after {
+      content: '';
+      display: block;
+      height: 18px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-image: url('../img/coupon-core-bg.png');
+      background-repeat: repeat-x;
+      background-position: 0 -19px; }
+      @media (-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 124.8dpi) {
+        .coupon .core:before, .coupon .core:after {
+          background-image: url('../img/coupon-core-bg@2x.png');
+          -webkit-background-size: 618px 37px;
+          background-size: 618px 37px; } }
+    .coupon .core:before {
+      top: 0; }
+    .coupon .core:after {
+      bottom: 0;
+      background-position: 0 0;
+      height: 19px; }
+    .coupon .core .action.primary {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 0.3em;
+      padding: 0.7em 0.9em;
+      fill: #fff;
+      border-color: #48b9e3;
+      background-image: -webkit-linear-gradient(#25abdc 37%, #1a8ab3 66%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #25abdc), color-stop(66%, #1a8ab3));
+      background-image: linear-gradient(#25abdc 37%, #1a8ab3 66%); }
+      .coupon .core .action.primary:hover {
+        border-color: #48b9e3;
+        background-image: -webkit-linear-gradient(#38bbec 37%, #239dca 66%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #38bbec), color-stop(66%, #239dca));
+        background-image: linear-gradient(#38bbec 37%, #239dca 66%); }
+      .coupon .core .action.primary:active {
+        padding: 0.8em 0.9em 0.6em;
+        border-color: #2ba4d1;
+        background-image: -webkit-linear-gradient(#1d87b2 37%, #1d7092 66%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #1d87b2), color-stop(66%, #1d7092));
+        background-image: linear-gradient(#1d87b2 37%, #1d7092 66%); }
+      .coupon .core .action.primary .icon {
+        margin-right: 0.4em;
+        vertical-align: middle; }
+    .coupon .core .code-block p {
+      margin: 1em 0 0.2em;
+      font-size: 1.5em; }
+    .coupon .core .code {
+      display: inline-block;
+      font-size: 2.5em;
+      color: #464646;
+      vertical-align: middle;
+      background-image: -webkit-linear-gradient(#ffead4, #ffeddd);
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#ffead4), to(#ffeddd));
+      background-image: linear-gradient(#ffead4, #ffeddd);
+      border: 3px solid #ffa039;
+      -webkit-box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.35);
+      box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.35);
+      border-radius: 7px;
+      width: 300px;
+      padding: 0.15em; }
+    .coupon .core .social {
+      font-size: 1.33em;
+      margin: 1.9em 0; }
+    .coupon .core .social-list {
+      margin-top: 0.6em; }
+      .coupon .core .social-list a {
+        border-radius: 50%;
+        -webkit-box-shadow: -1px 2px rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1);
+        box-shadow: -1px 2px rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1);
+        position: relative; }
+        .coupon .core .social-list a:before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border-radius: 50%;
+          -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15); }
+  .coupon .shop-coupons-link {
+    display: inline-block;
+    margin-top: 1.2em;
+    color: #656565;
+    fill: #9b9b9b; }
+    .coupon .shop-coupons-link .icon {
+      vertical-align: middle;
+      margin-right: 0.6em; }
+    .coupon .shop-coupons-link:hover {
+      color: #21a5d6;
+      fill: #21a5d6; }
+    .coupon .shop-coupons-link:active {
+      color: #5992e9;
+      fill: #5992e9; }
+
+.social-list {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 3, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-  .coupon-list li {
-    border-top: 1px dashed #f88d1a; }
-    /* line 4, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-    .coupon-list li:nth-child(even) {
-      background: #fff8f1; }
-    /* line 8, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-    .coupon-list li:first-child {
-      border-top-width: 0; }
-  /* line 12, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-  .coupon-list a {
+  .social-list li {
+    display: inline-block; }
+    .social-list li:not(:first-child) {
+      margin-left: 0.8em; }
+  .social-list a {
     display: block;
-    overflow: hidden;
-    padding: 0.75em 0.6em 0.5em; }
-    /* line 16, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-    .coupon-list a:hover .coupon-shop {
-      color: #ffa646; }
-  /* line 20, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-  .coupon-list img {
+    -webkit-transition: -webkit-transform ease-in-out 0.2s;
+            transition: transform ease-in-out 0.2s; }
+    .social-list a:hover {
+      -webkit-transform: scale(1.3);
+          -ms-transform: scale(1.3);
+              transform: scale(1.3); }
+  .social-list .icon {
+    vertical-align: top; }
+
+.promo {
+  background-image: -webkit-linear-gradient(#e9f3f7, #deedf0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e9f3f7), to(#deedf0));
+  background-image: linear-gradient(#e9f3f7, #deedf0);
+  margin-bottom: 2.5em;
+  padding: 1.5em 1.4em 2.3em 120px;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.15), inset 0 0 0 1px #e1e1e1;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.15), inset 0 0 0 1px #e1e1e1;
+  border-radius: 0.33em;
+  position: relative;
+  overflow: hidden; }
+  .promo:after {
+    content: '';
+    display: block;
+    height: 0.8em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, #21a5d6 0%, #21a5d6 10%, #48c1ed 10%, #48c1ed 23%, #1899c9 23%, #1899c9 33%, #21a5d6 33%, #21a5d6 39%, #48c1ed 39%, #48c1ed 56%, #1899c9 56%, #1899c9 70%, #21a5d6 70%, #21a5d6 75%, #1899c9 75%, #1899c9 84%, #48c1ed 84%, #48c1ed 94%, #21a5d6 94%, #21a5d6 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#21a5d6), color-stop(10%, #21a5d6), color-stop(10%, #48c1ed), color-stop(23%, #48c1ed), color-stop(23%, #1899c9), color-stop(33%, #1899c9), color-stop(33%, #21a5d6), color-stop(39%, #21a5d6), color-stop(39%, #48c1ed), color-stop(56%, #48c1ed), color-stop(56%, #1899c9), color-stop(70%, #1899c9), color-stop(70%, #21a5d6), color-stop(75%, #21a5d6), color-stop(75%, #1899c9), color-stop(84%, #1899c9), color-stop(84%, #48c1ed), color-stop(94%, #48c1ed), color-stop(94%, #21a5d6), to(#21a5d6));
+    background: linear-gradient(to right, #21a5d6 0%, #21a5d6 10%, #48c1ed 10%, #48c1ed 23%, #1899c9 23%, #1899c9 33%, #21a5d6 33%, #21a5d6 39%, #48c1ed 39%, #48c1ed 56%, #1899c9 56%, #1899c9 70%, #21a5d6 70%, #21a5d6 75%, #1899c9 75%, #1899c9 84%, #48c1ed 84%, #48c1ed 94%, #21a5d6 94%, #21a5d6 100%);
+    -webkit-background-size: 100% 620px;
+    background-size: 100% 620px; }
+  .promo h1 {
+    line-height: 1; }
+  .promo .icon {
+    fill: #6cc6e7;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    margin-top: -0.8em; }
+  .promo input[type='email'] {
+    font-size: 1.17rem;
+    height: 3em;
+    line-height: 2.5em;
+    border: none;
+    padding: 0;
+    background: -webkit-linear-gradient(#e8e8e8, #fff);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#fff));
+    background: linear-gradient(#e8e8e8, #fff);
+    -webkit-box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, 0.35);
+    border: 0.25em solid #addff1;
+    vertical-align: middle;
+    border-radius: 0.6em;
+    padding: 0 0.8em;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    margin-right: 0.6em; }
+    .promo input[type='email']:focus {
+      background: #fff;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none; }
+  .promo form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .promo .action.primary {
+    display: inline-block;
+    border: 1px solid #d4d4d4;
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
+    background-image: -webkit-linear-gradient(#fcfcfc 37%, #cfcfcf 81%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #fcfcfc), color-stop(81%, #cfcfcf));
+    background-image: linear-gradient(#fcfcfc 37%, #cfcfcf 81%);
+    font-size: 1.33em;
+    text-shadow: 0 1px 0 #fff;
+    color: #464646;
+    padding: 0.2em 1.3em; }
+    .promo .action.primary:hover {
+      background-image: -webkit-linear-gradient(#fff 37%, #dcdcdc 81%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #fff), color-stop(81%, #dcdcdc));
+      background-image: linear-gradient(#fff 37%, #dcdcdc 81%); }
+    .promo .action.primary:active {
+      padding: 0.25em 1.3em 0.15em;
+      background-image: -webkit-linear-gradient(#f0f0f0 37%, #c6c6c6 81%);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #f0f0f0), color-stop(81%, #c6c6c6));
+      background-image: linear-gradient(#f0f0f0 37%, #c6c6c6 81%); }
+  .promo.add-favourites {
+    background-image: -webkit-linear-gradient(#fbf4f4, #f1dede);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fbf4f4), to(#f1dede));
+    background-image: linear-gradient(#fbf4f4, #f1dede); }
+    .promo.add-favourites:after {
+      background: -webkit-linear-gradient(left, #ff7241 0%, #ff7241 10%, #ff7e7e 10%, #ff7e7e 23%, #f8521a 23%, #f8521a 33%, #ff7241 33%, #ff7241 39%, #ff7e7e 39%, #ff7e7e 56%, #f8521a 56%, #f8521a 70%, #ff7241 70%, #ff7241 75%, #f8521a 75%, #f8521a 84%, #ff7e7e 84%, #ff7e7e 94%, #ff7241 94%, #ff7241 100%);
+      background: -webkit-gradient(linear, left top, right top, from(#ff7241), color-stop(10%, #ff7241), color-stop(10%, #ff7e7e), color-stop(23%, #ff7e7e), color-stop(23%, #f8521a), color-stop(33%, #f8521a), color-stop(33%, #ff7241), color-stop(39%, #ff7241), color-stop(39%, #ff7e7e), color-stop(56%, #ff7e7e), color-stop(56%, #f8521a), color-stop(70%, #f8521a), color-stop(70%, #ff7241), color-stop(75%, #ff7241), color-stop(75%, #f8521a), color-stop(84%, #f8521a), color-stop(84%, #ff7e7e), color-stop(94%, #ff7e7e), color-stop(94%, #ff7241), to(#ff7241));
+      background: linear-gradient(to right, #ff7241 0%, #ff7241 10%, #ff7e7e 10%, #ff7e7e 23%, #f8521a 23%, #f8521a 33%, #ff7241 33%, #ff7241 39%, #ff7e7e 39%, #ff7e7e 56%, #f8521a 56%, #f8521a 70%, #ff7241 70%, #ff7241 75%, #f8521a 75%, #f8521a 84%, #ff7e7e 84%, #ff7e7e 94%, #ff7241 94%, #ff7241 100%);
+      -webkit-background-size: 100% 620px;
+      background-size: 100% 620px; }
+    .promo.add-favourites .icon {
+      fill: #f8521a; }
+
+.top h1:after {
+  content: '';
+  display: block;
+  height: 0.4rem;
+  background: -webkit-linear-gradient(left, #21a5d6 0%, #21a5d6 10%, #48c1ed 10%, #48c1ed 23%, #1899c9 23%, #1899c9 33%, #21a5d6 33%, #21a5d6 39%, #48c1ed 39%, #48c1ed 56%, #1899c9 56%, #1899c9 70%, #21a5d6 70%, #21a5d6 75%, #1899c9 75%, #1899c9 84%, #48c1ed 84%, #48c1ed 94%, #21a5d6 94%, #21a5d6 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#21a5d6), color-stop(10%, #21a5d6), color-stop(10%, #48c1ed), color-stop(23%, #48c1ed), color-stop(23%, #1899c9), color-stop(33%, #1899c9), color-stop(33%, #21a5d6), color-stop(39%, #21a5d6), color-stop(39%, #48c1ed), color-stop(56%, #48c1ed), color-stop(56%, #1899c9), color-stop(70%, #1899c9), color-stop(70%, #21a5d6), color-stop(75%, #21a5d6), color-stop(75%, #1899c9), color-stop(84%, #1899c9), color-stop(84%, #48c1ed), color-stop(94%, #48c1ed), color-stop(94%, #21a5d6), to(#21a5d6));
+  background: linear-gradient(to right, #21a5d6 0%, #21a5d6 10%, #48c1ed 10%, #48c1ed 23%, #1899c9 23%, #1899c9 33%, #21a5d6 33%, #21a5d6 39%, #48c1ed 39%, #48c1ed 56%, #1899c9 56%, #1899c9 70%, #21a5d6 70%, #21a5d6 75%, #1899c9 75%, #1899c9 84%, #48c1ed 84%, #48c1ed 94%, #21a5d6 94%, #21a5d6 100%);
+  -webkit-background-size: 100% 620px;
+  background-size: 100% 620px; }
+
+.top-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 1.4rem 0 4.8rem;
+  padding: 1.7rem 0;
+  font-size: 0;
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e1e1e1;
+  position: relative; }
+  .top-list a {
+    display: block;
+    padding: 0 1.6em;
+    height: 2.6em;
+    line-height: 2.6em; }
+  .top-list .icon {
+    fill: currentColor;
+    vertical-align: middle;
+    margin-right: 0.8em; }
+  .top-list li {
+    display: inline-block;
+    width: 25%;
+    font-size: 1.2rem; }
+    .top-list li:nth-child(8n-7), .top-list li:nth-child(8n-6), .top-list li:nth-child(8n-5), .top-list li:nth-child(8n-4) {
+      background: #f0f9fc;
+      border: 0 dotted #a6dbef;
+      border-top-width: 1px;
+      border-bottom-width: 1px; }
+    .top-list li:nth-child(1):after, .top-list li:nth-child(2):after, .top-list li:nth-child(3):after {
+      content: '';
+      display: block;
+      width: 1px;
+      margin-left: 25%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      background: #fff;
+      -webkit-box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.04);
+      box-shadow: -2px 0px 2px 0px rgba(0, 0, 0, 0.04); }
+
+.favourite-shop-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+  position: relative; }
+  .favourite-shop-list li {
+    font-size: 1rem;
+    display: inline-block;
+    width: 25%;
+    padding: 1em 0; }
+  .favourite-shop-list img {
     border: 1px solid #f0f0f0;
-    float: left;
-    margin-right: 1.25em;
     width: 52px;
-    height: 52px; }
-  /* line 27, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-  .coupon-list .coupon-shop {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #f88d1a; }
-  /* line 32, /Users/tnk/work/couponmio-markup/sass/components/coupon-list */
-  .coupon-list .coupon-title {
-    color: #656565; }
+    height: 52px;
+    vertical-align: top; }
+
 /*# sourceMappingURL=main.css.map */
