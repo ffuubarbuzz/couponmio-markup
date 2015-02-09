@@ -21,7 +21,7 @@ gulp.task('minifyImg', ['concatSvg'], function () {
 });
 
 gulp.task('concatSvg', [], function () {
-	return gulp.src(['./assets/img/icons/**/*.svg', '!./assets/img/sprite.svg'])
+	return gulp.src(['./assets/img/icons/**/*.svg', '!./assets/img/sprite.svg', '!./assets/img/inlined'])
 		.pipe(plumber())
 		.pipe(svgstore({
 			fileName: 'sprite.svg',
