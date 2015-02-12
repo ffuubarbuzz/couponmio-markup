@@ -1,71 +1,90 @@
 .promo {
-	background-image: linear-gradient(#e9f3f7, #deedf0);
+	position: relative;
+
+	overflow: hidden;
+
 	margin-bottom: 2.5em;
 	padding: 1.5em 1.4em 2.3em 120px;
-	box-shadow: 0 0 7px rgba(0, 0, 0, .15),
-				inset 0 0 0 1px #e1e1e1;
+
 	border-radius: .33em;
-	position: relative;
-	overflow: hidden;
+	background-image: linear-gradient(#e9f3f7, #deedf0);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .15),
+	inset 0 0 0 1px #e1e1e1;
 	&:after {
-		content: '';
-		display: block;
-		height: .8em;
 		position: absolute;
 		right: 0;
 		bottom: 0;
 		left: 0;
+
+		display: block;
+
+		height: .8em;
+
+		content: '';
+
 		@include lines-pattern;
 	}
 	h1 {
 		line-height: 1;
 	}
 	.icon {
-		fill: #6cc6e7;
 		position: absolute;
 		top: 50%;
 		left: 60px;
+
+		margin-top: -.4em;
+
 		transform: translate(-50%, -50%);
-		margin-top: -.8em;
+
+		fill: #6cc6e7;
 	}
 	input[type='email'] {
 		font-size: 1.17rem;
-		height: 3em;
 		line-height: 2.5em;
-		border: none;
+
+		height: 3em;
+		margin-right: .6em;
 		padding: 0;
+		padding: 0 .8em;
+
+		vertical-align: middle;
+
+		border: none;
+		border: .25em solid #addff1;
+		border-radius: .6em;
 		background: linear-gradient(#e8e8e8, #fff);
 		box-shadow: inset 0 3px 1px -1px rgba(0, 0, 0, .35);
-		border: .25em solid #addff1;
-		vertical-align: middle;
-		border-radius: .6em;
-		padding: 0 .8em;
+
 		flex-grow: 1;
-		margin-right: .6em;
 		&:focus {
+			outline: none;
 			background: #fff;
 			box-shadow: none;
-			outline: none;
 		}
 	}
 	form {
 		display: flex;
+
 		align-items: center;
 	}
 	.action.primary {
-		display: inline-block;
-		border: 1px solid #d4d4d4;
-		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .5);
-		background-image: linear-gradient(#fcfcfc 37%, #cfcfcf 81%);
 		font-size: 1.33em;
-		text-shadow: 0 1px 0 #fff;
-		color: #464646;
+
+		display: inline-block;
+
 		padding: .2em 1.3em;
+
+		color: #464646;
+		border: 1px solid #d4d4d4;
+		background-image: linear-gradient(#fcfcfc 37%, #cfcfcf 81%);
+		box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .5);
+		text-shadow: 0 1px 0 #fff;
 		&:hover {
 			background-image: linear-gradient(#fff 37%, #dcdcdc 81%);
 		}
 		&:active {
 			padding: .25em 1.3em .15em;
+
 			background-image: linear-gradient(#f0f0f0 37%, #c6c6c6 81%);
 		}
 	}

@@ -1,0 +1,79 @@
+.archive-list {
+	margin: 1.33em 0 2.5em;
+	padding: 0 1.5em;
+
+	list-style: none;
+
+	border-radius: .33em;
+	background: #fff;
+	box-shadow: 0 0 0 1px #e1e1e1, 0 0 7px rgba(0, 0, 0, .15);
+	li {
+		&:not(:first-child) {
+			border-top: 1px dashed #ccc;
+		}
+	}
+	.coupon {
+		margin: 0;
+		padding: 1.25em 0;
+		&:before,
+		&:after {
+			content: none;
+		}
+		>div {
+			margin: 0;
+		}
+		>div:first-child {
+			font-size: 1.2em;
+			font-weight: bold;
+			line-height: 1;
+
+			display: flex;
+
+			margin-right: 1.7em;
+			padding: 1em;
+
+			color: #9b9b9b;
+			border: 3px solid #aed231;
+
+			align-items: center;
+			.icon {
+				margin-right: .7em;
+
+				fill: #aed231;
+				flex-shrink: 0;
+			}
+		}
+		h1 {
+			font-size: 1.2em;
+
+			margin: .3em 0;
+
+			color: #9b9b9b;
+		}
+		.core {
+			width: auto;
+			margin: 0 0 0 1em;
+
+			border: 0;
+			background: transparent;
+			box-shadow: none;
+
+			flex-grow: 0;
+			&:before,
+			&:after {
+				content: none;
+			}
+			.code {
+				font-size: 1.33em;
+				font-weight: bold;
+
+				width: 125px;
+				padding: .4em;
+
+				color: #9b9b9b;
+				border-color: #f0f0f0;
+				background: linear-gradient(#f8f8f8, #fff);
+			}
+		}
+	}
+}

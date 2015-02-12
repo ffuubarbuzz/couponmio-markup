@@ -3,6 +3,7 @@
 @import "modules/helpers";
 @import "modules/base";
 @import "modules/controls";
+@import "modules/actions";
 @import "layout/auth-menu";
 @import "layout/main-header";
 @import "layout/main-menu";
@@ -10,10 +11,17 @@
 @import "layout/user-block";
 @import "layout/coupons";
 @import "layout/coupon-slider";
+@import "layout/top";
+@import "layout/similar-coupons";
+@import "layout/archive-coupons";
 @import "components/breadcrumbs";
 @import "components/rating";
 @import "components/coupon";
 @import "components/social-list";
 @import "components/promo";
-@import "components/top";
+@import "components/top-list";
 @import "components/favourite-shops";
+@import "components/aside-similar-list";
+@import "components/testimonials";
+@import "components/shop-description";
+@import "components/archive-list";

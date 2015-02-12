@@ -1,0 +1,25 @@
+.aside-similar-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	img {
+		width: 52px;
+		height: 52px;
+		border: 1px solid #f0f0f0;
+		float: left;
+		margin-right: 1.2em;
+	}
+	a {
+		display: block;
+		overflow: hidden;
+		border-bottom: 1px dashed;
+		padding: 1.25em 1em .75em;
+		color: #656565;
+		&:hover h2 {
+			color: #4dc9f7;
+		}
+	}
+	h2 {
+		color: #21a5d6;
+	}
+}

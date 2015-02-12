@@ -32,7 +32,10 @@
 		margin-right: .7em;
 		fill: #9b9b9b;
 	}
-	a:hover .icon {
-		fill: #f88d1a;
+	a:hover {
+		color: #f88d1a;
+		 .icon {
+			fill: #f88d1a;
+		}
 	}
 }

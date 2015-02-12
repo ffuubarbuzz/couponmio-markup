@@ -1,0 +1,8 @@
+.archive-coupons {
+	>h1:after {
+		content: '';
+		display: block;
+		height: .4rem;
+		@include lines-pattern(#85b70c, #aed231, #78a608);
+	}
+}

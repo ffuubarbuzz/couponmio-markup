@@ -1,0 +1,9 @@
+.top {
+	margin-top: 5.7em;
+	h1:after {
+		content: '';
+		display: block;
+		height: .4rem;
+		@include lines-pattern;
+	}
+}

@@ -1,6 +1,8 @@
 .confirm-controls {
 	.action {
+		display: inline-block;
 		height: 3.2em;
+		line-height: 2.7em;
 		padding: 0 1em;
 		vertical-align: middle;
 		border: .25em solid transparent;
@@ -63,6 +65,11 @@
 				box-shadow: inset 0 1px #ffa600,
 							inset 0 -1px #f34200;
 			}
+		}
+		.icon {
+			fill: #fff;
+			vertical-align: middle;
+			margin-right: 1em;
 		}
 	}
 }

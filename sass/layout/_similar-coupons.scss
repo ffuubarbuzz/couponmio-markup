@@ -1,0 +1,8 @@
+.similar-coupons {
+	>h1:after {
+		content: '';
+		display: block;
+		height: .4rem;
+		@include lines-pattern(#ff871c, #f49e09, #f87b01);
+	}
+}

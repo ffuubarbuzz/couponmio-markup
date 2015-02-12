@@ -1,0 +1,80 @@
+.testimonial {
+	position: relative;
+
+	margin-bottom: 3.9em;
+	padding: 0 1.5em;
+
+	color: #7a746f;
+	border: 3px solid #c0e05f;
+	border-radius: 10px;
+	background: #fff;
+	&:before {
+		position: absolute;
+		top: 100%;
+		right: 20px;
+
+		display: block;
+
+		margin-top: 3px;
+
+		content: '';
+
+		border-top: 12px dotted #c0e05f;	//dotted to force FF to antialiase
+		border-right: 8px solid rgba(192, 224, 95, 0);
+		border-left: 14px solid rgba(192, 224, 95, 0);
+	}
+	&:after {
+		position: absolute;
+		top: 100%;
+		right: 22px;
+
+		display: block;
+
+		margin-top: 1px;
+
+		content: '';
+
+		border-top: 9px dotted #fff;	//dotted to force FF to antialiase
+		border-right: 7px solid rgba(255, 255, 255, 0);
+		border-left: 11px solid rgba(255, 255, 255, 0);
+		box-shadow: 0 -2px #fff;
+	}
+	&:last-of-type {
+		.author {
+			max-width: 50%;
+		}
+	}
+	.author {
+		position: absolute;
+		right: 0;
+		bottom: -2.6em;
+
+		overflow: hidden;
+
+		max-width: 100%;
+		margin: 0;
+
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+.testimonials {
+	h1 {
+		padding-top: 0;
+	}
+	.confirm-controls {
+		margin-top: 1em;
+
+		text-align: center;
+	}
+	.all {
+		display: block;
+
+		margin-top: -3em;
+
+		text-decoration: underline;
+		.icon {
+			margin-right: .6em;
+		}
+	}
+}

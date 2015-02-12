@@ -46,8 +46,11 @@ $(function(){
 		});
 	});
 
-	$('.categories>ul>li').click(function(e){
-		e.preventDefault();
-		$(this).toggleClass('open')
+	$('.coupon-list-aside .categories>ul>li').each(function(){
+		var $listItem = $(this);
+		$listItem.find('.category').click(function(e){
+			e.preventDefault();
+			$listItem.toggleClass('open');
+		});
 	});
 });
