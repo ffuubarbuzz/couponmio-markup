@@ -1,12 +1,9 @@
 .shop-description {
 	font-size: 1.2em;
 
-	overflow: hidden;
 	color: #9b9b9b;
 	.logo {
 		float: left;
-
-		margin-right: 1.75rem;
 
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		width: 150px;
@@ -26,7 +23,7 @@
 		}
 	}
 	.text {
-		overflow: hidden;
+		margin-left: 170px;
 		p {
 			margin: 0;
 		}
@@ -38,6 +35,13 @@
 		color: #9b9b9b;
 		&:hover {
 			color: #b3b3b3;
+		}
+	}
+	.description {
+		max-height: 1.4em * 3;
+		overflow: hidden;
+		&.open {
+			max-height: none;
 		}
 	}
 }

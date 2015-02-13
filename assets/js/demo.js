@@ -5,7 +5,7 @@ $(function(){
 	$('.coupon-slider').each(function(){
 		var $couponListItems = $(this).find('.coupon-list li');
 		function repaint() {
-			//dirty fix for chrome not repaint bug
+			//dirty fix for chrome not repainting bug
 			$couponListItems.find('img').hide();
 			$couponListItems.find('img').outerWidth();
 			$couponListItems.find('img').show();
@@ -51,6 +51,16 @@ $(function(){
 		$listItem.find('.category').click(function(e){
 			e.preventDefault();
 			$listItem.toggleClass('open');
+		});
+	});
+
+	$('.shop-description').each(function(){
+		var $description = $(this).find('.description');
+		$(this).find('.toggle').click(function(){
+			$description.toggleClass('open');
+			var altText = $(this).attr('data-alt-text');
+			$(this).attr('data-alt-text', $(this).text());
+			$(this).text(altText);
 		});
 	});
 });

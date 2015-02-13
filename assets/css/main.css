@@ -2734,43 +2734,48 @@ h1 + .coupon {
 /* line 1, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
 .shop-description {
   font-size: 1.2em;
-  overflow: hidden;
   color: #9b9b9b; }
-  /* line 6, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+  /* line 5, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
   .shop-description .logo {
     float: left;
-    margin-right: 1.75rem;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     width: 150px;
     background: #fff;
     text-align: center;
     font-size: 0; }
-    /* line 17, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+    /* line 14, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
     .shop-description .logo:before {
       content: '';
       display: inline-block;
       height: 100%;
       vertical-align: middle; }
-    /* line 23, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+    /* line 20, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
     .shop-description .logo img {
       max-width: 100%;
       vertical-align: middle; }
-  /* line 28, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+  /* line 25, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
   .shop-description .text {
-    overflow: hidden; }
-    /* line 30, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+    margin-left: 170px; }
+    /* line 27, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
     .shop-description .text p {
       margin: 0; }
-  /* line 34, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+  /* line 31, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
   .shop-description .toggle {
     padding: 0;
     border: none;
     background: transparent;
     color: #9b9b9b; }
-    /* line 39, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+    /* line 36, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
     .shop-description .toggle:hover {
       color: #b3b3b3; }
+  /* line 40, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+  .shop-description .description {
+    max-height: 4.2em;
+    overflow: hidden; }
+    /* line 43, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
+    .shop-description .description.open {
+      max-height: none; }
 
 /* line 1, /Users/tnk/work/couponmio-markup/sass/components/_archive-list.scss */
 .archive-list {
