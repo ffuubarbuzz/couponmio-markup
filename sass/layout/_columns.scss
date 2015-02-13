@@ -1,0 +1,19 @@
+.columns-layout {
+	display: flex;
+
+	justify-content: space-between;
+	.column-wide {
+		//to create stacking context
+		position: relative;
+		z-index: 1;
+
+		width: 620px;
+	}
+	.column-narrow {
+		width: 300px;
+	}
+}
+
+.breadcrumbs+.columns-layout {
+	margin-top: 2.5em;
+}
