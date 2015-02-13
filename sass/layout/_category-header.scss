@@ -1,0 +1,19 @@
+.category-header {
+	overflow: hidden;
+
+	margin: 3em 0;
+	padding-left: 100px;
+	>.icon {
+		float: left;
+
+		margin: .7em 0 0 -100px;
+
+		fill: #9b9b9b;
+	}
+	h1 {
+		margin-bottom: .4em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}

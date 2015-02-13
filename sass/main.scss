@@ -1,9 +1,11 @@
 //import all dependencies
 @import "vendor/normalize";
+
 @import "modules/helpers";
 @import "modules/base";
 @import "modules/controls";
 @import "modules/actions";
+
 @import "layout/auth-menu";
 @import "layout/main-header";
 @import "layout/main-menu";
@@ -14,6 +16,8 @@
 @import "layout/top";
 @import "layout/aside-coupons";
 @import "layout/archive-coupons";
+@import "layout/category-header";
+
 @import "components/breadcrumbs";
 @import "components/rating";
 @import "components/coupon";
