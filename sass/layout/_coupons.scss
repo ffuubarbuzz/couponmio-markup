@@ -83,7 +83,7 @@
 		}
 		.aside-similar-list {
 			li {
-				&:nth-child(odd) {
+				&:nth-child(even) {
 					a {
 						background: #fff7f7;
 					}
@@ -120,7 +120,7 @@
 		}
 		.aside-similar-list {
 			li {
-				&:nth-child(odd) {
+				&:nth-child(even) {
 					a {
 						background: #fbf5ea;
 					}
