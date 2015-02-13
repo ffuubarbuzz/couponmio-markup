@@ -35,6 +35,10 @@
 			border-radius: .6em;
 			padding: 0 .8em;
 			color: #555;
+			&:focus {
+				box-shadow: none;
+				background: #fff;
+			}
 		}
 	}
 	.credits {
