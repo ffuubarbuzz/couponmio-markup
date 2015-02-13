@@ -4,12 +4,17 @@
 	overflow: hidden;
 
 	margin-bottom: 2.5em;
-	padding: 1.5em 1.4em 2.3em 120px;
+	padding: 1.5em 1.4em 2.3em;
 
 	border-radius: .33em;
 	background-image: linear-gradient(#e9f3f7, #deedf0);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .15),
 	inset 0 0 0 1px #e1e1e1;
+	display: flex;
+	align-items: center;
+	>div {
+		flex-grow: 1;
+	}
 	&:after {
 		position: absolute;
 		right: 0;
@@ -27,14 +32,12 @@
 	h1 {
 		line-height: 1;
 	}
+	.icon,
+	.logo {
+		flex-shrink: 0;
+	}
 	.icon {
-		position: absolute;
-		top: 50%;
-		left: 60px;
-
-		margin-top: -.4em;
-
-		transform: translate(-50%, -50%);
+		width: 120px;
 
 		fill: #6cc6e7;
 	}
@@ -95,6 +98,18 @@
 		}
 		.icon {
 			fill: #f8521a;
+		}
+	}
+	&.subscribe-shop {
+		.logo {
+			width: 150px;
+			height: 120px;
+			margin-right: 1.8em;
+
+			background: #fff;
+
+			object-fit: contain;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		}
 	}
 }
