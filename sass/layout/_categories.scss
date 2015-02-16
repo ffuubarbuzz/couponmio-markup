@@ -1,0 +1,39 @@
+.all-categories {
+	font-size: 1.2em;
+
+	margin: 0 0 4.6em;
+	padding: 0;
+
+	list-style: none;
+
+	background: #fff;
+	box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+	a {
+		display: flex;
+
+		padding: 1em 1.5em 1em 1.4em;
+
+		color: #9b9b9b;
+
+		align-items: center;
+		fill: #9b9b9b;
+		&:hover {
+			color: #f87501;
+
+			fill: #f88d1a;
+			.count {
+				color: #464646;
+			}
+		}
+	}
+	.icon {
+		width: 20px;
+		margin-right: .9em;
+	}
+	li:nth-child(odd) {
+		background: #fbf5ea;
+	}
+	.count {
+		margin-left: auto;
+	}
+}
