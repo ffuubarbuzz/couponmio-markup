@@ -39,6 +39,9 @@ h1+.coupon {
 
 		display: block;
 	}
+	&:last-child {
+		margin-bottom: 0;
+	}
 	@each $type in $coupon-types {
 		&.type-#{$type}:after {
 			content: inline-image('../img/icons/inlined/coupon/type-' + $type + '.svg');

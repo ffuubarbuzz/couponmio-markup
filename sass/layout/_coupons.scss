@@ -307,4 +307,7 @@ aside {
 
 		background: #10739b;
 	}
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
