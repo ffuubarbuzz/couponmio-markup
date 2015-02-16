@@ -1,6 +1,7 @@
 .promo {
 	position: relative;
 
+	display: flex;
 	overflow: hidden;
 
 	margin-bottom: 2.5em;
@@ -10,8 +11,6 @@
 	background-image: linear-gradient(#e9f3f7, #deedf0);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .15),
 	inset 0 0 0 1px #e1e1e1;
-	display: flex;
-	align-items: center;
 	>div {
 		flex-grow: 1;
 	}
@@ -91,13 +90,17 @@
 			background-image: linear-gradient(#f0f0f0 37%, #c6c6c6 81%);
 		}
 	}
-	&.add-favourites {
+	&.add-favourites,
+	&.pars {
 		background-image: linear-gradient(#fbf4f4, #f1dede);
 		&:after {
 			@include lines-pattern(#ff7241, #ff7e7e, #f8521a);
 		}
 		.icon {
 			fill: #f8521a;
+		}
+		input[type='email'] {
+			border-color: #ffb6b6;
 		}
 	}
 	&.subscribe-shop {
@@ -107,9 +110,9 @@
 			margin-right: 1.8em;
 
 			background: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 
 			object-fit: contain;
-			box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		}
 	}
 }
