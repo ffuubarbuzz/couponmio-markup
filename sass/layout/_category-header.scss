@@ -1,3 +1,6 @@
 .category-header {
 	padding-left: 100px;
+	>.icon {
+		margin-left: -100px;
+	}
 }
