@@ -63,4 +63,22 @@ $(function(){
 			$(this).text(altText);
 		});
 	});
+
+	$('.abc').each(function(){
+		var $langSwitch = $(this).find('.lang-switch');
+		var $langSwitchLink = $langSwitch.find('a');
+		var $letters = $(this).find('.letters');
+		var $letterLinks = $letters.find('a');
+		$langSwitchLink.click(function(e){
+			e.preventDefault();
+			$langSwitchLink.removeClass('current');
+			$(this).addClass('current');
+			$letters.removeClass('current');
+			$($(this).attr('href')).addClass('current')
+		});
+		$letterLinks.click(function(){
+			$letterLinks.removeClass('current');
+			$(this).addClass('current');
+		});
+	});
 });
