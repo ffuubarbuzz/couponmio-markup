@@ -86,9 +86,7 @@
 	}
 }
 .coupon-slider-actions {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+	@include reset-list;
 	height: 94px;
 	background-image: linear-gradient(rgb(70,70,70), rgb(25,24,24));
 	position: relative;

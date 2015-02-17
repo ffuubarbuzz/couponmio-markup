@@ -1350,81 +1350,81 @@ aside .categories ul {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 150, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 147, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .categories ul ul {
     display: none; }
-/* line 154, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 151, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .categories li {
   border-bottom: 1px solid #e1edf1; }
-  /* line 156, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 153, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .categories li:last-child {
     border-bottom: none; }
-  /* line 159, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 156, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .categories li li {
     border-top: 1px dashed #a6dbef;
     border-bottom: none; }
-/* line 164, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 161, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .categories .open {
   border-bottom: 1px dashed #a6dbef; }
-  /* line 166, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 163, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .categories .open ul {
     display: block; }
-/* line 170, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 167, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .categories img {
   float: left;
   width: 52px;
   height: 52px;
   margin-right: 1.25em;
   border: 1px solid #f0f0f0; }
-/* line 179, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 176, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .categories a {
   display: block;
   overflow: hidden;
   padding: .75em 1em;
   color: #656565; }
-  /* line 188, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 185, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .categories a:hover h2, aside .categories a:hover h3 {
     color: #4dc9f7; }
-/* line 195, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 192, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars h1 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#a8c838), to(#85b70c));
   background-image: -webkit-linear-gradient(#a8c838, #85b70c);
   background-image: linear-gradient(#a8c838, #85b70c); }
-  /* line 197, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 194, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .pars h1:after {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#aed231), to(#85b70c));
     background-image: -webkit-linear-gradient(#aed231, #85b70c);
     background-image: linear-gradient(#aed231, #85b70c); }
-/* line 201, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 198, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars .par {
   display: block;
   padding: 0 .7rem; }
-  /* line 206, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 203, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .pars .par:hover h2 {
     color: #f78f8f; }
-  /* line 209, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 206, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .pars .par:hover p {
     color: #a2a2a2; }
-/* line 214, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 211, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars h2 {
   font-size: 1.33em;
   font-weight: normal;
   margin: 0;
   color: #ef5c5c; }
-/* line 222, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 219, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars p {
   margin: 0;
   color: #464646; }
-/* line 227, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 224, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars img {
   display: block;
   max-width: 100%;
   margin: .7em auto 1em;
   border: 1px solid #f0f0f0; }
-/* line 235, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 232, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .pars .list-link {
   margin-top: 1em; }
-/* line 239, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 236, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .subscribe {
   display: block;
   height: 282px;
@@ -1434,14 +1434,14 @@ aside .subscribe {
   background: url('../img/subscribe-bg.svg') center 0 no-repeat;
   -webkit-box-shadow: none;
   box-shadow: none; }
-  /* line 248, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 245, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .subscribe:after {
     content: none; }
-  /* line 251, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 248, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .subscribe form {
     display: block;
     text-align: center; }
-  /* line 256, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 253, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   aside .subscribe input[type='email'] {
     font-size: 1.2em;
     line-height: normal;
@@ -1457,17 +1457,17 @@ aside .subscribe {
     background-image: linear-gradient(#efefef, #ffffff);
     -webkit-box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.35), inset 0 -3px 3px rgba(255, 255, 255, 0.7);
     box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.35), inset 0 -3px 3px rgba(255, 255, 255, 0.7); }
-    /* line 272, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+    /* line 269, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
     aside .subscribe input[type='email']:focus {
       outline: none;
       background: #fff;
       -webkit-box-shadow: none;
       box-shadow: none; }
-/* line 280, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 277, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 aside .testimonials h1 .icon {
   fill: #ffb618; }
 
-/* line 286, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+/* line 283, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
 .more-coupons {
   font-size: 1.7em;
   display: block;
@@ -1481,14 +1481,14 @@ aside .testimonials h1 .icon {
   background: #21a5d6;
   -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25); }
-  /* line 302, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 299, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   .more-coupons:hover {
     background: #33b6e6; }
-  /* line 305, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 302, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   .more-coupons:active {
     padding: .5em .4em .3em;
     background: #10739b; }
-  /* line 310, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
+  /* line 307, /Users/tnk/work/couponmio-markup/sass/layout/_coupons.scss */
   .more-coupons:last-child {
     margin-bottom: 0; }
 
@@ -1617,7 +1617,7 @@ aside .testimonials h1 .icon {
   border-radius: 0 0 10px 10px;
   -webkit-box-shadow: 0 -8px 0 -6px rgba(0, 0, 0, 0.2);
   box-shadow: 0 -8px 0 -6px rgba(0, 0, 0, 0.2); }
-  /* line 98, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+  /* line 96, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
   .coupon-slider-actions:before, .coupon-slider-actions:after {
     content: '';
     display: block;
@@ -1625,15 +1625,15 @@ aside .testimonials h1 .icon {
     bottom: 100%;
     border: 3px solid transparent;
     border-bottom-color: #000; }
-  /* line 106, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+  /* line 104, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
   .coupon-slider-actions:before {
     left: 0;
     border-right-color: #000; }
-  /* line 110, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+  /* line 108, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
   .coupon-slider-actions:after {
     right: 0;
     border-left-color: #000; }
-  /* line 114, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+  /* line 112, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
   .coupon-slider-actions .action {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1666,16 +1666,16 @@ aside .testimonials h1 .icon {
     box-shadow: 0 3px rgba(0, 0, 0, 0.9);
     width: 38px;
     height: 38px; }
-    /* line 131, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+    /* line 129, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
     .coupon-slider-actions .action:before {
       content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjE0IiBoZWlnaHQ9IjIzIiB2aWV3Qm94PSIwIDAgMTQgMjMiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSI3IiB5MT0iMjMiIHgyPSI3IiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzliOWI5YiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNjkiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk3IiBzdG9wLWNvbG9yPSIjYTRhNGE0Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2E0YTRhNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHBhdGggZD0iTTE0LjAwNywyMC45OTYgQzE0LjAwNywyMC45OTYgNS42MzgsMTEuNTAwIDUuNjM4LDExLjUwMCBDNS42MzgsMTEuNTAwIDE0LjAwNywyLjAwMyAxNC4wMDcsMi4wMDMgQzE0LjAwNywyLjAwMyAxMy4wMDAsLTAuMDAxIDEzLjAwMCwtMC4wMDEgQzEzLjAwMCwtMC4wMDEgLTAuMDA3LDExLjUwMCAtMC4wMDcsMTEuNTAwIEMtMC4wMDcsMTEuNTAwIDEzLjAwMCwyMy4wMDAgMTMuMDAwLDIzLjAwMCBDMTMuMDAwLDIzLjAwMCAxNC4wMDcsMjAuOTk2IDE0LjAwNywyMC45OTYgWiIgaWQ9InBhdGgtMSIgZmlsbD0idXJsKCNsaW5lYXItZ3JhZGllbnQtMSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4=');
       line-height: .6; }
-    /* line 135, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+    /* line 133, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
     .coupon-slider-actions .action:hover {
       background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc333), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(#a7661f), to(#ecb579));
       background-image: -webkit-linear-gradient(#ffc333, #f88d1a), -webkit-linear-gradient(#a7661f, #ecb579);
       background-image: linear-gradient(#ffc333, #f88d1a), linear-gradient(#a7661f, #ecb579); }
-    /* line 140, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+    /* line 138, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
     .coupon-slider-actions .action:active {
       background-image: -webkit-gradient(linear, left top, left bottom, from(#f87501), to(#f88d1a)), -webkit-gradient(linear, left top, left bottom, from(#eca251), to(#9a560b));
       background-image: -webkit-linear-gradient(#f87501, #f88d1a), -webkit-linear-gradient(#eca251, #9a560b);
@@ -1683,24 +1683,24 @@ aside .testimonials h1 .icon {
       margin-top: 1px;
       -webkit-box-shadow: 0 1px rgba(0, 0, 0, 0.6);
       box-shadow: 0 1px rgba(0, 0, 0, 0.6); }
-    /* line 146, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+    /* line 144, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
     .coupon-slider-actions .action.next {
       right: 45px;
       -webkit-transform: translate(50%, -50%);
       -ms-transform: translate(50%, -50%);
       transform: translate(50%, -50%); }
-      /* line 149, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+      /* line 147, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
       .coupon-slider-actions .action.next:before {
         -webkit-transform: translateX(3px) rotate(180deg);
         -ms-transform: translateX(3px) rotate(180deg);
         transform: translateX(3px) rotate(180deg); }
-    /* line 153, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+    /* line 151, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
     .coupon-slider-actions .action.prev {
       left: 45px;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
-      /* line 156, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
+      /* line 154, /Users/tnk/work/couponmio-markup/sass/layout/_coupon-slider.scss */
       .coupon-slider-actions .action.prev:before {
         -webkit-transform: translateX(-3px);
         -ms-transform: translateX(-3px);
@@ -1742,34 +1742,42 @@ aside .testimonials h1 .icon {
   -webkit-background-size: 100% 620px;
   background-size: 100% 620px; }
 
-/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
-.category-header {
+/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/_page-header.scss */
+.page-header {
   overflow: hidden;
   margin: 3em 0;
-  padding-left: 100px; }
-  /* line 6, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
-  .category-header > .icon {
+  padding-left: 60px; }
+  /* line 6, /Users/tnk/work/couponmio-markup/sass/layout/_page-header.scss */
+  .page-header > .icon {
     float: left;
-    margin: .7em 0 0 -100px;
+    margin: .7em 0 0 -60px;
     fill: #9b9b9b; }
-  /* line 13, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
-  .category-header h1 {
-    margin-bottom: .4em; }
-  /* line 16, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
-  .category-header p {
+  /* line 13, /Users/tnk/work/couponmio-markup/sass/layout/_page-header.scss */
+  .page-header p {
     font-size: 1.2em;
     margin: 0; }
+
+/* line 1, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
+.category-header {
+  padding-left: 100px; }
+  /* line 3, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
+  .category-header > .icon {
+    margin-left: -100px; }
+  /* line 6, /Users/tnk/work/couponmio-markup/sass/layout/_category-header.scss */
+  .category-header h1 {
+    margin-bottom: .4em; }
 
 /* line 1, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
 .all-categories {
   font-size: 1.2em;
-  margin: 0 0 4.6em;
+  margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 4.6em;
   background: #fff;
   -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.3); }
-  /* line 11, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+  /* line 9, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
   .all-categories a {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1782,21 +1790,21 @@ aside .testimonials h1 .icon {
     -ms-flex-align: center;
     align-items: center;
     fill: #9b9b9b; }
-    /* line 20, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+    /* line 18, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
     .all-categories a:hover {
       color: #f87501;
       fill: #f88d1a; }
-      /* line 24, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+      /* line 22, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
       .all-categories a:hover .count {
         color: #464646; }
-  /* line 29, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+  /* line 27, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
   .all-categories .icon {
     width: 20px;
     margin-right: .9em; }
-  /* line 33, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+  /* line 31, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
   .all-categories li:nth-child(odd) {
     background: #fbf5ea; }
-  /* line 36, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
+  /* line 34, /Users/tnk/work/couponmio-markup/sass/layout/_categories.scss */
   .all-categories .count {
     margin-left: auto; }
 
@@ -2060,11 +2068,11 @@ h1 + .coupon {
       margin: 0;
       padding: 0;
       list-style: none; }
-      /* line 209, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 206, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .description ul li {
         position: relative;
         padding-left: 1em; }
-        /* line 213, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+        /* line 210, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
         .coupon .description ul li:before {
           position: absolute;
           top: .6em;
@@ -2074,94 +2082,94 @@ h1 + .coupon {
           content: '';
           border-radius: 50%;
           background: #4dc9f7; }
-  /* line 229, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 226, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .goto {
     font-size: 1.2em;
     display: block;
     margin-top: 1em; }
-  /* line 236, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 233, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .rating {
     margin: 0 auto; }
-  /* line 239, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 236, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .shop {
     margin: 1.2em 0 .8em;
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
-    /* line 243, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 240, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop img {
       max-width: 100%;
       vertical-align: top; }
-    /* line 248, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 245, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop a {
       display: block;
       text-align: center;
       color: #9b9b9b; }
-      /* line 254, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 251, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .shop a:hover {
         color: #21a5d6; }
-    /* line 258, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 255, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop .text {
       border-top: 1px dashed #e5e5e5;
       background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#fff9f2));
       background: -webkit-linear-gradient(#f5f5f5, #fff9f2);
       background: linear-gradient(#f5f5f5, #fff9f2); }
-  /* line 263, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 260, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .actions {
     float: right;
     margin: 0;
     padding: 0;
     list-style: none; }
-    /* line 267, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 264, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .actions li {
       display: inline-block; }
-      /* line 269, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 266, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .actions li:not(:first-child) {
         margin-left: .8em; }
-    /* line 273, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 270, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .actions .action {
       color: #9b9b9b;
       fill: #9b9b9b; }
-      /* line 277, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 274, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .actions .action:hover {
         fill: #4dc9f7; }
-      /* line 280, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 277, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .actions .action:active {
         fill: #f88d1a; }
-      /* line 283, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 280, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .actions .action.like {
         fill: none; }
-        /* line 286, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+        /* line 283, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
         .coupon .actions .action.like:hover, .coupon .actions .action.like.liked:hover {
           color: #4dc9f7;
           fill: none;
           stroke-width: 2px; }
-        /* line 293, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+        /* line 290, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
         .coupon .actions .action.like:active, .coupon .actions .action.like.liked {
           color: #ffa646;
           fill: #ffc586;
           stroke-width: 2px; }
-        /* line 299, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+        /* line 296, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
         .coupon .actions .action.like.liked:active {
           color: #9b9b9b;
           fill: none;
           stroke-width: 1px; }
-    /* line 307, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 304, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .actions .icon {
       vertical-align: top; }
-  /* line 311, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 308, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .action {
     padding: 0;
     border: none;
     background: none; }
-  /* line 317, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 314, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .action.share {
     color: #9b9b9b;
     fill: #bfbfbf; }
-    /* line 321, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 318, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .action.share:hover {
       color: #21a5d6;
       fill: #21a5d6; }
-  /* line 327, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 324, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .category {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -2173,41 +2181,41 @@ h1 + .coupon {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center; }
-    /* line 334, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 331, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .category .icon {
       margin-right: .4em; }
-    /* line 337, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 334, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .category:hover {
       color: #21a5d6;
       fill: #21a5d6; }
-  /* line 343, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 340, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .valid-for {
     float: right;
     width: 130px;
     margin-left: 1em; }
-    /* line 349, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 346, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-for time, .coupon .valid-for .expired {
       font-size: 2.2em;
       font-weight: bold;
       line-height: 1;
       display: block; }
-    /* line 356, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 353, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-for time {
       color: #464646; }
-    /* line 359, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 356, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-for.expiring-soon time {
       color: #f88d1a; }
-    /* line 362, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 359, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-for .expired {
       text-transform: uppercase;
       color: #fa201b; }
-  /* line 368, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 365, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .expired {
     color: #9b9b9b; }
-    /* line 370, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 367, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .expired time {
       color: #464646; }
-  /* line 374, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 371, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .action.primary {
     font-size: 1.33em;
     display: block;
@@ -2225,20 +2233,20 @@ h1 + .coupon {
     -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.5);
     text-shadow: 0 -1px rgba(0, 0, 0, 0.3); }
-    /* line 392, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 389, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .action.primary:hover {
       border-color: #c0dc5e;
       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #c0dc5e), color-stop(77%, #9ebe2f));
       background-image: -webkit-linear-gradient(#c0dc5e 20%, #9ebe2f 77%);
       background-image: linear-gradient(#c0dc5e 20%, #9ebe2f 77%); }
-    /* line 396, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 393, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .action.primary:active {
       padding: .41em .9em .39em;
       border-color: #a4c72c;
       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #99c430), color-stop(66%, #7eab10));
       background-image: -webkit-linear-gradient(#99c430 37%, #7eab10 66%);
       background-image: linear-gradient(#99c430 37%, #7eab10 66%); }
-  /* line 403, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 400, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon footer {
     position: relative;
     display: -webkit-box;
@@ -2255,7 +2263,7 @@ h1 + .coupon {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center; }
-    /* line 413, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 410, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon footer .social {
       position: absolute;
       z-index: -2;
@@ -2283,10 +2291,10 @@ h1 + .coupon {
       -ms-flex-align: center;
       align-items: center;
       -webkit-backface-visibility: hidden; }
-  /* line 437, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 434, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .social-list {
     margin-left: .8em; }
-  /* line 440, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 437, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .valid-till {
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -2298,14 +2306,14 @@ h1 + .coupon {
     -ms-flex-align: center;
     align-items: center;
     fill: #c9c9c9; }
-    /* line 447, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 444, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-till time {
       margin-left: .2em;
       color: #9b9b9b; }
-    /* line 452, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 449, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .valid-till .icon {
       margin-right: .5em; }
-  /* line 456, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 453, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .add-comment {
     line-height: 1;
     position: relative;
@@ -2313,18 +2321,18 @@ h1 + .coupon {
     color: #21a5d6;
     border-bottom: 1px dashed;
     fill: #21a5d6; }
-    /* line 467, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 464, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .add-comment:hover {
       color: #4dc9f7;
       fill: #4dc9f7; }
-    /* line 472, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 469, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .add-comment .icon {
       position: absolute;
       top: 50%;
       left: -20px;
       margin-top: -7px;
       margin-left: 3px; }
-  /* line 481, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 478, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .tag {
     position: absolute;
     right: -2px;
@@ -2333,7 +2341,7 @@ h1 + .coupon {
     width: 80px;
     height: 80px;
     color: #fdfdfd; }
-    /* line 492, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 489, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .tag:before {
       position: absolute;
       top: 50%;
@@ -2351,7 +2359,7 @@ h1 + .coupon {
       text-transform: uppercase;
       background: -webkit-linear-gradient(225deg, #c9c9c9, #9b9b9b);
       background: linear-gradient(225deg, #c9c9c9, #9b9b9b); }
-    /* line 509, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 506, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .tag:after {
       position: absolute;
       z-index: -1;
@@ -2372,25 +2380,25 @@ h1 + .coupon {
       background: #ab2c29;
       -webkit-box-shadow: 95px 0 #c96800;
       box-shadow: 95px 0 #c96800; }
-  /* line 532, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 529, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .exclusive:before {
     content: 'Exclusive';
     background: -webkit-linear-gradient(225deg, #ffa646, #f8521a);
     background: linear-gradient(225deg, #ffa646, #f8521a); }
-  /* line 537, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 534, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .exclusive:after {
     background: #ab2c29;
     -webkit-box-shadow: 95px 0 #c96800;
     box-shadow: 95px 0 #c96800; }
-  /* line 543, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 540, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .archive:before {
     content: 'Archive'; }
-  /* line 546, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 543, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .archive:after {
     background: #464646;
     -webkit-box-shadow: 95px 0 #2f2f2f;
     box-shadow: 95px 0 #2f2f2f; }
-  /* line 551, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 548, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .core {
     position: relative;
     width: 100%;
@@ -2409,7 +2417,7 @@ h1 + .coupon {
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1; }
-    /* line 568, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 565, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core:before, .coupon .core:after {
       position: absolute;
       right: 0;
@@ -2425,15 +2433,15 @@ h1 + .coupon {
           background-image: url('../img/coupon-core-bg@2x.png');
           -webkit-background-size: 618px 37px;
           background-size: 618px 37px; } }
-    /* line 589, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 586, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core:before {
       top: 0; }
-    /* line 592, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 589, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core:after {
       bottom: 0;
       height: 19px;
       background-position: 0 0; }
-    /* line 599, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 596, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core .action.primary {
       display: inline-block;
       margin-left: .3em;
@@ -2444,28 +2452,28 @@ h1 + .coupon {
       background-image: -webkit-linear-gradient(#25abdc 37%, #1a8ab3 66%);
       background-image: linear-gradient(#25abdc 37%, #1a8ab3 66%);
       fill: #fff; }
-      /* line 611, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 608, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .core .action.primary:hover {
         border-color: #48b9e3;
         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #38bbec), color-stop(66%, #239dca));
         background-image: -webkit-linear-gradient(#38bbec 37%, #239dca 66%);
         background-image: linear-gradient(#38bbec 37%, #239dca 66%); }
-      /* line 615, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 612, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .core .action.primary:active {
         padding: .8em .9em .6em;
         border-color: #2ba4d1;
         background-image: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #1d87b2), color-stop(66%, #1d7092));
         background-image: -webkit-linear-gradient(#1d87b2 37%, #1d7092 66%);
         background-image: linear-gradient(#1d87b2 37%, #1d7092 66%); }
-      /* line 621, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 618, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .core .action.primary .icon {
         margin-right: .4em;
         vertical-align: middle; }
-    /* line 628, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 625, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core .code-block p {
       font-size: 1.5em;
       margin: 1em 0 .2em; }
-    /* line 634, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 631, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core .code {
       font-size: 2.5em;
       display: inline-block;
@@ -2480,20 +2488,20 @@ h1 + .coupon {
       background-image: linear-gradient(#ffead4, #ffeddd);
       -webkit-box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.35);
       box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.35); }
-    /* line 650, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 647, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core .social {
       font-size: 1.33em;
       margin: 1.9em 0; }
-    /* line 655, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 652, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .core .social-list {
       margin-top: .6em; }
-      /* line 657, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+      /* line 654, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
       .coupon .core .social-list a {
         position: relative;
         border-radius: 50%;
         -webkit-box-shadow: -1px 2px rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1);
         box-shadow: -1px 2px rgba(0, 0, 0, 0.2), inset 0 0 5px rgba(0, 0, 0, 0.1); }
-        /* line 663, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+        /* line 660, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
         .coupon .core .social-list a:before {
           position: absolute;
           top: 0;
@@ -2505,21 +2513,21 @@ h1 + .coupon {
           border-radius: 50%;
           -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15); }
-  /* line 680, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+  /* line 677, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
   .coupon .shop-coupons-link {
     display: inline-block;
     margin-top: 1.2em;
     color: #656565;
     fill: #9b9b9b; }
-    /* line 688, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 685, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop-coupons-link .icon {
       margin-right: .6em;
       vertical-align: middle; }
-    /* line 693, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 690, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop-coupons-link:hover {
       color: #21a5d6;
       fill: #21a5d6; }
-    /* line 698, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
+    /* line 695, /Users/tnk/work/couponmio-markup/sass/components/_coupon.scss */
     .coupon .shop-coupons-link:active {
       color: #5992e9;
       fill: #5992e9; }
@@ -2761,27 +2769,27 @@ h1 + .coupon {
   margin: 0;
   padding: 0;
   list-style: none; }
-  /* line 5, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
+  /* line 3, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
   .aside-similar-list img {
     width: 52px;
     height: 52px;
     border: 1px solid #f0f0f0;
     float: left;
     margin-right: 1.2em; }
-  /* line 12, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
+  /* line 10, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
   .aside-similar-list a {
     display: block;
     overflow: hidden;
     border-bottom: 1px dashed;
     padding: 1.25em 1em .75em;
     color: #656565; }
-    /* line 18, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
+    /* line 16, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
     .aside-similar-list a:hover h2 {
       color: #4dc9f7; }
-  /* line 22, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
+  /* line 20, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
   .aside-similar-list h2 {
     color: #21a5d6; }
-  /* line 25, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
+  /* line 23, /Users/tnk/work/couponmio-markup/sass/components/_aside-similar-list.scss */
   .aside-similar-list + .list-link {
     border-top: none; }
 
@@ -2971,4 +2979,134 @@ h1 + .coupon {
         background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#fff));
         background: -webkit-linear-gradient(#f8f8f8, #fff);
         background: linear-gradient(#f8f8f8, #fff); }
+
+/* line 3, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+.all-shops .abc, .all-shops .all-shop-list {
+  border: 1px solid #f4f4f4;
+  border-radius: .33rem;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+/* line 9, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+.all-shops .abc {
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+  padding: 0 .7em;
+  color: #c7c7c7;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline; }
+  /* line 20, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .abc .letters {
+    display: none;
+    margin-left: .6em;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    /* line 26, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .abc .letters.current {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    /* line 29, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .abc .letters a {
+      display: block;
+      padding: .8em .38em;
+      color: #9b9b9b; }
+      /* line 35, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+      .all-shops .abc .letters a:hover {
+        color: #464646; }
+    /* line 39, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .abc .letters .current {
+      font-weight: bold;
+      color: #21a5d6; }
+  /* line 45, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .abc .lang-switch {
+    margin: 0 0 0 auto; }
+    /* line 47, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .abc .lang-switch a {
+      cursor: pointer; }
+    /* line 50, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .abc .lang-switch .current {
+      font-weight: bold;
+      color: #9b9b9b; }
+/* line 57, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+.all-shops .all-shop-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 2em;
+  margin-bottom: 2em;
+  color: #9b9b9b;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3;
+  -webkit-column-gap: 0;
+  -moz-column-gap: 0;
+  column-gap: 0;
+  -webkit-column-rule: 2px solid #e3e3e3;
+  -moz-column-rule: 2px solid #e3e3e3;
+  column-rule: 2px solid #e3e3e3; }
+  /* line 69, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .all-shop-list ul {
+    font-size: 1.2rem;
+    margin-top: .6em;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  /* line 78, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .all-shop-list > li {
+    padding: .7em 1px 0;
+    text-align: center;
+    -webkit-box-shadow: inset -1px 0 0 #fdfdfd, inset -3px 0 2px -1px rgba(0, 0, 0, 0.03);
+    box-shadow: inset -1px 0 0 #fdfdfd, inset -3px 0 2px -1px rgba(0, 0, 0, 0.03); }
+    /* line 85, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .all-shop-list > li:target {
+      color: #464646; }
+      /* line 87, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+      .all-shops .all-shop-list > li:target li {
+        border-bottom-color: #a6dbef; }
+        /* line 89, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+        .all-shops .all-shop-list > li:target li:nth-child(odd) {
+          background: #f0f9fc; }
+      /* line 93, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+      .all-shops .all-shop-list > li:target a {
+        color: #21a5d6;
+        fill: #bee4f0; }
+        /* line 97, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+        .all-shops .all-shop-list > li:target a:hover {
+          color: #f87501;
+          fill: #f88d1a; }
+    /* line 104, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .all-shop-list > li ul {
+      margin-top: .5em; }
+    /* line 107, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .all-shop-list > li li {
+      border-bottom: 1px dashed #e0e0e0; }
+      /* line 109, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+      .all-shops .all-shop-list > li li:nth-child(odd) {
+        background: #fafafa; }
+    /* line 113, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .all-shop-list > li + li {
+      margin-top: .6em; }
+  /* line 117, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .all-shop-list a {
+    display: block;
+    padding: .2em 1em;
+    color: #9b9b9b;
+    fill: #e0e0e0; }
+    /* line 125, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+    .all-shops .all-shop-list a:hover {
+      color: #f87501;
+      fill: #f88d1a; }
+  /* line 131, /Users/tnk/work/couponmio-markup/sass/pages/_all-shops.scss */
+  .all-shops .all-shop-list .icon {
+    margin-right: .6em; }
 /*# sourceMappingURL=main.css.map */

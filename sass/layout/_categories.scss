@@ -1,10 +1,8 @@
 .all-categories {
 	font-size: 1.2em;
 
-	margin: 0 0 4.6em;
-	padding: 0;
-
-	list-style: none;
+	@include reset-list;
+	margin-bottom: 4.6em;
 
 	background: #fff;
 	box-shadow: 0 0 7px rgba(0, 0, 0, .3);
