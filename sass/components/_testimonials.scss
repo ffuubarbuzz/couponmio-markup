@@ -1,4 +1,44 @@
+.testimonials {
+	margin-bottom: 6.7em;
+	.more-items {
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .testimonial {
+	padding: 2.5em 0 2em;
+	border: 0 dashed #cbcbcb;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	.author {
+		display: inline-block;
+		margin: 0;
+	}
+	h1 {
+		font-weight: normal;
+		font-size: 1.5em;
+		text-transform: none;
+		color: #2f2f2f;
+		margin: .7em 0 .33em;
+	}
+	.description {
+		padding: .25em 0 .33em;
+	}
+	.like {
+		background: transparent;
+		border: none;
+		padding: 0;
+		color: #aed231;
+		fill: #aed231;
+	}
+	+.testimonial {
+		border-top-width: 0;
+	}
+}
+
+.aside-testimonial {
 	position: relative;
 
 	margin-bottom: 3.9em;
@@ -58,7 +98,7 @@
 		text-overflow: ellipsis;
 	}
 }
-.testimonials {
+.aside-testimonials {
 	h1 {
 		padding-top: 0;
 	}
