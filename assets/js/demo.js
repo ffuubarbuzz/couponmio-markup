@@ -1,6 +1,6 @@
 $(function(){
 
-	$('[data-dialog').click(function(){
+	$('[data-dialog]').click(function(){
 		$('#' + $(this).attr('data-dialog'))[0].showModal();
 	});
 
