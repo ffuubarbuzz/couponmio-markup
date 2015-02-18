@@ -4,7 +4,11 @@
 	margin-bottom: 3em;
 
 	color: #9b9b9b;
-	overflow: hidden;
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
 	.logo {
 		font-size: 0;
 
@@ -62,5 +66,6 @@
 	}
 	.confirm-controls {
 		font-size: 1rem;
+		overflow: visible;
 	}
 }
