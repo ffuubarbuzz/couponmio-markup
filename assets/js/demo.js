@@ -1,4 +1,19 @@
 $(function(){
+
+	$('[data-dialog').click(function(){
+		$('#' + $(this).attr('data-dialog'))[0].showModal();
+	});
+
+	$('dialog').each(function(){
+		var $dialog = $(this);
+		if (!this.show) {
+			dialogPolyfill.registerDialog(this);
+		}
+		$dialog.find('.action.close').click(function(){
+			$dialog[0].close();
+		});
+	});
+
 	$('.coupon .share').click(function(){
 		$(this).closest('.coupon').toggleClass('social-open');
 	});

@@ -1,0 +1,43 @@
+dialog {
+	background: #fff;
+	border-radius: .33em;
+	border: 1px solid #e1e1e1;
+	>.close {
+		float: right;
+		background: transparent;
+		border: none;
+		padding: 0;
+		.icon {
+			fill: #b0b0b0;
+		}
+		&:hover {
+			.icon {
+				fill: #42c8f9;
+			}	
+		}
+		&:active {
+			.icon {
+				fill: #0f698d;
+			}	
+		}
+	}
+	h1 {
+		color: #464646;
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+	input[type='text'],
+	select,
+	textarea {
+		display: block;
+		border-radius: .25em;
+		border: 1px solid #d8d8d8;
+		width: 100%;
+		padding: .5em 1em;
+		margin: .75em 0;
+	}
+}
+dialog::backdrop,
+.backdrop {
+	background: rgba(39, 40, 40, .7);
+}
