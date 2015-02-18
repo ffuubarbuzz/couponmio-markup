@@ -273,32 +273,3 @@ aside {
 		}
 	}
 }
-
-.more-coupons {
-	font-size: 1.7em;
-
-	display: block;
-
-	width: 100%;
-	margin: 2em 0;
-	padding: .4em;
-
-	text-align: center;
-
-	color: #fdfdfd;
-	border: 2px solid #58c3ea;
-	border-radius: .15em;
-	background: #21a5d6;
-	box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
-	&:hover {
-		background: #33b6e6;
-	}
-	&:active {
-		padding: .5em .4em .3em;
-
-		background: #10739b;
-	}
-	&:last-child {
-		margin-bottom: 0;
-	}
-}
