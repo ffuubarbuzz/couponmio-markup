@@ -1,24 +1,32 @@
 .shop-description {
 	font-size: 1.2em;
 
+	margin-bottom: 3em;
+
 	color: #9b9b9b;
+	overflow: hidden;
 	.logo {
+		font-size: 0;
+
 		float: left;
 
-		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		width: 150px;
-		background: #fff;
-		
+
 		text-align: center;
-		font-size: 0;
+
+		background: #fff;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 		&:before {
-			content: '';
 			display: inline-block;
+
 			height: 100%;
+
+			content: '';
 			vertical-align: middle;
 		}
 		img {
 			max-width: 100%;
+
 			vertical-align: middle;
 		}
 	}
@@ -31,22 +39,28 @@
 	h1 {
 		font-size: 2rem;
 		line-height: 1;
+
 		margin-bottom: .2em;
 	}
 	.toggle {
 		padding: 0;
+
+		color: #9b9b9b;
 		border: none;
 		background: transparent;
-		color: #9b9b9b;
 		&:hover {
 			color: #b3b3b3;
 		}
 	}
 	.description {
-		max-height: 1.4em * 3;
 		overflow: hidden;
+
+		max-height: 1.4em * 3;
 		&.open {
 			max-height: none;
 		}
+	}
+	.confirm-controls {
+		font-size: 1rem;
 	}
 }
