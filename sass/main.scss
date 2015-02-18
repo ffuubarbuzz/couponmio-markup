@@ -1,5 +1,6 @@
 //import all dependencies
 @import "vendor/normalize";
+@import "vendor/dialog-polyfill";
 
 @import "modules/helpers";
 @import "modules/base";
@@ -32,5 +33,6 @@
 @import "components/testimonials";
 @import "components/shop-description";
 @import "components/archive-list";
+@import "components/dialog";
 
 @import "pages/all-shops";

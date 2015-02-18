@@ -78,3 +78,14 @@
 		}
 	}
 }
+
+.leave-testimonial-dialog {
+	min-width: 620px;
+	.actions {
+		display: flex;
+		align-items: center;
+		.confirm-controls {
+			margin-left: auto;
+		}
+	}
+}

@@ -939,10 +939,10 @@
 							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="12"><use xlink:href="assets/img/sprite.svg#aside-testimonials"></use></svg>Посмотреть все
 						</a>
 						<div class="confirm-controls">
-							<a href="" class="action apply">
+							<buton data-dialog="leave-testimonial-dialog" class="action apply">
 								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="15"><use xlink:href="assets/img/sprite.svg#confirm-controls-comment"></use></svg>
 								Оставить отзыв о магазине
-							</a>
+							</button>
 						</div>
 					</section>
 					<article class="aside-shops">
@@ -1121,9 +1121,36 @@
 			</div>
 		</footer>
 
+		<dialog id="leave-testimonial-dialog" class="leave-testimonial-dialog">
+			<button class="action close">
+				<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#dialog-close"></use></svg>
+			</button>
+			<h1>Ваш отзыв о магазине BAY.RU</h1>
+			<form action="">
+				<input type="text" placeholder="Ваше имя" autofocus>
+				<textarea name="" id="" cols="30" rows="10" placeholder="Что скажите о магазине?"></textarea>
+				<div class="actions">
+					<div class="rating">
+						<div class="rating-inner" style="width: 90%">
+						</div>
+						<span class="value-title" title="4.5"></span>
+						<button class="rate" title="Оценить в 5 звезд"></button>
+						<button class="rate" title="Оценить в 4 звезды"></button>
+						<button class="rate" title="Оценить в 3 звезды"></button>
+						<button class="rate" title="Оценить в 2 звезды"></button>
+						<button class="rate" title="Оценить в 1 звезду"></button>
+					</div>
+					<div class="confirm-controls">
+						<buton class="action confirm">Сохранить</buton>
+					</div>
+				</div>
+			</form>
+		</dialog>
+
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
 		<script src="assets/js/vendor/svg4everybody.min.js"></script>
+		<script src="assets/js/vendor/dialog-polyfill.js"></script>
 		<script src="assets/js/demo.js"></script>
 	</body>
 </html>
