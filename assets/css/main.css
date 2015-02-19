@@ -2974,6 +2974,15 @@ h1 + .coupon {
     .leave-testimonial-dialog .actions .confirm-controls {
       margin-left: auto; }
 
+/* line 132, /Users/tnk/work/couponmio-markup/sass/components/_testimonials.scss */
+.testimonial-left-dialog {
+  min-width: 620px;
+  color: #9b9b9b; }
+  /* line 135, /Users/tnk/work/couponmio-markup/sass/components/_testimonials.scss */
+  .testimonial-left-dialog .confirm-controls {
+    margin-top: 2em;
+    text-align: center; }
+
 /* line 1, /Users/tnk/work/couponmio-markup/sass/components/_shop-description.scss */
 .shop-description {
   font-size: 1.2em;

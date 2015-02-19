@@ -421,10 +421,21 @@
 						</div>
 					</div>
 					<div class="confirm-controls">
-						<button class="action confirm">Сохранить</button>
+						<button class="action confirm close" data-dialog="testimonial-left-dialog">Сохранить</button>
 					</div>
 				</div>
 			</form>
+		</dialog>
+
+		<dialog id="testimonial-left-dialog" class="testimonial-left-dialog">
+			<button class="action close">
+				<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#dialog-close"></use></svg>
+			</button>
+			<h1>Большое спасибо за отзыв о магазине BAY.RU</h1>
+			<p>Не пугайтесь, если ваш отзыв не появится на странице сразу. Сперва он должен пройти модерацию.</p>
+			<div class="confirm-controls">
+				<button class="action confirm close">Продолжить экономить</button>
+			</div>
 		</dialog>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
