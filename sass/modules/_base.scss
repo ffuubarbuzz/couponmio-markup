@@ -61,7 +61,20 @@ a {
 	&:hover {
 		color: #4dc9f7;
 		fill: #4dc9f7;
+		.icon-goto {
+			fill: #cce969;
+		}
 	}
+	.icon {
+		vertical-align: middle;
+	}
+	.icon-goto {
+		fill: #aed231;
+	}
+}
+
+.link-icon {
+	margin-right: .7em;
 }
 
 .action {
