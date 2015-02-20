@@ -2,6 +2,7 @@ dialog {
 	background: #fff;
 	border-radius: .33em;
 	border: 1px solid #e1e1e1;
+	box-shadow: 0 0 7px rgba(0, 0, 0, .15);
 	>.close {
 		float: right;
 		background: transparent;
@@ -9,6 +10,7 @@ dialog {
 		padding: 0;
 		.icon {
 			fill: #b0b0b0;
+			vertical-align: top;
 		}
 		&:hover {
 			.icon {
@@ -37,7 +39,19 @@ dialog {
 		margin: .75em 0;
 	}
 }
+
 dialog::backdrop,
 .backdrop {
 	background: rgba(39, 40, 40, .7);
+}
+
+.dialog-coupon {
+	padding: 0;
+	width: 620px;
+	.close {
+		position: absolute;
+		top: .75em;
+		right: .75em;
+		z-index: 1;
+	}
 }
