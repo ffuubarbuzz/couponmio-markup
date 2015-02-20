@@ -1,0 +1,29 @@
+.feedback {
+	padding: 0 60px 3.75em;
+	dl {
+		font-size: 1.2em;
+	}
+	dt,
+	dd {
+		float: left;
+		padding-bottom: 1.9em;
+	}
+	dt {
+		clear: left;
+		width: 7.1em;
+		padding-top: .35em;
+	}
+	dd {
+		margin: 0;
+	}
+	input {
+		width: 320px;
+	}
+	textarea {
+		width: 630px;
+	}
+	.confirm-controls {
+		clear: both;
+		padding-left: 8.3em;
+	}
+}

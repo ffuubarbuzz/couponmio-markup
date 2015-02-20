@@ -1,5 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic&subset=cyrillic,latin);
 
+$text-inputs:	'input[type="email"],'
+				+ 'input[type="number"],'
+				+ 'input[type="password"],'
+				+ 'input[type="search"],'
+				+ 'input[type="tel"],'
+				+ 'input[type="text"],'
+				+ 'input:not([type]),'
+				+ 'input[type="url"],'
+				+ 'input[type="color"],'
+				+ 'input[type="date"],'
+				+ 'input[type="datetime"],'
+				+ 'input[type="datetime-local"],'
+				+ 'input[type="month"],'
+				+ 'input[type="time"],'
+				+ 'input[type="week"],'
+				+ 'input:not([type])';
 $content-width: 960px;
 
 html {
