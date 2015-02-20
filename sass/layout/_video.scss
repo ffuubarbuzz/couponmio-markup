@@ -1,0 +1,21 @@
+.video {
+	display: flex;
+	margin: 3em 0 4em;
+
+	align-items: center;
+	&:before,
+	&:after {
+		content: '';
+
+		border-top: 1px solid #e9e9e9;
+
+		flex-grow: 1;
+	}
+	iframe {
+		box-sizing: content-box;
+		padding: 1.8em;
+
+		border: 1px solid #e9e9e9;
+		background: #f6f6f6;
+	}
+}
