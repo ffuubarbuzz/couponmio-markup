@@ -108,3 +108,71 @@ a {
 	font-size: 1.33em;
 	text-align: center;
 }
+
+.valid-till {
+	display: inline-flex;
+
+	color: #c9c9c9;
+
+	align-items: center;
+	fill: #c9c9c9;
+	time {
+		margin-left: .2em;
+
+		color: #9b9b9b;
+	}
+	.icon {
+		margin-right: .5em;
+	}
+}
+
+.item-actions {
+	@include reset-list;
+	li {
+		display: inline-block;
+		&:not(:first-child) {
+			margin-left: .8em;
+		}
+	}
+	.action {
+		padding: 0;
+
+		border: none;
+		background: none;
+		color: #9b9b9b;
+
+		fill: #9b9b9b;
+		&:hover {
+			fill: #4dc9f7;
+		}
+		&:active {
+			fill: #f88d1a;
+		}
+		&.like {
+			fill: none;
+			&:hover,
+			&.liked:hover {
+				color: #4dc9f7;
+
+				fill: none;
+				stroke-width: 2px;
+			}
+			&:active,
+			&.liked {
+				color: #ffa646;
+
+				fill: #ffc586;
+				stroke-width: 2px;
+			}
+			&.liked:active {
+				color: #9b9b9b;
+
+				fill: none;
+				stroke-width: 1px;
+			}
+		}
+	}
+	.icon {
+		vertical-align: top;
+	}
+}

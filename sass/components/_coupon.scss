@@ -258,57 +258,8 @@ h1+.coupon {
 			background: linear-gradient(#f5f5f5, #fff9f2);
 		}
 	}
-	.actions {
+	.item-actions {
 		float: right;
-
-		@include reset-list;
-		li {
-			display: inline-block;
-			&:not(:first-child) {
-				margin-left: .8em;
-			}
-		}
-		.action {
-			padding: 0;
-
-			border: none;
-			background: none;
-			color: #9b9b9b;
-
-			fill: #9b9b9b;
-			&:hover {
-				fill: #4dc9f7;
-			}
-			&:active {
-				fill: #f88d1a;
-			}
-			&.like {
-				fill: none;
-				&:hover,
-				&.liked:hover {
-					color: #4dc9f7;
-
-					fill: none;
-					stroke-width: 2px;
-				}
-				&:active,
-				&.liked {
-					color: #ffa646;
-
-					fill: #ffc586;
-					stroke-width: 2px;
-				}
-				&.liked:active {
-					color: #9b9b9b;
-
-					fill: none;
-					stroke-width: 1px;
-				}
-			}
-		}
-		.icon {
-			vertical-align: top;
-		}
 	}
 	.action.share {
 		color: #9b9b9b;
