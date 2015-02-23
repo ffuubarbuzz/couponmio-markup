@@ -1,6 +1,7 @@
 //import all dependencies
 @import "vendor/normalize";
 @import "vendor/dialog-polyfill";
+@import "vendor/pickmeup";
 
 @import "modules/helpers";
 @import "modules/base";
@@ -37,8 +38,10 @@
 @import "components/shop-description";
 @import "components/archive-list";
 @import "components/dialog";
+@import "components/pickmeup";
 
 @import "pages/all-shops";
 @import "pages/about";
 @import "pages/feedback";
 @import "pages/faq";
+@import "pages/events";

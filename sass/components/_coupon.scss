@@ -30,7 +30,7 @@ h1+.coupon {
 
 		border-radius: .33em;
 		box-shadow: 0 0 0 1px #e1e1e1,
-		0 0 7px rgba(0, 0, 0, .15);
+					0 0 7px rgba(0, 0, 0, .15);
 	}
 	&:after {
 		position: absolute;
@@ -679,7 +679,7 @@ h1+.coupon {
 		&:before {
 			content: none;
 		}
-		.actions {
+		.item-actions {
 			margin-right: 30px;
 		}
 		.comments {
