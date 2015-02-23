@@ -231,7 +231,7 @@ aside {
 	.subscribe {
 		display: block;
 		height: 282px;
-		padding: 0;
+		padding: 0 20px;
 
 		border: none;
 		border-radius: 0;
@@ -265,6 +265,13 @@ aside {
 				outline: none;
 				background: #fff;
 				box-shadow: none;
+			}
+		}
+		.subscribed {
+			text-align: center;
+			padding-top: 3em;
+			p:last-child {
+				color: #9b9b9b;
 			}
 		}
 	}

@@ -1677,7 +1677,7 @@ aside .pars .list-link {
 aside .subscribe {
   display: block;
   height: 282px;
-  padding: 0;
+  padding: 0 20px;
   border: none;
   border-radius: 0;
   background: url('../img/subscribe-bg.svg') center 0 no-repeat;
@@ -1712,7 +1712,14 @@ aside .subscribe {
       background: #fff;
       -webkit-box-shadow: none;
       box-shadow: none; }
-/* line 272, /Users/tnk/work/couponmio-markup/sass/layout/_aside.scss */
+  /* line 270, /Users/tnk/work/couponmio-markup/sass/layout/_aside.scss */
+  aside .subscribe .subscribed {
+    text-align: center;
+    padding-top: 3em; }
+    /* line 273, /Users/tnk/work/couponmio-markup/sass/layout/_aside.scss */
+    aside .subscribe .subscribed p:last-child {
+      color: #9b9b9b; }
+/* line 279, /Users/tnk/work/couponmio-markup/sass/layout/_aside.scss */
 aside .testimonials h1 .icon {
   fill: #ffb618; }
 
