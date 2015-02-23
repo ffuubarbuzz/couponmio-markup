@@ -97,24 +97,37 @@ $(function(){
 		});
 	});
 
-	$('.events-calendar .calendar-container').pickmeup({
-		flat: true,
-		calendars: 3,
-		prev: '',
-		next: '',
-		locale: {
-			days: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
-			daysShort: ['Вск', 'Пнд', 'Втр', 'Срд', 'Чтв', 'Птн', 'Сбт', 'Вск'],
-			daysMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
-			months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
-			monthsShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
-		},
-		render: function(date) {
-			if (date.getTime() == new Date(2015, 1, 24).getTime()) {
-				return {
-					class_name: 'has-event'
+	$('.events-calendar').each(function(){
+		$(this).find(' .calendar-container').pickmeup({
+			flat: true,
+			calendars: 3,
+			prev: '',
+			next: '',
+			locale: {
+				days: ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+				daysShort: ['Вск', 'Пнд', 'Втр', 'Срд', 'Чтв', 'Птн', 'Сбт', 'Вск'],
+				daysMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'],
+				months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+				monthsShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
+			},
+			render: function(date) {
+				if (date.getTime() == new Date(2015, 1, 24).getTime()) {
+					return {
+						class_name: 'has-event'
+					}
 				}
 			}
-		}
+		});
 	});
+
+	$('.promo.subscribe').each(function(){
+		var form = $(this).find('form');
+		var message = $(this).find('.subscribed');
+		$(this).find('button').click(function(e){
+			e.preventDefault();
+			form.hide();
+			message.attr('hidden', false);
+		});
+	});
+
 });
