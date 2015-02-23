@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Couponmio</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+	
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<div class="auth-menu">
+			<div class="layout-inner unauthorised">
+				<p>
+					Здравствуйте, наш дорогой гость! Если вы хотите в полной мере насладиться экономией, то
+					<a class="action" href="">
+						<svg role="img" class="icon icon-sign-up" xmlns="http://www.w3.org/2000/svg" width="9" height="12"><use xlink:href="assets/img/sprite.svg#sign-up"></use></svg>
+						зарегистрируйтесь
+					</a>
+					или
+					<a href=""class="action">
+						<svg role="img" class="icon icon-sign-in" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#sign-in"></use></svg>
+						авторизуйтесь
+					</a>
+					.
+				</p>
+			</div>
+		</div>
+
+		<header class="main-header">
+			<div class="layout-inner">
+				<img src="assets/img/logo.svg" width="229" height="52" alt="">
+				<!-- Don't remove form tag, it's needed for native validation. Just do event.preventDefault() on form.submit event -->
+				<form class="search-box">
+					<input type="search" name="" id="" required>
+					<button class="action search">
+						<svg role="img" class="icon icon-search" xmlns="http://www.w3.org/2000/svg" width="21" height="25"><use xlink:href="assets/img/sprite.svg#search-glass"></use></svg>
+						Искать
+					</button>
+				</form>
+			</div>
+		</header>
+		<nav class="main-menu">
+			<div class="layout-inner">
+				<ul>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-popular" xmlns="http://www.w3.org/2000/svg" width="20" height="19"><use xlink:href="assets/img/sprite.svg#popular"></use></svg>
+							Популярные
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-exclusive" xmlns="http://www.w3.org/2000/svg" width="31" height="12"><use xlink:href="assets/img/sprite.svg#exclusive"></use></svg>
+							Эксклюзивные
+						</a>
+					</li>
+					<li class="current">
+						<a href="">
+							<svg role="img" class="icon icon-new" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#new"></use></svg>
+							Новые
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-categories" xmlns="http://www.w3.org/2000/svg" width="19" height="15"><use xlink:href="assets/img/sprite.svg#categories"></use></svg>
+							Купоны по Категориям
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<svg role="img" class="icon icon-shops" xmlns="http://www.w3.org/2000/svg" width="20" height="16"><use xlink:href="assets/img/sprite.svg#shops"></use></svg>
+							Магазины
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<main class="layout-inner auth sign-up">
+			<h1>Регистрация нового пользователя</h1>
+			<h2>вы можете экономить с couponmio и без регистрации, используя аккаунты из социальных сетей</h2>
+			<ul class="social-list">
+				<li>
+					<a href="">
+						<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="50" height="50"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+					</a>
+				</li>
+			</ul>
+			<h2>или быстро создать аккаунт в нашей системе</h2>
+			<form action="">
+				<ul class="fields">
+					<li class="status ok">
+						<label for="sign-in-email">Логин</label>
+						<input type="email" id="sign-in-email" class="type-email" required placeholder="Оставьте нам ваш e-mail для связи" autofocus>
+					</li>
+					<li class="status error">
+						<label for="sign-in-login">Логин</label>
+						<input type="text" id="sign-in-login" class="type-login" required placeholder="Введите здесь ваш логин">
+						<div class="message">Такой логин уже занят, возможно, вы просто <a href="" class="password-lost">Забыли пароль?</a></div>
+					</li>
+					<li>
+						<label for="sign-in-pass">Пароль</label>
+						<input type="password" class="type-password" id="sign-in-pass" required placeholder="А здесь ваш пароль">
+					</li>
+					<li>
+						<input type="password" class="type-password" id="sign-in-pass-confirm" required placeholder="Повторите здесь ваш пароль">
+					</li>
+				</ul>
+				<div class="confirm-controls">
+					<button class="action link">Зарегистрироваться</button>
+				</div>
+			</form>
+		</main>
+
+		<footer class="main-footer">
+			<div class="layout-inner">
+				<form class="subscribe">
+					<p>Хотите быть в курсе последних акций и скидок?  Мы сообщим вам!</p>
+					<input type="email" name="" id="" placeholder="Ваш e-mail адрес" required>
+					<div class="confirm-controls">
+						<button class="action link">
+							<svg role="img" class="icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><use xlink:href="assets/img/sprite.svg#subscribe"></use></svg>
+							Подписаться
+						</button>
+					</div>
+				</form>
+				<nav>
+					<ul>
+						<li>
+							<a href="">
+								<svg role="img" class="nav-icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-about"></use></svg>
+								<div class="title">О компании</div>
+							</a>
+							<div class="text">
+								<p>Couponmio — это неимоверно классный сервис, который поможет вам экономить и время и деньги. Как? Все дело в купонах, которых на нашем сайте очень-очень много!</p>
+								<p>Хотите знать больше? <a href="">Узнайте больше!</a></p>
+							</div>
+						</li>
+						<li>
+							<a href="">
+								<svg role="img" class="nav-icon icon-subscribe" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><use xlink:href="assets/img/sprite.svg#footer-categories"></use></svg>
+								<div class="title">Все категории</div>
+							</a>
+							<div class="text">
+								<p>Хотите увидеть все категории купонов? Не проблема: </p>
+								<a href="">Все категории</a>
+								<a href="">Новые купоны</a>
+								<a href="">Популярные купоны</a>
+							</div>
+						</li>
+						<li class="social">
+								<svg role="img" class="nav-icon icon-social" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#footer-social"></use></svg>
+								<div class="title">Следите за нами</div>
+							<ul class="social-list">
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">
+								<svg role="img" class="nav-icon icon-feedback" xmlns="http://www.w3.org/2000/svg" width="58" height="40"><use xlink:href="assets/img/sprite.svg#footer-feedback"></use></svg>
+								<div class="title">Обратная связь</div>
+							</a>
+							<div class="text">
+								<p>…контакт с нашей компанией</p>
+							</div>
+						</li>
+						<li>
+							<a href="">
+								<svg role="img" class="nav-icon icon-blog" xmlns="http://www.w3.org/2000/svg" width="52" height="40"><use xlink:href="assets/img/sprite.svg#footer-blog"></use></svg>
+								<div class="title">Блог couponmio</div>
+							</a>
+							<div class="text">
+								<p>…самые последние анонсы и статьи</p>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="credits">
+				<div class="layout-inner">
+					<img src="assets/img/logo-footer.svg" width="220" height="23" alt="">
+					<small>Copyright © 2012 «exBonus.Ru». Все права защищены. Каталог самых выгодных купонов и скидок в России</small>
+				</div>
+			</div>
+		</footer>
+
+		<dialog id="coupon-dialog" class="dialog-coupon">
+			<button class="action close">
+				<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#dialog-close"></use></svg>
+			</button>
+			<article class="coupon type-cashback dialog">
+				<div>
+					<div class="rating">
+						<span class="value-title" title="4.5"></span>
+						<button class="rate" title="Оценить в 5 звезд"></button>
+						<button class="rate" title="Оценить в 4 звезды"></button>
+						<button class="rate" title="Оценить в 3 звезды"></button>
+						<button class="rate" title="Оценить в 2 звезды"></button>
+						<button class="rate" title="Оценить в 1 звезду"></button>
+						<div class="rating-inner" style="width: 90%">
+						</div>
+					</div>
+					<div class="shop">
+						<a href="">
+							<img src="http://lorempixel.com/150/90" width="150" height="90" alt="">
+						</a>
+					</div>
+				</div>
+				<div>
+					<ul class="item-actions">
+						<li>
+							<button class="action send-to-mobile" title="Отправить купон на телефон">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="11" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-mobile"></use></svg>
+							</button>
+						</li>
+						<li>
+							<button class="action send-to-email" title="Отправить купон на e-mail">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><use xlink:href="assets/img/sprite.svg#coupon-send-to-email"></use></svg>
+							</button>
+						</li>
+						<li>
+							<button class="action like" title="Добавить купон в избранные">
+								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22"><use xlink:href="assets/img/sprite.svg#coupon-like"></use></svg>
+							</button>
+						</li>
+					</ul>
+					<a href="" class="category">
+						<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="12" height="17"><use xlink:href="assets/img/sprite.svg#category-adult"></use></svg>
+						Для взрослых
+					</a>
+					<h1>
+						<a href="">
+							<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
+							При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
+						</a>
+					</h1>
+					<!-- .expiring-soon for <= 42h -->
+					<div class="valid-for">
+						Действителен ещё
+						<!-- if more than 42h, then datetime="PxD" where x = days -->
+						<time datetime="P13D">13 дней</time>
+					</div>
+					<a href="" class="action primary">
+						Перейти на сайт
+					</a>
+				</div>
+				<div class="core">
+					<div class="code-block">
+						<p>Введите данный код во время оформления заказа:</p>
+						<span class="code">NFA3KF512</span>
+						<button class="action primary">
+							<svg role="img" class="icon icon-copy" xmlns="http://www.w3.org/2000/svg" width="20" height="27"><use xlink:href="assets/img/sprite.svg#copy"></use></svg>
+							Копировать
+						</button>
+					</div>
+					<div class="social">
+						Помоги своим друзьям сэкономить деньги...
+						<ul class="social-list">
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-facebook" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#facebook"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-vkontakte" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#vkontakte"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-twitter" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#twitter"></use></svg>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<svg role="img" class="icon icon-googleplus" xmlns="http://www.w3.org/2000/svg" width="38" height="38"><use xlink:href="assets/img/sprite.svg#googleplus"></use></svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<section class="comments">
+					<form action="">
+						<textarea name="" id="" cols="30" rows="4" required placeholder="Что скажете о купоне?"></textarea>
+						<div class="confirm-controls">
+							<button class="action confirm">Сохранить</button>
+						</div>
+					</form>
+					<h2>Последние 5 комментариев</h2>
+					<ul class="comment-list">
+						<li>
+							<article class="comment hreview">
+								<span class="item">
+									<span class="fn"><span class="value-title" title="Название купона"></span></span>
+								</span>
+								<span class="rating">
+									<span class="value-title" title="4.5"></span>
+								</span>
+								<svg role="img" class="icon icon-like" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#like"></use></svg>
+								<div class="description">
+									<p>Просто мегакупон! Буду юзать снова!</p>
+								</div>
+								<p class="author reviewer">Анонимус</p>,
+								<time datetime="2015-02-19T13:09" class="dtreviewed">
+									сегодня в 13:09
+									<span class="value-title" title="2015-02-19T13:09">
+								</time>
+							</article>
+						</li>
+						<li>
+							<article class="comment hreview">
+								<span class="item">
+									<span class="fn"><span class="value-title" title="Название купона"></span></span>
+								</span>
+								<span class="rating">
+									<span class="value-title" title="4.5"></span>
+								</span>
+								<svg role="img" class="icon icon-dislike" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#dislike"></use></svg>
+								<div class="description">
+									<p>Просто говно! Не буду юзать снова!</p>
+								</div>
+								<p class="author reviewer">Анонимус</p>,
+								<time datetime="2015-02-19T13:09" class="dtreviewed">
+									сегодня в 13:09
+									<span class="value-title" title="2015-02-19T13:09">
+								</time>
+							</article>
+						</li>
+						<li>
+							<article class="comment hreview">
+								<span class="item">
+									<span class="fn"><span class="value-title" title="Название купона"></span></span>
+								</span>
+								<span class="rating">
+									<span class="value-title" title="4.5"></span>
+								</span>
+								<svg role="img" class="icon icon-comment" xmlns="http://www.w3.org/2000/svg" width="20" height="15"><use xlink:href="assets/img/sprite.svg#comment"></use></svg>
+								<div class="description">
+									<p>Просто купон! Буду или не буду юзать снова!</p>
+								</div>
+								<p class="author reviewer">Анонимус</p>,
+								<time datetime="2015-02-19T13:09" class="dtreviewed">
+									сегодня в 13:09
+									<span class="value-title" title="2015-02-19T13:09">
+								</time>
+							</article>
+						</li>
+						<li>
+							<article class="comment hreview">
+								<span class="item">
+									<span class="fn"><span class="value-title" title="Название купона"></span></span>
+								</span>
+								<span class="rating">
+									<span class="value-title" title="4.5"></span>
+								</span>
+								<svg role="img" class="icon icon-comment" xmlns="http://www.w3.org/2000/svg" width="20" height="15"><use xlink:href="assets/img/sprite.svg#comment"></use></svg>
+								<div class="description">
+									<p>Просто купон! Буду или не буду юзать снова!</p>
+								</div>
+								<p class="author reviewer">Анонимус</p>,
+								<time datetime="2015-02-19T13:09" class="dtreviewed">
+									сегодня в 13:09
+									<span class="value-title" title="2015-02-19T13:09">
+								</time>
+							</article>
+						</li>
+						<li>
+							<article class="comment hreview">
+								<span class="item">
+									<span class="fn"><span class="value-title" title="Название купона"></span></span>
+								</span>
+								<span class="rating">
+									<span class="value-title" title="4.5"></span>
+								</span>
+								<svg role="img" class="icon icon-comment" xmlns="http://www.w3.org/2000/svg" width="20" height="15"><use xlink:href="assets/img/sprite.svg#comment"></use></svg>
+								<div class="description">
+									<p>Просто купон! Буду или не буду юзать снова!</p>
+								</div>
+								<p class="author reviewer">Анонимус</p>,
+								<time datetime="2015-02-19T13:09" class="dtreviewed">
+									сегодня в 13:09
+									<span class="value-title" title="2015-02-19T13:09">
+								</time>
+							</article>
+						</li>
+					</ul>
+					<button class="more-items">Загрузить еще комментариев</button>
+				</section>
+			</article>
+		</dialog>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+		<script src="assets/js/vendor/svg4everybody.min.js"></script>
+		<script src="assets/js/demo.js"></script>
+	</body>
+</html>

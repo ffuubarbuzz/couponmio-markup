@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="36" height="28" viewBox="0 0 36 28">
+  <defs>
+    <style>
+
+      .cls-3 {
+        fill: #ec1c1c;
+        stroke: url(#linear-gradient-1);
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#inner-shadow-1);
+      }
+
+      .cls-4 {
+        fill: #ffffff;
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="0" y1="13.5" x2="35" y2="13.5">
+      <stop offset="0" stop-color="#e24646"/>
+      <stop offset="1" stop-color="#ca1f1f"/>
+    </linearGradient>
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset in="SourceAlpha" dx="5" dy="0"/>
+      <feGaussianBlur result="innerShadowBlur" stdDeviation="2.236"/>
+      <feFlood flood-color="#000000" flood-opacity="0.14"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="multiply" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g id="status-errorsvg">
+    <g id="bg" style="fill: #ec1c1c; filter: url(#inner-shadow-1);">
+      <path d="M14.500,0.500 C14.500,0.500 31.500,0.500 31.500,0.500 C33.709,0.500 35.500,2.291 35.500,4.500 C35.500,4.500 35.500,23.500 35.500,23.500 C35.500,25.709 33.709,27.500 31.500,27.500 C31.500,27.500 14.500,27.500 14.500,27.500 C12.291,27.500 0.500,16.709 0.500,14.500 C0.500,14.500 0.500,13.500 0.500,13.500 C0.500,11.291 12.291,0.500 14.500,0.500 Z" id="path-1" class="cls-3" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+    </g>
+    <use xlink:href="#path-1" style="stroke: url(#linear-gradient-1); fill: none; filter: none;"/>
+    <path d="M28.778,18.950 C28.778,18.950 25.950,21.778 25.950,21.778 C25.950,21.778 21.000,16.828 21.000,16.828 C21.000,16.828 16.050,21.778 16.050,21.778 C16.050,21.778 13.222,18.950 13.222,18.950 C13.222,18.950 18.172,14.000 18.172,14.000 C18.172,14.000 13.222,9.050 13.222,9.050 C13.222,9.050 16.050,6.222 16.050,6.222 C16.050,6.222 21.000,11.172 21.000,11.172 C21.000,11.172 25.950,6.222 25.950,6.222 C25.950,6.222 28.778,9.050 28.778,9.050 C28.778,9.050 23.828,14.000 23.828,14.000 C23.828,14.000 28.778,18.950 28.778,18.950 Z" id="path-2" class="cls-4" fill-rule="evenodd"/>
+  </g>
+</svg>
