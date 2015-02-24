@@ -1,4 +1,3 @@
-
 .event {
 	padding: 1em 1.2em 1.8em 1.7em;
 
@@ -115,5 +114,75 @@
 	}
 	+.event {
 		margin-top: 3.75em;
+	}
+}
+
+.events {
+	.calendar-container {
+		.pickmeup {
+			background-color: transparent;
+			padding: 56px 0;
+			width: 100%;
+		}
+		nav {
+			display: block;
+			.pmu-prev,
+			.pmu-next {
+				position: absolute;
+				left: 50%;
+				margin-left: -20px;
+				width: 40px;
+				height: 40px;
+				border: 1px solid #d4d4d4;
+				border-radius: 50%;
+				background: linear-gradient(#fff, #f0f0f0);
+				box-shadow: 0 3px rgba(0, 0, 0, .05);
+				&:before {
+					content: url('../img/icons/inlined/calendar-arrow.svg');
+					line-height: .6;
+					position: absolute;
+					left: 50%;
+					margin-left: -12px;
+				}
+				&:hover,
+				&:active {
+					&:before {
+						content: url('../img/icons/inlined/calendar-arrow-hover.svg');
+					}
+				}
+				&:hover {
+					background-image: linear-gradient(#ffc333, #f88d1a);
+				}
+				&:active {
+					background-image: linear-gradient(#f87501, #f88d1a);
+					box-shadow: 0 1px rgba(0, 0, 0, .6);
+				}
+			}
+			.pmu-prev {
+				top: 8px;
+				&:before {
+					top: 9px;
+				}
+			}
+			.pmu-next {
+				bottom: 8px;
+				&:before {
+					bottom: 9px;
+					transform: rotate(180deg);
+				}
+			}
+		}
+		.pmu-instance {
+			&:first-child {
+				nav .pmu-prev {
+					display: block;
+				}
+			}
+			&:last-child {
+				nav .pmu-next {
+					display: block;
+				}
+			}
+		}
 	}
 }
