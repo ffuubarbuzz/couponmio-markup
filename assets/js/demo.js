@@ -137,4 +137,9 @@ $(function(){
 		});
 	});
 
+	$('.notifications .available-shops').filterAny({
+		itemTextSelector: '.text',
+		debounceTimeout: 0
+	});
+
 });

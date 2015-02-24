@@ -1,0 +1,66 @@
+.notifications {
+	fieldset {
+		display: inline-block;
+		vertical-align: top;
+		white-space: nowrap;
+		margin: 0;
+		padding: 0;
+		border: none;
+		ul {
+			clear: both;
+			padding: 1em 0;
+			margin: 0;
+			list-style: none;
+		}
+		li:not(:first-child) {
+			margin-top: .5em;
+		}
+		input[type='checkbox'],
+		input[type='radio'] {
+			margin-right: .6em;
+		}
+	}
+	legend {
+		float: left;
+		width: 100%;
+		font-size: 1.2em;
+		color: #464646;
+		font-weight: bold;
+	}
+}
+
+.settings-subscriptions {
+	form {
+		padding-left: 60px;
+	}
+	fieldset+fieldset {
+		margin-left: 8.8em;
+	}
+	.confirm-controls {
+		margin: 2.5em 0;
+	}
+}
+
+.settings-notifications {
+	.confirm-controls {
+		text-align: center;
+		padding: 1.2em;
+	}
+	label {
+		color: #9b9b9b;
+	}
+	fieldset+fieldset {
+		margin-top: 3.3em;
+	}
+	input[type='search'] {
+		width: 100%;
+		padding: .35em;
+		margin: 1.75em 0;
+	}
+	.select-list {
+		margin: 1em -1.8em;
+		label {
+			padding: .5em 1.8em;
+		}
+	}
+}

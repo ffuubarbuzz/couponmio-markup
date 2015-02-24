@@ -2996,6 +2996,96 @@ dialog::backdrop, .backdrop {
     margin-left: 30px;
     text-align: left; }
 
+.wizard {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #f4f4f4;
+  border-radius: .25em;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  overflow: hidden; }
+  .wizard .step {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    padding: 0 1.8em; }
+    .wizard .step:first-child {
+      background: #fcfbf9;
+      box-shadow: 3px 0 5px rgba(0, 0, 0, 0.11);
+      position: relative;
+      z-index: 1; }
+    .wizard .step:not(:first-child) .step-title {
+      padding-left: 2.4em; }
+      .wizard .step:not(:first-child) .step-title:before {
+        content: '';
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        margin-top: -50px;
+        right: 100%;
+        border: 2px solid #e5e5e5;
+        -webkit-transform: scaleY(1.6) rotate(45deg);
+            -ms-transform: scaleY(1.6) rotate(45deg);
+                transform: scaleY(1.6) rotate(45deg); }
+    .wizard .step + .step {
+      border-left: 1px solid #f4f4f4; }
+  .wizard .step-title {
+    font-size: 1.33em;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    background-image: -webkit-linear-gradient(#21a5d6, #4dc9f7);
+    background-image: linear-gradient(#21a5d6, #4dc9f7);
+    padding: 1em 1.6em;
+    margin: 0 calc(-1.8rem - 1px) 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; }
+
+.select-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .select-list li {
+    border: 0 solid #f0f0f0;
+    border-bottom-width: 1px; }
+    .select-list li:first-child {
+      border-top-width: 1px; }
+  .select-list input[type='checkbox'], .select-list input[type='radio'] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0); }
+  .select-list label {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+    color: #21a5d6;
+    padding: .5em; }
+    .select-list label .icon {
+      margin-left: auto;
+      fill: #fff; }
+    .select-list label:hover {
+      background: #a5e4fb;
+      color: #fff; }
+  .select-list.selected label:hover {
+    background: #ffc586; }
+    .select-list.selected label:hover .icon {
+      display: block; }
+  .select-list.selected label .icon {
+    margin: 0 .4em 0 0;
+    display: none; }
+
 .all-shops .abc, .all-shops .all-shop-list {
   border: 1px solid #f4f4f4;
   border-radius: .33rem;
@@ -3294,7 +3384,8 @@ dialog::backdrop, .backdrop {
   border-radius: .33em;
   background: #fff;
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
-  padding: 1em 1.7em 2em; }
+  padding: 1em 1.7em 2em;
+  margin: 0; }
   .profile fieldset + fieldset {
     margin-top: 2.2em; }
   .profile fieldset .fields {
@@ -3339,3 +3430,49 @@ dialog::backdrop, .backdrop {
       margin-left: 1em; }
   .profile .additional-forms legend {
     text-align: left; }
+
+.notifications fieldset {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: none; }
+  .notifications fieldset ul {
+    clear: both;
+    padding: 1em 0;
+    margin: 0;
+    list-style: none; }
+  .notifications fieldset li:not(:first-child) {
+    margin-top: .5em; }
+  .notifications fieldset input[type='checkbox'], .notifications fieldset input[type='radio'] {
+    margin-right: .6em; }
+.notifications legend {
+  float: left;
+  width: 100%;
+  font-size: 1.2em;
+  color: #464646;
+  font-weight: bold; }
+
+.settings-subscriptions form {
+  padding-left: 60px; }
+.settings-subscriptions fieldset + fieldset {
+  margin-left: 8.8em; }
+.settings-subscriptions .confirm-controls {
+  margin: 2.5em 0; }
+
+.settings-notifications .confirm-controls {
+  text-align: center;
+  padding: 1.2em; }
+.settings-notifications label {
+  color: #9b9b9b; }
+.settings-notifications fieldset + fieldset {
+  margin-top: 3.3em; }
+.settings-notifications input[type='search'] {
+  width: 100%;
+  padding: .35em;
+  margin: 1.75em 0; }
+.settings-notifications .select-list {
+  margin: 1em -1.8em; }
+  .settings-notifications .select-list label {
+    padding: .5em 1.8em; }
