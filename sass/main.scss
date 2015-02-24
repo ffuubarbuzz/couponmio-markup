@@ -8,24 +8,6 @@
 @import "modules/controls";
 @import "modules/actions";
 
-@import "layout/auth-menu";
-@import "layout/main-header";
-@import "layout/main-menu";
-@import "layout/main-footer";
-@import "layout/user-block";
-@import "layout/columns";
-@import "layout/aside";
-@import "layout/coupon-slider";
-@import "layout/top";
-@import "layout/aside-coupons";
-@import "layout/archive-coupons";
-@import "layout/page-header";
-@import "layout/category-header";
-@import "layout/categories";
-@import "layout/search-results";
-@import "layout/video";
-@import "layout/auth";
-
 @import "components/breadcrumbs";
 @import "components/rating";
 @import "components/coupon";
@@ -43,6 +25,24 @@
 @import "components/fields";
 @import "components/wizard";
 @import "components/select-list";
+
+@import "layout/auth-menu";
+@import "layout/main-header";
+@import "layout/main-menu";
+@import "layout/main-footer";
+@import "layout/user-block";
+@import "layout/columns";
+@import "layout/aside";
+@import "layout/coupon-slider";
+@import "layout/top";
+@import "layout/aside-coupons";
+@import "layout/archive-coupons";
+@import "layout/page-header";
+@import "layout/category-header";
+@import "layout/categories";
+@import "layout/search-results";
+@import "layout/video";
+@import "layout/auth";
 
 @import "pages/all-shops";
 @import "pages/about";
