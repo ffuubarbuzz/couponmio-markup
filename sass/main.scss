@@ -25,6 +25,8 @@
 @import "components/fields";
 @import "components/wizard";
 @import "components/select-list";
+@import "components/pagination";
+@import "components/search-box";
 
 @import "layout/auth-menu";
 @import "layout/main-header";
@@ -51,3 +53,4 @@
 @import "pages/events";
 @import "pages/profile";
 @import "pages/notifications";
+@import "pages/favourite-shops";
