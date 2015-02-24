@@ -1,0 +1,97 @@
+.profile {
+	#{$text-inputs},
+	select,
+	textarea {
+		padding: .8em;
+		line-height: 1.4;
+		height: 3em;
+	}
+	.columns-layout {
+		margin-top: .7em;
+	}
+	.fields {
+		padding: 1.4em 0 0 140px;
+		width: 400px;
+		.profile-sex,
+		.profile-birth {
+			width: 110px;
+		}
+		.message {
+			top: .8em;
+		}
+		label {
+			font-size: 1.2em;
+		}
+		li {
+			margin-bottom: 2.2em;
+		}
+		+.confirm-controls {
+			padding-left: 140px;
+		}
+	}
+	form>.confirm-controls {
+		text-align: center;
+		padding: 2em;
+		border-top: 1px solid #f0f0f0;
+	}
+	fieldset {
+		border: 1px solid #f4f4f4;
+		border-radius: .33em;
+		background: #fff;
+		box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+		padding: 1em 1.7em 2em;
+		+fieldset {
+			margin-top: 2.2em;
+		}
+		.fields {
+			clear: both;
+		}
+	}
+	.privacy {
+		label {
+			color: inherit;
+		}
+	}
+	legend {
+		float: left;
+		width: 100%;
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #464646;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.photo {
+		text-align: center;
+		img {
+			border-radius: 50%;
+			margin: 1em;
+		}
+		.note {
+			margin: 0;
+		}
+	}
+	.action.file {
+		background-color: transparent;
+		border: none;
+		padding: 0;
+		color: #21a5d6;
+		&:hover {
+			color: #4dc9f7;
+		}
+	}
+	.additional-forms {
+		display: flex;
+		margin: 4.4em 0 10em;
+		form {
+			flex-grow: 1;
+			&:not(:first-child) {
+				margin-left: 1em;
+			}
+		}
+		legend {
+			text-align: left;
+		}
+	}
+}

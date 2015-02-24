@@ -44,7 +44,7 @@ h1+.coupon {
 	}
 	@each $type in $coupon-types {
 		&.type-#{$type}:after {
-			content: inline-image('../img/icons/inlined/coupon/type-' + $type + '.svg');
+			content: url('../img/icons/inlined/coupon/type-' + $type + '.svg');
 		}
 	}
 	&.social-open {
