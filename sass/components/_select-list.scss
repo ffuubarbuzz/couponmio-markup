@@ -1,0 +1,44 @@
+.select-list {
+	@include reset-list;
+	li {
+		border: 0 solid #f0f0f0;
+		border-bottom-width: 1px;
+		&:first-child {
+			border-top-width: 1px;
+		}
+	}
+	input[type='checkbox'],
+	input[type='radio'] {
+		position: absolute;
+		clip: rect(0, 0, 0, 0);
+	}
+	label {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		color: #21a5d6;
+		padding: .5em;
+		.icon {
+			margin-left: auto;
+			fill: #fff;
+		}
+		&:hover {
+			background: #a5e4fb;
+			color: #fff;
+		}
+	}
+	&.selected {
+		label {
+			&:hover {
+				background: #ffc586;
+				.icon {
+					display: block;
+				}
+			}
+			.icon {
+				margin: 0 .4em 0 0;
+				display: none;
+			}
+		}
+	}
+}
