@@ -72,7 +72,6 @@
       <feComposite in="SourceGraphic" result="dropShadow"/>
     </filter>
     <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
-      <feImage x="13" y="36.78125" preserveAspectRatio="none" width="294" height="79.21875" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjk0IiBoZWlnaHQ9Ijc5LjIxODc1Ij48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCIgeTE9IjM5LjYwOSIgeDI9IjI5NCIgeTI9IjM5LjYwOSI+CiAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMDAwMDAwIi8+CiAgPHN0b3Agb2Zmc2V0PSIwLjUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz4KICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBvcGFjaXR5PSIwLjExIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
       <feComposite operator="in" in2="SourceGraphic"/>
       <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
       <feFlood flood-color="#98e3ff" flood-opacity="1"/>
