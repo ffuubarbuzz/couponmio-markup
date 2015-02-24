@@ -1,5 +1,4 @@
 $input-types: login, password, email;
-$input-statuses: ok, error;
 .auth {
 	padding-top: 3.75em;
 	text-align: center;
@@ -34,52 +33,11 @@ $input-statuses: ok, error;
 		margin: 3.6em auto 5em;
 	}
 	.fields {
-		@include reset-list;
-		li {
-			position: relative;
-
-			margin-bottom: 1.5em;
-		}
-		.status {
-			&:after {
-				position: absolute;
-				left: 100%;
-				top: 50%;
-				margin-top: -14px;
-				margin-left: -16px;
-			}
-			@each $status in $input-statuses {
-				&.#{$status}:after {
-					content:url('../img/icons/inlined/inputs/input-status-' + $status + '.svg');
-				}
-			}
-		}
-		.error .message {
-			color: #e43232;
-		}
 		label {
 			font-size: 1.2em;
 			font-weight: bold;
-
-			position: absolute;
-			right: 100%;
-
-			margin-right: .8em;
-			padding-top: .6em;
-
-			text-align: right;
-			white-space: nowrap;
-		}
-		input {
-			width: 100%;
 		}
 		.message {
-			position: absolute;
-			left: 100%;
-			top: 0;
-			white-space: nowrap;
-			margin-left: 30px;
-			text-align: left;
 			.password-lost {
 				display: block;
 			}

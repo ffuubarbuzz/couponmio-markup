@@ -1,0 +1,49 @@
+$field-statuses: ok, error;
+.fields {
+	@include reset-list;
+	li {
+		position: relative;
+
+		margin-bottom: 1.5em;
+	}
+	.status {
+		&:after {
+			position: absolute;
+			left: 100%;
+			top: 50%;
+			margin-top: -14px;
+			margin-left: -16px;
+		}
+		@each $status in $field-statuses {
+			&.#{$status}:after {
+				content:url('../img/icons/inlined/fields/field-status-' + $status + '.svg');
+			}
+		}
+	}
+	.error .message {
+		color: #e43232;
+	}
+	label {
+		position: absolute;
+		right: 100%;
+
+		margin-right: .8em;
+		padding-top: .6em;
+
+		text-align: right;
+		white-space: nowrap;
+	}
+	#{$text-inputs},
+	select,
+	textarea {
+		width: 100%;
+	}
+	.message {
+		position: absolute;
+		left: 100%;
+		top: 0;
+		white-space: nowrap;
+		margin-left: 30px;
+		text-align: left;
+	}
+}
