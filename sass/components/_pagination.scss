@@ -1,0 +1,34 @@
+.pagination {
+	font-size: 1.7em;
+	a,
+	.current {
+		display: inline-block;
+		width: 2em;
+		height: 2em;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		border: 2px solid transparent;
+		color: #fdfdfd;
+		box-shadow: 0 0 4px rgba(0, 0, 0, .25);
+		&:not(:first-child) {
+			margin-left: .3em;
+		}
+	}
+	a {
+		background: #21a5d6;
+		border-color: #58c3ea;
+		&:hover {
+			background: #33b6e6;
+		}
+		&:active {
+			padding-top: 1px;
+			background: #10739b;
+		}
+	}
+	.current {
+		background: #d3d3d3;
+		border-color: #c5c5c5;
+	}
+}
