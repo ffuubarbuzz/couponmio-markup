@@ -134,15 +134,23 @@
 		+.list-link {
 			border-top: none;
 		}
+		.action {
+			display: inline-block;
+			width: 52px;
+			height: 52px;
+			border: 2px dotted #dddddd;
+			&:hover {
+				border-color: #4dc9f7;
+			}
+		}
 	}
 	.icon-add-favourite-shop {
 		fill: #e3e3e3;
-		color: #ddd;
 		vertical-align: top;
+		margin-top: 13px;
 	}
 	a:hover .icon-add-favourite-shop {
 		fill: #4dc9f7;
-		color: #4dc9f7;
 	}
 	.coupon-list {
 		@include reset-list;
