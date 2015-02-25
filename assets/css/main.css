@@ -2511,6 +2511,10 @@ dialog::backdrop, .backdrop {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+  .user-block .bio {
+    margin: 0;
+    color: #9b9b9b;
+    line-height: 1; }
   .user-block .user-links {
     margin: 0;
     padding: 0;
@@ -2576,6 +2580,8 @@ dialog::backdrop, .backdrop {
     fill: #c9c9c9;
     -webkit-transition: -webkit-transform ease-in-out .3s;
             transition: transform ease-in-out .3s; }
+  .user-block.others {
+    box-shadow: 0 3px #4dc9f7; }
 
 .columns-layout {
   display: -webkit-box;
@@ -3437,83 +3443,85 @@ aside .testimonials h1 .icon {
 .events .calendar-container .pmu-instance:last-child nav .pmu-next {
   display: block; }
 
-.profile input[type="email"], .profile input[type="number"], .profile input[type="password"], .profile input[type="search"], .profile input[type="tel"], .profile input[type="text"], .profile input:not([type]), .profile input[type="url"], .profile input[type="color"], .profile input[type="date"], .profile input[type="datetime"], .profile input[type="datetime-local"], .profile input[type="month"], .profile input[type="time"], .profile input[type="week"], .profile input:not([type]), .profile select {
-  padding: .8em;
-  line-height: 1.4;
-  height: 3em; }
-.profile textarea {
-  padding: .8em;
-  line-height: 1.4; }
-.profile .columns-layout {
-  margin-top: .7em; }
-  .profile .columns-layout + .confirm-controls {
-    text-align: center;
-    padding: 2em;
-    border-top: 1px solid #f0f0f0; }
-.profile .fields {
-  padding: 1.4em 0 0 140px;
-  width: 400px; }
-  .profile .fields .profile-sex, .profile .fields .profile-birth {
-    width: 110px; }
-  .profile .fields .message {
-    top: .8em; }
-  .profile .fields label {
-    font-size: 1.2em; }
-  .profile .fields li {
-    margin-bottom: 2.2em; }
-  .profile .fields + .confirm-controls {
-    padding-left: 140px; }
-.profile fieldset {
-  border: 1px solid #f4f4f4;
-  border-radius: .33em;
-  background: #fff;
-  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
-  padding: 1em 1.7em 2em;
-  margin: 0; }
-  .profile fieldset + fieldset {
-    margin-top: 2.2em; }
-  .profile fieldset .fields {
-    clear: both; }
-.profile .privacy label {
-  color: inherit; }
-.profile legend {
-  float: left;
-  width: 100%;
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #464646;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 1em; }
-.profile .photo {
-  text-align: center; }
-  .profile .photo img {
-    border-radius: 50%;
-    margin: 1em; }
-  .profile .photo .note {
+.profile {
+  padding-bottom: 7.5em; }
+  .profile input[type="email"], .profile input[type="number"], .profile input[type="password"], .profile input[type="search"], .profile input[type="tel"], .profile input[type="text"], .profile input:not([type]), .profile input[type="url"], .profile input[type="color"], .profile input[type="date"], .profile input[type="datetime"], .profile input[type="datetime-local"], .profile input[type="month"], .profile input[type="time"], .profile input[type="week"], .profile input:not([type]), .profile select {
+    padding: .8em;
+    line-height: 1.4;
+    height: 3em; }
+  .profile textarea {
+    padding: .8em;
+    line-height: 1.4; }
+  .profile .columns-layout {
+    margin-top: .7em; }
+    .profile .columns-layout + .confirm-controls {
+      text-align: center;
+      padding: 2em;
+      border-top: 1px solid #f0f0f0; }
+  .profile .fields {
+    padding: 1.4em 0 0 140px;
+    width: 400px; }
+    .profile .fields .profile-sex, .profile .fields .profile-birth {
+      width: 110px; }
+    .profile .fields .message {
+      top: .8em; }
+    .profile .fields label {
+      font-size: 1.2em; }
+    .profile .fields li {
+      margin-bottom: 2.2em; }
+    .profile .fields + .confirm-controls {
+      padding-left: 140px; }
+  .profile fieldset {
+    border: 1px solid #f4f4f4;
+    border-radius: .33em;
+    background: #fff;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+    padding: 1em 1.7em 2em;
     margin: 0; }
-.profile .action.file {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  color: #21a5d6; }
-  .profile .action.file:hover {
-    color: #4dc9f7; }
-.profile .additional-forms {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 4.4em 0 10em; }
-  .profile .additional-forms form {
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1; }
-    .profile .additional-forms form:not(:first-child) {
-      margin-left: 1em; }
-  .profile .additional-forms legend {
-    text-align: left; }
+    .profile fieldset + fieldset {
+      margin-top: 2.2em; }
+    .profile fieldset .fields {
+      clear: both; }
+  .profile .privacy label {
+    color: inherit; }
+  .profile legend {
+    float: left;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #464646;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em; }
+  .profile .photo {
+    text-align: center; }
+    .profile .photo img {
+      border-radius: 50%;
+      margin: 1em; }
+    .profile .photo .note {
+      margin: 0; }
+  .profile .action.file {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #21a5d6; }
+    .profile .action.file:hover {
+      color: #4dc9f7; }
+  .profile .additional-forms {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 4.4em 0 10em; }
+    .profile .additional-forms form {
+      -webkit-box-flex: 1;
+      -webkit-flex-grow: 1;
+          -ms-flex-positive: 1;
+              flex-grow: 1; }
+      .profile .additional-forms form:not(:first-child) {
+        margin-left: 1em; }
+    .profile .additional-forms legend {
+      text-align: left; }
 
 .stats {
   color: #656565; }
@@ -3833,9 +3841,6 @@ aside .testimonials h1 .icon {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%); } }
 
-.timeline {
-  margin-bottom: 7.5em; }
-
 .timeline-events {
   margin: 0;
   padding: 0;
@@ -3846,7 +3851,6 @@ aside .testimonials h1 .icon {
     border-top: 1px solid #e7e7e7; }
 
 .timeline-event {
-  overflow: hidden;
   padding: 1.5em 0 1.25em 60px;
   border-bottom: 1px dashed #d9d9d9;
   margin-bottom: 1.5em; }
@@ -3876,11 +3880,21 @@ aside .testimonials h1 .icon {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     clear: both;
     padding-top: 1em;
     margin-left: -60px; }
   .timeline-event .goto {
     margin-left: auto; }
+    .timeline-event .goto.back .icon {
+      -webkit-transform: scaleX(-1);
+          -ms-transform: scaleX(-1);
+              transform: scaleX(-1); }
+  .timeline-event .confirm-controls {
+    margin-left: .75em; }
   .timeline-event .comment-text, .timeline-event .ticket-text {
     color: #464646; }
   .timeline-event.event-shop, .timeline-event.event-coupon {
@@ -3898,6 +3912,24 @@ aside .testimonials h1 .icon {
     height: 47px;
     border-radius: 50%;
     margin-left: -60px; }
+  .timeline-event.event-comment label {
+    color: #9b9b9b; }
+  .timeline-event.event-comment textarea {
+    width: 100%; }
+  .timeline-event.event-comment form {
+    margin-left: -60px; }
+  .timeline-event.event-comment .response {
+    margin-left: 60px;
+    position: relative; }
+    .timeline-event.event-comment .response:before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 53px;
+      background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjI4IiBoZWlnaHQ9IjUzIiB2aWV3Qm94PSIwIDAgMjggNTMiPgogIDxkZWZzPgogICAgPHN0eWxlPgoKICAgICAgLmNscy0yIHsKICAgICAgICBmaWxsOiAjYzljOWM5OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBkPSJNMjQuMDAwLDUzLjAwMCBDMjQuMDAwLDUzLjAwMCAyNS4wMDAsNTAuMDAwIDI1LjAwMCw1MC4wMDAgQzI1LjAwMCw1MC4wMDAgMS4wMDAsNTAuMDAwIDEuMDAwLDUwLjAwMCBDMS4wMDAsNTAuMDAwIC0wLjAwMCw1MC4wMDAgLTAuMDAwLDUwLjAwMCBDLTAuMDAwLDUwLjAwMCAtMC4wMDAsLTAuMDAwIC0wLjAwMCwtMC4wMDAgQy0wLjAwMCwtMC4wMDAgMS4wMDAsLTAuMDAwIDEuMDAwLC0wLjAwMCBDMS4wMDAsLTAuMDAwIDEuMDAwLDQ5LjAwMCAxLjAwMCw0OS4wMDAgQzEuMDAwLDQ5LjAwMCAyNS4wMDAsNDkuMDAwIDI1LjAwMCw0OS4wMDAgQzI1LjAwMCw0OS4wMDAgMjQuMDAwLDQ2LjAwMCAyNC4wMDAsNDYuMDAwIEMyNC4wMDAsNDYuMDAwIDI4LjAwMCw0OS4wMDAgMjguMDAwLDQ5LjAwMCBDMjguMDAwLDQ5LjAwMCAyOC4wMDAsNTAuMDAwIDI4LjAwMCw1MC4wMDAgQzI4LjAwMCw1MC4wMDAgMjQuMDAwLDUzLjAwMCAyNC4wMDAsNTMuMDAwIFoiIGlkPSJwYXRoLTEiIGNsYXNzPSJjbHMtMiIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPgo=');
+      position: absolute;
+      top: -26px;
+      left: -100px; }
   .timeline-event.event-ticket .ticket-icon {
     float: left;
     border: 1px solid #f0f0f0;

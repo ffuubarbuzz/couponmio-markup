@@ -1,7 +1,3 @@
-.timeline {
-	margin-bottom: 7.5em;
-}
-
 .timeline-events {
 	@include reset-list;
 	background: #fff;
@@ -13,7 +9,6 @@
 	}
 }
 .timeline-event {
-	overflow: hidden;
 	padding: 1.5em 0 1.25em 60px;
 	border-bottom: 1px dashed #d9d9d9;
 	margin-bottom: 1.5em;
@@ -41,12 +36,19 @@
 	}
 	footer {
 		display: flex;
+		align-items: center;
 		clear: both;
 		padding-top: 1em;
 		margin-left: -60px;
 	}
 	.goto {
 		margin-left: auto;
+		&.back .icon {
+			transform: scaleX(-1);
+		}
+	}
+	.confirm-controls {
+		margin-left: .75em;
 	}
 	.comment-text,
 	.ticket-text {
@@ -74,6 +76,29 @@
 			height: 47px;
 			border-radius: 50%;
 			margin-left: -60px;
+		}
+		label {
+			color: #9b9b9b;
+		}
+		textarea {
+			width: 100%;
+		}
+		form {
+			margin-left: -60px;
+		}
+		.response {
+			margin-left: 60px;
+			position: relative;
+			&:before {
+				content: '';
+				display: block;
+				width: 28px;
+				height: 53px;
+				background: url('../img/icons/inlined/response-arrow.svg');
+				position: absolute;
+				top: -26px;
+				left: -100px;
+			}
 		}
 	}
 	&.event-ticket {
