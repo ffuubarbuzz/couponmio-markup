@@ -1,0 +1,32 @@
+.tab-filters {
+	font-size: 1.2em;
+	margin-top: 1.8em;
+	input[type='radio'] {
+		position: absolute;
+		clip: rect(0, 0, 0, 0);
+		&:checked {
+			+label {
+				background: #21a5d6;
+				border-color: #f0f0f0;
+				color: #fdfdfd;
+				fill: #fdfdfd;
+			}
+		}
+	}
+	label {
+		display: inline-block;
+		border-radius: .2em;
+		background: #efefef;
+		border: 1px solid #efefef;
+		color: #9b9b9b;
+		padding: .3em .8em .3em .6em;
+		margin-right: .4em;
+		fill: #bfbfbf;
+		.icon {
+			margin-right: .4em;
+		}
+		&:hover {
+			background: #fff;
+		}
+	}
+}
