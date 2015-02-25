@@ -1,13 +1,21 @@
 .profile {
 	#{$text-inputs},
-	select,
-	textarea {
+	select {
 		padding: .8em;
 		line-height: 1.4;
 		height: 3em;
 	}
+	textarea {
+		padding: .8em;
+		line-height: 1.4;
+	}
 	.columns-layout {
 		margin-top: .7em;
+		+.confirm-controls {
+			text-align: center;
+			padding: 2em;
+			border-top: 1px solid #f0f0f0;
+		}
 	}
 	.fields {
 		padding: 1.4em 0 0 140px;
@@ -28,11 +36,6 @@
 		+.confirm-controls {
 			padding-left: 140px;
 		}
-	}
-	form>.confirm-controls {
-		text-align: center;
-		padding: 2em;
-		border-top: 1px solid #f0f0f0;
 	}
 	fieldset {
 		border: 1px solid #f4f4f4;
@@ -95,4 +98,39 @@
 			text-align: left;
 		}
 	}
+}
+
+.stats {
+	color: #656565;
+	dl {
+		line-height: 2.25;
+	}
+	dt, dd {
+		float: left;
+	}
+	dt {
+		clear: left;
+		width: 60%;
+		margin-right: .5em;
+		text-align: right;
+	}
+	dd {
+		font-weight: bold;
+		margin: 0;
+	}
+}
+
+.add-coupon {
+	input[type='text'],
+	input[type='url'],
+	select,
+	textarea {
+		width: 100%;
+		margin: 0 0 1.4em;
+	}
+	.confirm-controls {
+		text-align: center;
+		margin-top: 1em;
+	}
+
 }

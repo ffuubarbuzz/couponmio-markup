@@ -1,0 +1,102 @@
+.timeline {
+	margin-bottom: 7.5em;
+}
+
+.timeline-events {
+	@include reset-list;
+	background: #fff;
+	padding: 0 .8em;
+	li {
+		&:first-child {
+			border-top: 1px solid #e7e7e7;
+		}
+	}
+}
+.timeline-event {
+	overflow: hidden;
+	padding: 1.5em 0 1.25em 60px;
+	border-bottom: 1px dashed #d9d9d9;
+	margin-bottom: 1.5em;
+	strong {
+		color: #464646;
+	}
+	img {
+		float: left;
+		border: 1px solid #f0f0f0;
+	}
+	p:first-of-type {
+		margin-top: 0;
+	}
+	.event-type,
+	time {
+		display: inline-flex;
+		align-items: center;
+		.icon {
+			margin-right: .5em;
+			fill: #c9c9c9;
+		}
+	}
+	time {
+		margin-left: .75em;
+	}
+	footer {
+		display: flex;
+		clear: both;
+		padding-top: 1em;
+		margin-left: -60px;
+	}
+	.goto {
+		margin-left: auto;
+	}
+	.comment-text,
+	.ticket-text {
+		color: #464646;
+	}
+	&.event-shop,
+	&.event-coupon {
+		padding-left: 110px;
+		img {
+			width: 102px;
+			height: 47px;
+			margin-left: -110px;
+		}
+		footer {
+			margin-left: -110px;
+		}
+	}
+	&.event-comment,
+	&.event-ticket {
+		padding-left: 60px;
+	}
+	&.event-comment {
+		img {
+			width: 47px;
+			height: 47px;
+			border-radius: 50%;
+			margin-left: -60px;
+		}
+	}
+	&.event-ticket {
+		.ticket-icon {
+			float: left;
+			border: 1px solid #f0f0f0;
+			width: 47px;
+			height: 47px;
+			border-radius: 50%;
+			margin-left: -60px;
+			text-align: center;
+			font-size: 0;
+			background: #c0dc5e;
+			.icon {
+				vertical-align: middle;
+				fill: #fff;
+			}
+			&:before {
+				content: '';
+				display: inline-block;
+				height: 100%;
+				vertical-align: middle;
+			}
+		}
+	}
+}
