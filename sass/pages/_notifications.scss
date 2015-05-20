@@ -49,7 +49,7 @@
 	label {
 		color: #9b9b9b;
 	}
-	fieldset+fieldset {
+	fieldset {
 		margin-top: 3.3em;
 	}
 	input[type='search'] {
@@ -58,9 +58,14 @@
 		margin: 1.75em 0;
 	}
 	.select-list {
-		margin: 1em -1.8em;
+		margin: 0 -1.8em 1em;
 		label {
 			padding: .5em 1.8em;
+		}
+	}
+	.available-shops {
+		.select-list {
+			margin-top: 1em;
 		}
 	}
 }
