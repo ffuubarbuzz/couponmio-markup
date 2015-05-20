@@ -27,7 +27,7 @@
 			width: 2.3rem;
 			margin: .3em .4rem;
 			border: 2px solid transparent;
-			border-radius: 50%;
+			border-radius: 100%;
 			background: transparent;
 		}
 		.pmu-days * {
@@ -38,9 +38,13 @@
 			justify-content: center;
 			&:hover {
 				background: #f0f0f0;
-				border-color: #f0f0f0;
+				// border-color: #f0f0f0;
 				color: #464646;
 			}
+		}
+		.pmu-days .pmu-selected {
+			background: #4AC7F5;
+			color: #fff;
 		}
 		.has-event {
 			background: #d8f4ff;
