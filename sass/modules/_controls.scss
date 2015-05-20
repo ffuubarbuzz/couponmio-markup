@@ -24,6 +24,9 @@ label {
 
 input.date-input {
 	padding-right: 26px!important;
+	&.range {
+		width: 160px;
+	}
 }
 input.date-input,
 input.date-input:focus {

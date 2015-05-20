@@ -28,6 +28,8 @@
 @import "components/pagination";
 @import "components/search-box";
 @import "components/tab-filters";
+@import "components/status";
+@import "components/filters";
 
 @import "layout/auth-menu";
 @import "layout/main-header";
@@ -55,5 +57,6 @@
 @import "pages/events";
 @import "pages/profile";
 @import "pages/notifications";
+@import "pages/tickets";
 @import "pages/favourite-shops";
 @import "pages/timeline";

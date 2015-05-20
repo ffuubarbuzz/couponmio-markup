@@ -122,9 +122,13 @@ $(function(){
 		});
 	});
 
-	$('.date-input').pickmeup({
-		locale: pickmeupLocaleRu,
-		format: 'd.m.Y'
+	$('.date-input').each(function(){
+		var $input = $(this);
+		$input.pickmeup({
+			locale: pickmeupLocaleRu,
+			format: 'd.m.Y',
+			mode: $input.hasClass('range') ? 'range' : 'single'
+		});
 	});
 
 	$('.promo.subscribe').each(function(){

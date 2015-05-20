@@ -1,0 +1,170 @@
+.tickets {
+	.confirm-controls {
+		margin: 1em 0;
+		text-align: center;
+	}
+	.wizard {
+		.step {
+			flex-shrink: 1;
+			&:first-of-type {
+				flex-shrink: 0;
+				flex-grow: 0;
+				width: 300px;
+				+.step {
+					width: 0;
+				}
+			}
+		}
+	}
+	.ticket-list {
+		@include reset-list;
+
+		font-size: 1.17em;
+
+		margin: 0 -1.8rem;
+		.selected {
+			background: #e6eff3;
+			a {
+				color: #9b9b9b;
+			}
+		}
+		li {
+			border-bottom: 1px solid #f0f0f0;
+		}
+		a {
+			display: block;
+
+			padding: .7em 1.8rem;
+		}
+		p {
+			margin: 0;
+		}
+		time,
+		.status {
+			font-size: .71em;
+
+			color: #c9c9c9;
+		}
+		time {
+			display: inline-block;
+
+			margin-left: .7em;
+
+			fill: #c9c9c9;
+			.icon {
+				vertical-align: -1px;
+			}
+		}
+	}
+	.tickets-nav {
+		display: flex;
+
+		margin-top: .75em;
+
+		align-items: center;
+		justify-content: space-between;
+		.prev,
+		.next {
+			position: relative;
+
+			width: 35px;
+			height: 35px;
+			padding: 0;
+
+			border: 1px solid #d4d4d4;
+			border-radius: 100%;
+			background: linear-gradient(#fff, #f0f0f0);
+			box-shadow: 0 3px rgba(0, 0, 0, .05);
+			&::before {
+				line-height: .6;
+
+				position: absolute;
+				top: 50%;
+				left: 50%;
+
+				margin-top: -7px;
+				margin-left: -11px;
+
+				content: url('../img/icons/inlined/nav-arrow.svg');
+				transform: scale(.55) rotate(90deg);
+			}
+			&:hover,
+			&:active {
+				&::before {
+					content: url('../img/icons/inlined/nav-arrow-hover.svg');
+				}
+			}
+			&:hover {
+				background-image: linear-gradient(#ffc333, #f88d1a);
+			}
+			&:active {
+				background-image: linear-gradient(#f87501, #f88d1a);
+				box-shadow: 0 1px rgba(0, 0, 0, .6);
+			}
+		}
+		.prev {
+			&::before {
+				margin-left: -14px;
+
+				transform: scale(.55) rotate(-90deg);
+			}
+		}
+	}
+	.ticket {
+		padding: 1em 0;
+		textarea {
+			width: 100%;
+		}
+		.messages {
+			@include reset-list;
+
+			margin: 2em 0;
+		}
+		.message {
+			margin-top: 1em;
+			&:not(.response) .author::after {
+				margin-left: 12px;
+
+				content: url('../img/icons/inlined/user_comment_tail.svg');
+			}
+		}
+		blockquote {
+			display: inline-block;
+
+			width: 90%;
+			margin: 0;
+			padding: 1.33em 1.75em;
+
+			border: 1px solid #edf6f9;
+			border-radius: .5em;
+			background: #f8fdff;
+		}
+		.author {
+			position: relative;
+
+			padding-top: .3em;
+
+			color: #21a5d6;
+			&::before,
+			&::after {
+				position: absolute;
+				top: -1px;
+			}
+		}
+		.response {
+			text-align: right;
+			.author::before {
+				margin-left: -35px;
+
+				content: url('../img/icons/inlined/our_comment_tail.svg');
+			}
+			blockquote {
+				border-color: #f1f6e2;
+				background: #fcfff7;
+			}
+			.author {
+				color: #85b70c;
+			}
+		}
+	}
+}
