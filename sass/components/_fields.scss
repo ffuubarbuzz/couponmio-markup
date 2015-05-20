@@ -1,5 +1,5 @@
-$field-statuses: ok, error;
 .fields {
+	$field-statuses: ok, error;
 	@include reset-list;
 	li {
 		position: relative;
