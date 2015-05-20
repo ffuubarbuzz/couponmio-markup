@@ -12,24 +12,34 @@ textarea {
 	}
 }
 
+#{$text-inputs},
+select {
+	line-height: 1.5;
+	height: calc(2.1em + 2px);
+}
+
 label {
 	color: #2f2f2f;
 }
 
 input.date-input {
-	padding-right: 26px;
+	padding-right: 26px!important;
 }
 input.date-input,
 input.date-input:focus {
-	background: #fff url('../img/icons/inlined/inputs/date-input.svg') right center no-repeat;
+	background: url('../img/icons/inlined/inputs/date-input.svg') right center no-repeat,
+				linear-gradient(rgb(249,249,249) 0%, rgb(255,255,255) 48%);
+	background-color: #fff;
 }
 //TODO: unify with @each
 input.search-input {
-	padding-right: 26px;
+	padding-right: 26px!important;
 }
 input.search-input,
 input.search-input:focus {
-	background: #fff url('../img/icons/inlined/inputs/search-input.svg') right center no-repeat;
+	background: url('../img/icons/inlined/inputs/search-input.svg') right center no-repeat,
+				linear-gradient(rgb(249,249,249) 0%, rgb(255,255,255) 48%);
+	background-color: #fff;
 }
 
 .confirm-controls {
