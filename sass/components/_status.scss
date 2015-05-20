@@ -1,0 +1,28 @@
+.status {
+	&::before {
+		display: inline-block;
+
+		width: .8em;
+		height: .8em;
+		margin-right: .5em;
+
+		content: '';
+
+		border-radius: 100%;
+	}
+	&.active {
+		&::before {
+			background: #a8c838;
+		}
+	}
+	&.inactive {
+		&::before {
+			background: #c9c9c9;
+		}
+	}
+	&.on-hold {
+		&::before {
+			background: #ffa646;
+		}
+	}
+}
