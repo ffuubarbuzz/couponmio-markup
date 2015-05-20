@@ -1,5 +1,6 @@
 .wizard {
 	display: flex;
+	margin: 2em 0 5em;
 	border: 1px solid #f4f4f4;
 	border-radius: .25em;
 	background-color: #fff;
@@ -41,9 +42,11 @@
 		text-transform: uppercase;
 		background-image: linear-gradient(#21a5d6, #4dc9f7);
 		padding: 1em 1.6em;
-		margin: 0 calc(-1.8rem - 1px) 2em;
+		margin: 0 calc(-1.8rem - 1px);
 		overflow: hidden;
 		position: relative;
 		z-index: 1;
+		white-space: nowrap;
+		text-overflow: ellipsis;
 	}
 }
