@@ -1,0 +1,33 @@
+.filters {
+	@include reset-list;
+
+	margin: 2.5em 0;
+	padding: 1em 1.6em;
+
+	color: #9b9b9b;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 0 7px rgba(0, 0, 0, .15);
+	.filter {
+		display: inline-flex;
+
+		vertical-align: middle;
+
+		align-items: center;
+		&:not(:first-of-type) {
+			margin-left: 2.33em;
+		}
+	}
+	label {
+		font-size: 1.17em;
+
+		text-transform: uppercase;
+
+		color: #9b9b9b;
+		margin-right: 0.6em;
+	}
+	.search-input {
+		width: 280px;
+	}
+}
