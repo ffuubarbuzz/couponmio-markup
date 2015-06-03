@@ -795,8 +795,8 @@ h1 + .coupon {
     content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjU4IiB2aWV3Qm94PSIwIDAgNDAgNTgiPgogIDxkZWZzPgogICAgPHN0eWxlPgoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjMDAwMDAwOwogICAgICAgIG9wYWNpdHk6IDAuMjU7CiAgICAgIH0KCiAgICAgIC5jbHMtNSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQtMSk7CiAgICAgIH0KCiAgICAgIC5jbHMtNiB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQtMik7CiAgICAgIH0KCiAgICAgIC5jbHMtOCB7CiAgICAgICAgZmlsbDogI2ZmZmZmZjsKICAgICAgfQogICAgPC9zdHlsZT4KCiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudC0xIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjIwIiB5MT0iNTYiIHgyPSIyMCIgeTI9IjAiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmYTFiMWIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjg4IiBzdG9wLWNvbG9yPSIjZjg1MzFhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNzI0MSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjAiIHkxPSI1NiIgeDI9IjIwIiB5Mj0iNDYiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmFiYWIiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmY3YjdiIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8ZyBpZD0iZ2lmdHN2ZyI+CiAgICA8ZyBpZD0iYmctIj4KICAgICAgPHBhdGggZD0iTS0wLjAwMCwxLjk5OSBDLTAuMDAwLDEuOTk5IDQwLjAwMCwxLjk5OSA0MC4wMDAsMS45OTkgQzQwLjAwMCwxLjk5OSA0MC4wMDAsNTcuOTk5IDQwLjAwMCw1Ny45OTkgQzQwLjAwMCw1Ny45OTkgMjAuMDAwLDUyLjk5OSAyMC4wMDAsNTIuOTk5IEMyMC4wMDAsNTIuOTk5IC0wLjAwMCw1Ny45OTkgLTAuMDAwLDU3Ljk5OSBDLTAuMDAwLDU3Ljk5OSAtMC4wMDAsMS45OTkgLTAuMDAwLDEuOTk5IFoiIGlkPSJwYXRoLTEiIGNsYXNzPSJjbHMtNCIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgICAgIDxwYXRoIGQ9Ik0tMC4wMDAsLTAuMDAxIEMtMC4wMDAsLTAuMDAxIDQwLjAwMCwtMC4wMDEgNDAuMDAwLC0wLjAwMSBDNDAuMDAwLC0wLjAwMSA0MC4wMDAsNTUuOTk5IDQwLjAwMCw1NS45OTkgQzQwLjAwMCw1NS45OTkgMjAuMDAwLDUwLjk5OSAyMC4wMDAsNTAuOTk5IEMyMC4wMDAsNTAuOTk5IC0wLjAwMCw1NS45OTkgLTAuMDAwLDU1Ljk5OSBDLTAuMDAwLDU1Ljk5OSAtMC4wMDAsLTAuMDAxIC0wLjAwMCwtMC4wMDEgWiIgaWQ9InBhdGgtMiIgY2xhc3M9ImNscy01IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgICAgPHBhdGggZD0iTS0wLjAwMCw1MS45OTkgQy0wLjAwMCw1MS45OTkgMjAuMDAwLDQ1Ljk5OSAyMC4wMDAsNDUuOTk5IEMyMC4wMDAsNDUuOTk5IDQwLjAwMCw1MS45OTkgNDAuMDAwLDUxLjk5OSBDNDAuMDAwLDUxLjk5OSA0MC4wMDAsNTUuOTk5IDQwLjAwMCw1NS45OTkgQzQwLjAwMCw1NS45OTkgMjAuMDAwLDUwLjk5OSAyMC4wMDAsNTAuOTk5IEMyMC4wMDAsNTAuOTk5IC0wLjAwMCw1NS45OTkgLTAuMDAwLDU1Ljk5OSBDLTAuMDAwLDU1Ljk5OSAtMC4wMDAsNTEuOTk5IC0wLjAwMCw1MS45OTkgWiIgaWQ9InBhdGgtMyIgY2xhc3M9ImNscy02IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgIDwvZz4KICAgIDxnIGlkPSJnaWZ0Ij4KICAgICAgPHBhdGggZD0iTTI5LjAwMCwyNC45NjcgQzI5LjAwMCwyNC45NjcgMjkuMDAwLDMzLjk5OCAyOS4wMDAsMzMuOTk4IEMyOS4wMDAsMzMuOTk4IDIxLjAwMCwzMy45OTggMjEuMDAwLDMzLjk5OCBDMjEuMDAwLDMzLjk5OCAxOC4wMDAsMzMuOTk4IDE4LjAwMCwzMy45OTggQzE4LjAwMCwzMy45OTggMTAuMDAwLDMzLjk5OCAxMC4wMDAsMzMuOTk4IEMxMC4wMDAsMzMuOTk4IDEwLjAwMCwyNC45NjcgMTAuMDAwLDI0Ljk2NyBDMTAuMDAwLDI0Ljk2NyA5LjAwMCwyNC45NjcgOS4wMDAsMjQuOTY3IEM5LjAwMCwyNC45NjcgOS4wMDAsMjMuOTk4IDkuMDAwLDIzLjk5OCBDOS4wMDAsMjMuOTk4IDkuMDAwLDIyLjk5OSA5LjAwMCwyMi45OTkgQzkuMDAwLDIyLjk5OSA5LjAwMCwxOC45OTkgOS4wMDAsMTguOTk5IEM5LjAwMCwxOC45OTkgMTguMDAwLDE4Ljk5OSAxOC4wMDAsMTguOTk5IEMxOC4wMDAsMTguOTk5IDIxLjAwMCwxOC45OTkgMjEuMDAwLDE4Ljk5OSBDMjEuMDAwLDE4Ljk5OSAzMC4wMDAsMTguOTk5IDMwLjAwMCwxOC45OTkgQzMwLjAwMCwxOC45OTkgMzAuMDAwLDIyLjk5OSAzMC4wMDAsMjIuOTk5IEMzMC4wMDAsMjIuOTk5IDMwLjAwMCwyMy45OTggMzAuMDAwLDIzLjk5OCBDMzAuMDAwLDIzLjk5OCAzMC4wMDAsMjUuMDMwIDMwLjAwMCwyNS4wMzAgQzMwLjAwMCwyNS4wMzAgMjkuMDAwLDI0Ljk2NyAyOS4wMDAsMjQuOTY3IFpNMjEuMDAwLDMxLjk5OCBDMjEuMDAwLDMxLjk5OCAyNy4wMDAsMzEuOTk4IDI3LjAwMCwzMS45OTggQzI3LjAwMCwzMS45OTggMjcuMDAwLDIzLjk5OCAyNy4wMDAsMjMuOTk4IEMyNy4wMDAsMjMuOTk4IDIxLjAwMCwyMy45OTggMjEuMDAwLDIzLjk5OCBDMjEuMDAwLDIzLjk5OCAyMS4wMDAsMzEuOTk4IDIxLjAwMCwzMS45OTggWk0xMi4wMDAsMjQuMDMwIEMxMi4wMDAsMjQuMDMwIDEyLjAwMCwzMS45OTggMTIuMDAwLDMxLjk5OCBDMTIuMDAwLDMxLjk5OCAxOC4wMDAsMzEuOTk4IDE4LjAwMCwzMS45OTggQzE4LjAwMCwzMS45OTggMTguMDAwLDIzLjk5OCAxOC4wMDAsMjMuOTk4IEMxOC4wMDAsMjMuOTk4IDExLjQ5NiwyMy45OTggMTEuNDk2LDIzLjk5OCBDMTEuNDk2LDIzLjk5OCAxMi4wMDAsMjQuMDMwIDEyLjAwMCwyNC4wMzAgWk0xMS4wMDAsMjAuOTk4IEMxMS4wMDAsMjAuOTk4IDExLjAwMCwyMi45OTkgMTEuMDAwLDIyLjk5OSBDMTEuMDAwLDIyLjk5OSAxOC4wMDAsMjIuOTk5IDE4LjAwMCwyMi45OTkgQzE4LjAwMCwyMi45OTkgMTguMDAwLDIwLjk5OCAxOC4wMDAsMjAuOTk4IEMxOC4wMDAsMjAuOTk4IDExLjAwMCwyMC45OTggMTEuMDAwLDIwLjk5OCBaTTI4LjAwMCwyMC45OTggQzI4LjAwMCwyMC45OTggMjEuMDAwLDIwLjk5OCAyMS4wMDAsMjAuOTk4IEMyMS4wMDAsMjAuOTk4IDIxLjAwMCwyMi45OTkgMjEuMDAwLDIyLjk5OSBDMjEuMDAwLDIyLjk5OSAyNy4wMDAsMjIuOTk5IDI3LjAwMCwyMi45OTkgQzI3LjAwMCwyMi45OTkgMjguMDAwLDIyLjk5OSAyOC4wMDAsMjIuOTk5IEMyOC4wMDAsMjIuOTk5IDI4LjAwMCwyMC45OTggMjguMDAwLDIwLjk5OCBaIiBpZD0icGF0aC00IiBjbGFzcz0iY2xzLTgiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPgogICAgICA8cGF0aCBkPSJNMjYuMDAwLDE3Ljk5OSBDMjQuMDAwLDE4LjkwNSAyMC4wMDAsMTguOTk5IDIwLjAwMCwxOC45OTkgQzIwLjAwMCwxOC45OTkgMjAuMjgxLDE2LjM3NCAyMy4wMDAsMTMuOTk5IEMyNS43MTgsMTEuNjI0IDI4LjAwMCwxNy4wOTMgMjYuMDAwLDE3Ljk5OSBaTTIyLjMzMywxNi4yMTEgQzIxLjEyNSwxNy4wNjAgMjEuMDAwLDE3Ljk5OSAyMS4wMDAsMTcuOTk5IEMyMS4wMDAsMTcuOTk5IDIyLjc3NywxNy45NjUgMjMuNjY2LDE3LjY0MSBDMjQuNTU1LDE3LjMxNyAyMy41NDEsMTUuMzYyIDIyLjMzMywxNi4yMTEgWiIgaWQ9InBhdGgtNSIgY2xhc3M9ImNscy04IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KICAgICAgPHBhdGggZD0iTTEzLjc3NywxNy45MjYgQzExLjcwMywxNi45NTQgMTQuMDY5LDExLjA4OCAxNi44ODksMTMuNjM1IEMxOS43MDgsMTYuMTgzIDIwLjAwMCwxOC45OTkgMjAuMDAwLDE4Ljk5OSBDMjAuMDAwLDE4Ljk5OSAxNS44NTIsMTguODk4IDEzLjc3NywxNy45MjYgWk0xNy41ODAsMTYuMDA4IEMxNi4zMjcsMTUuMDk4IDE1LjI3NSwxNy4xOTUgMTYuMTk3LDE3LjU0MiBDMTcuMTE5LDE3Ljg5MCAxOC45NjMsMTcuOTI2IDE4Ljk2MywxNy45MjYgQzE4Ljk2MywxNy45MjYgMTguODMzLDE2LjkxOSAxNy41ODAsMTYuMDA4IFoiIGlkPSJwYXRoLTYiIGNsYXNzPSJjbHMtOCIgZmlsbC1ydWxlPSJldmVub2RkIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K'); }
   .coupon.social-open {
     margin-bottom: 6.4em;
-    -webkit-transition-delay: 0;
-            transition-delay: 0; }
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
     .coupon.social-open .social {
       -webkit-transition-delay: .3s;
               transition-delay: .3s;
@@ -1032,10 +1032,6 @@ h1 + .coupon {
     display: flex;
     width: 100%;
     padding: 0 90px 1.1em 0;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: center;
     -webkit-align-items: center;
         -ms-flex-align: center;
@@ -1044,6 +1040,8 @@ h1 + .coupon {
       padding: 0;
       border: none;
       background: none; }
+    .coupon footer .valid-till {
+      margin-left: 2em; }
     .coupon footer .social {
       position: absolute;
       z-index: -2;
@@ -1072,24 +1070,9 @@ h1 + .coupon {
       -webkit-backface-visibility: hidden; }
   .coupon .social-list {
     margin-left: .8em; }
-  .coupon .add-comment {
-    line-height: 1;
-    position: relative;
-    margin-left: 20px;
-    color: #21a5d6;
-    border-bottom: 1px dashed;
-    fill: #21a5d6; }
-    .coupon .add-comment:hover {
-      color: #4dc9f7;
-      fill: #4dc9f7; }
-    .coupon .add-comment .icon {
-      position: absolute;
-      top: 50%;
-      left: -20px;
-      margin-top: -7px;
-      margin-left: 3px; }
   .coupon .tag {
     position: absolute;
+    z-index: 1;
     right: -2px;
     bottom: -2px;
     overflow: hidden;
@@ -1249,32 +1232,6 @@ h1 + .coupon {
     .coupon .shop-coupons-link:active {
       color: #5992e9;
       fill: #5992e9; }
-  .coupon .comment-list {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    max-height: 390px;
-    overflow: auto; }
-  .coupon .comment {
-    border-bottom: 1px dashed #c3c5c6;
-    padding: 2em 0 2em 30px;
-    color: #9b9b9b; }
-    .coupon .comment .description {
-      color: #6e6e6e; }
-      .coupon .comment .description p:first-child {
-        margin-top: 0; }
-    .coupon .comment .icon {
-      float: left;
-      margin: .6em 0 0 -30px; }
-    .coupon .comment .icon-like {
-      fill: #aed231; }
-    .coupon .comment .icon-dislike {
-      fill: #f87501; }
-    .coupon .comment .icon-comment {
-      fill: #21a5d6; }
-    .coupon .comment .author {
-      margin: 0;
-      display: inline-block; }
   .coupon.dialog {
     border-radius: 0;
     margin: 0; }
@@ -1282,31 +1239,6 @@ h1 + .coupon {
       content: none; }
     .coupon.dialog .item-actions {
       margin-right: 30px; }
-    .coupon.dialog .comments {
-      position: absolute;
-      top: 100%;
-      right: .5em;
-      left: .5em;
-      background: #f3f7f8;
-      padding: 1.33em;
-      box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.15);
-      border-radius: 0 0 .33em .33em; }
-      .coupon.dialog .comments h2 {
-        color: #464646;
-        font-size: 1.33em;
-        margin: 1em 0; }
-      .coupon.dialog .comments .confirm-controls {
-        text-align: right; }
-      .coupon.dialog .comments .more-items {
-        background: transparent;
-        font-size: 1em;
-        color: #21a5d6;
-        border: none;
-        border-bottom: 1px dashed;
-        box-shadow: none;
-        width: auto;
-        margin: 1em auto 0 auto;
-        padding: 0; }
 
 .more-items {
   font-size: 1.7em;
