@@ -8,7 +8,8 @@ $(function(){
 		monthsShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн', 'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек']
 	};
 
-	$('[data-dialog]').click(function(){
+	$('[data-dialog]').click(function(e){
+		e.preventDefault();
 		$('#' + $(this).attr('data-dialog'))[0].showModal();
 	});
 

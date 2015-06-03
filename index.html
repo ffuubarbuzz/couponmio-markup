@@ -433,7 +433,7 @@
 								Еда & Рестораны
 							</a>
 							<h1>
-								<a href="">
+								<a href="" data-dialog="coupon-dialog">
 									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"><use xlink:href="assets/img/sprite.svg#coupon"></use></svg>
 									При заказе от 1099 руб, французское шампанское Duс de Paris 0,75 л вподарок!
 								</a>
@@ -457,7 +457,7 @@
 								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#clock"></use></svg>
 								Активен до: <time datetime="2013-01-23">23 января 2013</time>
 							</div>
-							<button class="action add-comment" class="action add-comment" data-dialog="coupon-dialog">
+							<button class="action add-comment" data-dialog="coupon-dialog" style="display: none">
 								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
 								Оставить комментарий
 							</button>
@@ -555,7 +555,7 @@
 								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#clock"></use></svg>
 								Активен до: <time datetime="2013-01-23">23 января 2013</time>
 							</div>
-							<button class="action add-comment" class="action add-comment" data-dialog="coupon-dialog">
+							<button class="action add-comment" data-dialog="coupon-dialog" style="display: none">
 								<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
 								Оставить комментарий
 							</button>
@@ -833,7 +833,7 @@
 									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="14"><use xlink:href="assets/img/sprite.svg#clock"></use></svg>
 									Активен до: <time datetime="2013-01-23">23 января 2013</time>
 								</div>
-								<button class="action add-comment" class="action add-comment" data-dialog="coupon-dialog">
+								<button class="action add-comment" data-dialog="coupon-dialog" style="display: none">
 									<svg role="img" class="icon" xmlns="http://www.w3.org/2000/svg" width="14" height="13"><use xlink:href="assets/img/sprite.svg#coupon-comment"></use></svg>
 									Оставить комментарий
 								</button>
@@ -1260,7 +1260,8 @@
 						</ul>
 					</div>
 				</div>
-				<section class="comments">
+				<section class="comments" style="display: none;">
+					<!-- disabled for a while (hopefully, for a while) -->
 					<form action="">
 						<textarea name="" id="" cols="30" rows="4" required placeholder="Что скажете о купоне?"></textarea>
 						<div class="confirm-controls">
