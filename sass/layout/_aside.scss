@@ -5,7 +5,7 @@ aside {
 
 		padding: .7em 1.33em;
 		.icon {
-			margin-right: .5em;
+			margin-right: .7em;
 
 			vertical-align: text-bottom;
 
@@ -23,11 +23,16 @@ aside {
 		h1 {
 			position: relative;
 
+			display: flex;
+
 			border-bottom: 2px dashed #e4e4e4;
 			background-clip: padding-box;
 			background-origin: padding-box;
+
+			align-items: center;
 			.first-word {
 				color: #fff;
+				margin-right: .4em;
 			}
 			&:after {
 				position: absolute;
