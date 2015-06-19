@@ -103,6 +103,18 @@
 			border-color: #ffb6b6;
 		}
 	}
+	&.bonus-codes {
+		background-image: linear-gradient(#fbf4f4, #fef4e7);
+		&:after {
+			@include lines-pattern(#fc961d, #ffcb5c, #fdb13b);
+		}
+		.icon {
+			fill: #fc961d;
+		}
+		input[type='email'] {
+			border-color: #ffd7a8;
+		}
+	}
 	&.subscribe-shop {
 		.logo {
 			width: 150px;

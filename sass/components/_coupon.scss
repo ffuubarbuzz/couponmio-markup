@@ -79,6 +79,14 @@ h1+.coupon {
 			fill: #f09595;
 		}
 	}
+	&.bonus-code {
+		h1 a {
+			color: #fc961d;
+		}
+		h1 a:hover {
+			color: #fc961d;
+		}
+	}
 	&.archive {
 		.action.primary,
 		.action.primary:hover,
@@ -107,6 +115,7 @@ h1+.coupon {
 			flex-direction: column;
 
 			width: 100px;
+			max-height: 130px;
 			padding-bottom: 1em;
 
 			text-transform: uppercase;
@@ -349,6 +358,47 @@ h1+.coupon {
 
 			border-color: #a4c72c;
 			background-image: linear-gradient(#99c430 37%, #7eab10 66%);
+		}
+	}
+	.bonus-code {
+		font-size: 1.7em;
+		font-weight: normal;
+
+		position: relative;
+
+		display: inline-block;
+
+		padding: .45em 1em .35em;
+
+		color: #92bf17;
+		border: 1px solid;
+		border-radius: 5px;
+		&::before,
+		&::after {
+			position: absolute;
+			top: 50%;
+
+			display: block;
+
+			width: 22px;
+			height: 22px;
+			margin-top: -11px;
+
+			content: '';
+
+			border: 1px solid;
+			border-radius: 100%;
+			background: #fff;
+		}
+		&::before {
+			left: -15px;
+
+			clip: rect(0, auto, auto, 13px);
+		}
+		&::after {
+			right: -15px;
+
+			clip: rect(0, 8px, auto, 0);
 		}
 	}
 	footer {
