@@ -1,0 +1,67 @@
+.item-type {
+	font-size: 1.2em;
+	line-height: 1.2;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 100px;
+	max-height: 130px;
+	padding-bottom: 1em;
+
+	text-transform: uppercase;
+
+	align-items: center;
+	strong {
+		font-size: 1.15em;
+
+		display: block;
+	}
+	.icon {
+		display: block;
+
+		margin: auto;
+	}
+	&:after {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+
+		display: block;
+
+		content: '';
+
+		opacity: .6;
+		border: 2px dashed;
+		border-radius: 10px;
+	}
+}
+.type-gift .item-type {
+	color: #fa201b;
+
+	fill: #ff5252;
+}
+.type-cashback .item-type {
+	color: #a8c838;
+
+	fill: #c0dc5e;
+}
+.type-delivery .item-type {
+	color: #4dc9f7;
+
+	fill: #98e3ff;
+}
+.type-discount .item-type {
+	padding-bottom: .4em;
+
+	color: #f88d1a;
+
+	fill: #ffa646;
+	strong {
+		font-size: 2.14em;
+	}
+}
