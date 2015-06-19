@@ -434,6 +434,7 @@ h1+.coupon {
 		color: #fdfdfd;
 		&:before {
 			position: absolute;
+			z-index: 1;
 			top: 50%;
 			left: 50%;
 
