@@ -821,6 +821,10 @@ h1 + .coupon {
   .coupon.campaign h1 a:hover, .coupon.par h1 a:hover {
     color: #f09595;
     fill: #f09595; }
+  .coupon.bonus-code h1 a {
+    color: #fc961d; }
+  .coupon.bonus-code h1 a:hover {
+    color: #fc961d; }
   .coupon.archive .action.primary, .coupon.archive .action.primary:hover, .coupon.archive .action.primary:active {
     padding: .4em .9em;
     border: 2px solid #d6d6d6;
@@ -832,58 +836,8 @@ h1 + .coupon {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3); }
   .coupon.same-shop:after {
     content: none; }
-  .coupon.same-shop > div:first-child {
-    font-size: 1.2em;
-    line-height: 1.2;
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100px;
-    padding-bottom: 1em;
-    text-transform: uppercase;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .coupon.same-shop > div:first-child strong {
-      font-size: 1.15em;
-      display: block; }
-    .coupon.same-shop > div:first-child .icon {
-      display: block;
-      margin: auto; }
-    .coupon.same-shop > div:first-child:after {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      display: block;
-      content: '';
-      opacity: .6;
-      border: 2px dashed;
-      border-radius: 10px; }
-  .coupon.same-shop.type-gift > div:first-child {
-    color: #fa201b;
-    fill: #ff5252; }
-  .coupon.same-shop.type-cashback > div:first-child {
-    color: #a8c838;
-    fill: #c0dc5e; }
-  .coupon.same-shop.type-delivery > div:first-child {
-    color: #4dc9f7;
-    fill: #98e3ff; }
-  .coupon.same-shop.type-discount > div:first-child {
-    padding-bottom: .4em;
-    color: #f88d1a;
-    fill: #ffa646; }
-    .coupon.same-shop.type-discount > div:first-child strong {
-      font-size: 2.14em; }
+  .coupon.same-shop .item-type {
+    width: 100px; }
   .coupon > div:first-child {
     width: 150px;
     margin: 0 1.7em 1.5em 0;
@@ -1024,6 +978,32 @@ h1 + .coupon {
       border-color: #a4c72c;
       background-image: -webkit-linear-gradient(#99c430 37%, #7eab10 66%);
       background-image: linear-gradient(#99c430 37%, #7eab10 66%); }
+  .coupon .bonus-code {
+    font-size: 1.7em;
+    font-weight: normal;
+    position: relative;
+    display: inline-block;
+    padding: .45em 1em .35em;
+    color: #92bf17;
+    border: 1px solid;
+    border-radius: 5px; }
+    .coupon .bonus-code::before, .coupon .bonus-code::after {
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: 22px;
+      height: 22px;
+      margin-top: -11px;
+      content: '';
+      border: 1px solid;
+      border-radius: 100%;
+      background: #fff; }
+    .coupon .bonus-code::before {
+      left: -15px;
+      clip: rect(0, auto, auto, 13px); }
+    .coupon .bonus-code::after {
+      right: -15px;
+      clip: rect(0, 8px, auto, 0); }
   .coupon footer {
     position: relative;
     display: -webkit-box;
@@ -1072,7 +1052,6 @@ h1 + .coupon {
     margin-left: .8em; }
   .coupon .tag {
     position: absolute;
-    z-index: 1;
     right: -2px;
     bottom: -2px;
     overflow: hidden;
@@ -1081,6 +1060,7 @@ h1 + .coupon {
     color: #fdfdfd; }
     .coupon .tag:before {
       position: absolute;
+      z-index: 1;
       top: 50%;
       left: 50%;
       display: block;
@@ -1378,6 +1358,17 @@ h1 + .coupon {
       fill: #f8521a; }
     .promo.add-favourites input[type='email'], .promo.pars input[type='email'] {
       border-color: #ffb6b6; }
+  .promo.bonus-codes {
+    background-image: -webkit-linear-gradient(#fbf4f4, #fef4e7);
+    background-image: linear-gradient(#fbf4f4, #fef4e7); }
+    .promo.bonus-codes:after {
+      background: -webkit-linear-gradient(left, #fc961d 0%, #fc961d 10%, #ffcb5c 10%, #ffcb5c 23%, #fdb13b 23%, #fdb13b 33%, #fc961d 33%, #fc961d 39%, #ffcb5c 39%, #ffcb5c 56%, #fdb13b 56%, #fdb13b 70%, #fc961d 70%, #fc961d 75%, #fdb13b 75%, #fdb13b 84%, #ffcb5c 84%, #ffcb5c 94%, #fc961d 94%, #fc961d 100%);
+      background: linear-gradient(to right, #fc961d 0%, #fc961d 10%, #ffcb5c 10%, #ffcb5c 23%, #fdb13b 23%, #fdb13b 33%, #fc961d 33%, #fc961d 39%, #ffcb5c 39%, #ffcb5c 56%, #fdb13b 56%, #fdb13b 70%, #fc961d 70%, #fc961d 75%, #fdb13b 75%, #fdb13b 84%, #ffcb5c 84%, #ffcb5c 94%, #fc961d 94%, #fc961d 100%);
+      background-size: 100% 620px; }
+    .promo.bonus-codes .icon {
+      fill: #fc961d; }
+    .promo.bonus-codes input[type='email'] {
+      border-color: #ffd7a8; }
   .promo.subscribe-shop .logo {
     width: 150px;
     height: 120px;
@@ -2080,6 +2071,64 @@ dialog::backdrop, .backdrop {
   .filters .search-input {
     width: 280px; }
 
+.item-type {
+  font-size: 1.2em;
+  line-height: 1.2;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100px;
+  height: 130px;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .item-type strong {
+    font-size: 1.15em;
+    display: block; }
+  .item-type .icon {
+    display: block;
+    margin: auto; }
+  .item-type:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    content: '';
+    opacity: .6;
+    border: 2px dashed;
+    border-radius: 10px; }
+
+.type-gift .item-type {
+  color: #fa201b;
+  fill: #ff5252; }
+
+.type-cashback .item-type {
+  color: #a8c838;
+  fill: #c0dc5e; }
+
+.type-delivery .item-type {
+  color: #4dc9f7;
+  fill: #98e3ff; }
+
+.type-discount .item-type {
+  padding-bottom: .4em;
+  color: #f88d1a;
+  fill: #ffa646; }
+  .type-discount .item-type strong {
+    font-size: 2.14em; }
+
 .auth-menu {
   background: #464646;
   position: relative;
@@ -2609,7 +2658,7 @@ aside h1 {
   font-weight: bold;
   padding: .7em 1.33em; }
   aside h1 .icon {
-    margin-right: .5em;
+    margin-right: .7em;
     vertical-align: text-bottom;
     fill: rgba(255, 255, 255, 0.6); }
 aside > article {
@@ -2621,11 +2670,20 @@ aside > article {
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3); }
   aside > article h1 {
     position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     border-bottom: 2px dashed #e4e4e4;
     background-clip: padding-box;
-    background-origin: padding-box; }
+    background-origin: padding-box;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
     aside > article h1 .first-word {
-      color: #fff; }
+      color: #fff;
+      margin-right: .4em; }
     aside > article h1:after {
       position: absolute;
       right: 0;
@@ -2668,15 +2726,15 @@ aside .follow-us .social-list {
   aside .follow-us .social-list .icon {
     border-radius: 50%;
     box-shadow: 0 3px rgba(0, 0, 0, 0.2); }
-aside .favourite-shops h1, aside .aside-coupons h1, aside .events-calendar h1 {
+aside .favourite-shops h1, aside .aside-coupons h1, aside .events-calendar h1, aside .bonus-codes h1 {
   background-image: -webkit-linear-gradient(#ffa646, #f57f00);
   background-image: linear-gradient(#ffa646, #f57f00); }
-  aside .favourite-shops h1:after, aside .aside-coupons h1:after, aside .events-calendar h1:after {
+  aside .favourite-shops h1:after, aside .aside-coupons h1:after, aside .events-calendar h1:after, aside .bonus-codes h1:after {
     background-image: -webkit-linear-gradient(#f8b11a, #ffb400);
     background-image: linear-gradient(#f8b11a, #ffb400); }
-aside .favourite-shops .aside-similar-list li:nth-child(even) a, aside .aside-coupons .aside-similar-list li:nth-child(even) a, aside .events-calendar .aside-similar-list li:nth-child(even) a {
+aside .favourite-shops .aside-similar-list li:nth-child(even) a, aside .aside-coupons .aside-similar-list li:nth-child(even) a, aside .events-calendar .aside-similar-list li:nth-child(even) a, aside .bonus-codes .aside-similar-list li:nth-child(even) a {
   background: #fbf5ea; }
-aside .favourite-shops .aside-similar-list a, aside .aside-coupons .aside-similar-list a, aside .events-calendar .aside-similar-list a {
+aside .favourite-shops .aside-similar-list a, aside .aside-coupons .aside-similar-list a, aside .events-calendar .aside-similar-list a, aside .bonus-codes .aside-similar-list a {
   border-bottom-color: #fac28d; }
 aside .favourite-shop-list {
   padding: .5rem 0 1rem; }
@@ -2716,12 +2774,12 @@ aside .categories img {
   height: 52px;
   margin-right: 1.25em;
   border: 1px solid #f0f0f0; }
-aside .categories a {
+aside .categories ul a {
   display: block;
   overflow: hidden;
   padding: .75em 1em;
   color: #656565; }
-  aside .categories a:hover h2, aside .categories a:hover h3 {
+  aside .categories ul a:hover h2, aside .categories ul a:hover h3 {
     color: #4dc9f7; }
 aside .pars h1 {
   background-image: -webkit-linear-gradient(#a8c838, #85b70c);
@@ -2751,6 +2809,18 @@ aside .pars img {
   border: 1px solid #f0f0f0; }
 aside .pars .list-link {
   margin-top: 1em; }
+aside .bonus-codes h2 {
+  color: #fc961d;
+  margin: 1em 0; }
+aside .bonus-codes .item-type {
+  float: left;
+  margin-right: 1em; }
+aside .bonus-codes .bonus-code {
+  overflow: hidden;
+  display: block;
+  margin: 2em; }
+  aside .bonus-codes .bonus-code p {
+    color: #2f2f2f; }
 aside .subscribe {
   display: block;
   height: 282px;
