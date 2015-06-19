@@ -100,7 +100,8 @@ aside {
 	}
 	.favourite-shops,
 	.aside-coupons,
-	.events-calendar {
+	.events-calendar,
+	.bonus-codes {
 		h1 {
 			background-image: linear-gradient(#ffa646, #f57f00);
 			&:after {
@@ -231,6 +232,24 @@ aside {
 		}
 		.list-link {
 			margin-top: 1em;
+		}
+	}
+	.bonus-codes {
+		h2 {
+			color: #fc961d;
+			margin: 1em 0;
+		}
+		.item-type {
+			float: left;
+			margin-right: 1em;
+		}
+		.bonus-code {
+			overflow: hidden;
+			display: block;
+			margin: 2em;
+			p {
+				color: #2f2f2f;
+			}
 		}
 	}
 	.subscribe {
