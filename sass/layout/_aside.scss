@@ -101,7 +101,8 @@ aside {
 	.favourite-shops,
 	.aside-coupons,
 	.events-calendar,
-	.bonus-codes {
+	.bonus-codes,
+	.top-shops {
 		h1 {
 			background-image: linear-gradient(#ffa646, #f57f00);
 			&:after {
@@ -302,6 +303,48 @@ aside {
 	.testimonials {
 		h1 .icon {
 			fill: #ffb618;
+		}
+	}
+	.top-shops {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		li {
+			width: 50%;
+			border: 0 dashed #fcc899;
+			border-bottom-width: 1px;
+			padding: 2px;
+			&:nth-child(odd) {
+				border-right-width: 1px;
+			}
+			a {
+				display: block;
+				text-align: center;
+				font-size: 1.17em;
+				border: 1px solid transparent;
+				padding-bottom: .5em;
+				&:hover {
+					border-color: #fe983f;
+				}
+			}
+		}
+		.image {
+			height: 85px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: .5em;
+			img {
+				max-width: 95%;
+				max-height: 95%;
+			}
+		}
+		.list-link {
+			border-top: none;
 		}
 	}
 }
