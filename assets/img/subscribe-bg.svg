@@ -1,162 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="315" height="282" viewBox="0 0 315 282">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="306" height="278" viewBox="0 0 306 278">
   <defs>
     <style>
+      .cls-1, .cls-5 {
+        fill: #000;
+        opacity: 0.05;
+      }
+
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-2, .cls-3, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-1);
+      }
 
       .cls-3 {
-        fill: #000000;
-        filter: url(#drop-shadow-1);
-        fill-opacity: 0;
+        fill: #29b6f6;
+        stroke: #8ed5ef;
+        stroke-width: 3px;
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-1);
-        filter: url(#drop-shadow-2);
-      }
-
-      .cls-5 {
-        fill: #b8dbe8;
-        stroke: #8ed5ef;
-        stroke-width: 4px;
-        filter: url(#filter-chain-1);
-      }
-
-      .cls-6 {
         fill: url(#linear-gradient-2);
       }
 
-      .cls-7 {
-        fill: #000000;
-        stroke: #ffffff;
+      .cls-6 {
+        fill: #fff;
+        stroke: #fff;
+        filter: url(#gradient-overlay-1);
+      }
+
+      .cls-10, .cls-6 {
         stroke-linejoin: round;
         stroke-width: 1px;
-        filter: url(#filter-chain-2);
+      }
+
+      .cls-7 {
+        fill: #8b8b8b;
+      }
+
+      .cls-7, .cls-9 {
+        opacity: 0.2;
       }
 
       .cls-8 {
         fill: url(#linear-gradient-3);
-        filter: url(#drop-shadow-3);
       }
 
       .cls-9 {
-        fill: url(#linear-gradient-4);
-        filter: url(#drop-shadow-4);
+        fill: #555;
       }
 
       .cls-10 {
-        fill: url(#linear-gradient-5);
-        stroke: url(#linear-gradient-6);
-        stroke-linejoin: round;
-        stroke-width: 1px;
-        filter: url(#inner-shadow-1);
+        fill: url(#linear-gradient-4);
+        stroke: url(#linear-gradient-5);
+      }
+
+      .cls-11 {
+        fill: #eb6c53;
+      }
+
+      .cls-12 {
+        fill: #92cfe6;
+      }
+
+      .cls-13 {
+        fill: #464646;
+        opacity: 0.15;
       }
     </style>
 
-    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="0"/>
-      <feGaussianBlur result="dropShadow" stdDeviation="2.646"/>
-      <feFlood flood-color="#000000" flood-opacity="0.15"/>
-      <feComposite operator="in" in2="dropShadow"/>
-      <feComposite in="SourceGraphic" result="dropShadow"/>
-    </filter>
-    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="10" y1="69.063" x2="310" y2="69.063">
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="3" y1="64.563" x2="302" y2="64.563">
       <stop offset="0" stop-color="#ebebeb"/>
       <stop offset="0.22" stop-color="#fff9f2"/>
-      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="0.69" stop-color="#fff"/>
       <stop offset="1" stop-color="#efefef"/>
     </linearGradient>
-    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="-3"/>
-      <feGaussianBlur result="dropShadow" stdDeviation="1"/>
-      <feFlood flood-color="#000000" flood-opacity="0.05"/>
-      <feComposite operator="in" in2="dropShadow"/>
-      <feComposite in="SourceGraphic" result="dropShadow"/>
-    </filter>
-    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
-      <feComposite operator="in" in2="SourceGraphic"/>
-      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
-      <feFlood flood-color="#98e3ff" flood-opacity="1"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-      <feBlend mode="multiply" in2="gradientFill" result="colorOverlay"/>
-    </filter>
-    <linearGradient id="linear-gradient-2" gradientUnits="userSpaceOnUse" x1="157" y1="114" x2="157" y2="106">
-      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="0.49" stop-color="#fdfdfd" stop-opacity="0.1"/>
-      <stop offset="0.5" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    <linearGradient id="linear-gradient-2" gradientUnits="userSpaceOnUse" x1="153" y1="115" x2="153" y2="107">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="0.49" stop-color="#fdfdfd" stop-opacity="0.102"/>
+      <stop offset="0.5" stop-color="#fff"/>
+      <stop offset="1" stop-opacity="0"/>
     </linearGradient>
-    <filter id="filter-chain-2" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="2"/>
-      <feGaussianBlur result="dropShadow" stdDeviation="2"/>
-      <feFlood flood-color="#000000" flood-opacity="0.15"/>
-      <feComposite operator="in" in2="dropShadow"/>
-      <feComposite in="SourceGraphic" result="dropShadow"/>
-      <feImage x="29" y="3" preserveAspectRatio="none" width="266" height="156" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjY2IiBoZWlnaHQ9IjE1NiI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAiIHkxPSI3OCIgeDI9IjI2NiIgeTI9Ijc4Ij4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmN2Y4ZjgiLz4KICA8c3RvcCBvZmZzZXQ9IjAuNSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPgogIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZiZmJmYiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PC9zdmc+"/>
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="18" y="2" width="270" height="158" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjcwIiBoZWlnaHQ9IjE1OCI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeTE9Ijc5IiB4Mj0iMjcwIiB5Mj0iNzkiPgogIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzllYTRhNSIvPgogIDxzdG9wIG9mZnNldD0iMC41IiBzdG9wLWNvbG9yPSIjZmZmIi8+CiAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYmRiZGJkIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4="/>
       <feComposite operator="in" in2="SourceGraphic"/>
-      <feBlend mode="normal" in2="dropShadow" result="gradientFill"/>
+      <feBlend mode="screen" in2="SourceGraphic" result="gradientFill"/>
     </filter>
-    <linearGradient id="linear-gradient-3" gradientUnits="userSpaceOnUse" x1="7" y1="192.141" x2="307" y2="192.141">
+    <linearGradient id="linear-gradient-3" gradientUnits="userSpaceOnUse" x1="3" y1="193.14" x2="303" y2="193.14">
       <stop offset="0" stop-color="#f8f8f8"/>
       <stop offset="0.22" stop-color="#fff9f2"/>
-      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="0.69" stop-color="#fff"/>
       <stop offset="1" stop-color="#f8f8f8"/>
     </linearGradient>
-    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="-2"/>
-      <feGaussianBlur result="dropShadow" stdDeviation="2.236"/>
-      <feFlood flood-color="#000000" flood-opacity="0.1"/>
-      <feComposite operator="in" in2="dropShadow"/>
-      <feComposite in="SourceGraphic" result="dropShadow"/>
-    </filter>
-    <linearGradient id="linear-gradient-4" gradientUnits="userSpaceOnUse" x1="11" y1="212.406" x2="307" y2="212.406">
-      <stop offset="0" stop-color="#ebebeb"/>
-      <stop offset="0.22" stop-color="#fff9f2"/>
-      <stop offset="0.69" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#efefef"/>
-    </linearGradient>
-    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="-2"/>
-      <feGaussianBlur result="dropShadow" stdDeviation="1.732"/>
-      <feFlood flood-color="#000000" flood-opacity="0.22"/>
-      <feComposite operator="in" in2="dropShadow"/>
-      <feComposite in="SourceGraphic" result="dropShadow"/>
-    </filter>
-    <linearGradient id="linear-gradient-5" gradientUnits="userSpaceOnUse" x1="13" y1="214.563" x2="309" y2="214.563">
+    <linearGradient id="linear-gradient-4" gradientUnits="userSpaceOnUse" x1="3" y1="212.563" x2="303" y2="212.563">
       <stop offset="0" stop-color="#f8f8f8"/>
-      <stop offset="0.22" stop-color="#fff9f2"/>
-      <stop offset="0.69" stop-color="#ffffff"/>
+      <stop offset="0.26" stop-color="#fff9f2"/>
+      <stop offset="0.77" stop-color="#fff"/>
       <stop offset="1" stop-color="#f8f8f8"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-6" gradientUnits="userSpaceOnUse" x1="161" y1="278" x2="161" y2="151.125">
+    <linearGradient id="linear-gradient-5" gradientUnits="userSpaceOnUse" x1="153" y1="276" x2="153" y2="149.125">
       <stop offset="0" stop-color="#ebebeb"/>
       <stop offset="0.1" stop-color="#f8f8f8"/>
       <stop offset="0.43" stop-color="#ececec"/>
       <stop offset="1" stop-color="#ececec"/>
     </linearGradient>
-    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
-      <feOffset in="SourceAlpha" dx="0" dy="-4"/>
-      <feGaussianBlur result="innerShadowBlur" stdDeviation="4.123"/>
-      <feFlood flood-color="#000000" flood-opacity="0.04"/>
-      <feComposite operator="out" in2="innerShadowBlur"/>
-      <feComposite operator="in" in2="SourceAlpha"/>
-      <feBlend mode="multiply" in2="SourceGraphic" result="innerShadow"/>
-    </filter>
   </defs>
-  <g id="subscribe-bgsvg">
-    <path d="M314.500,115.890 C314.500,115.890 314.500,279.890 314.500,279.890 C314.500,280.995 313.605,281.890 312.500,281.890 C312.500,281.890 14.500,281.890 14.500,281.890 C13.395,281.890 12.500,280.995 12.500,279.890 C12.500,279.890 12.500,115.890 12.500,115.890 C12.500,121.890 49.832,119.140 87.165,114.890 C87.165,114.890 14.500,114.890 14.500,114.890 C13.395,114.890 12.500,113.995 12.500,112.890 C12.500,112.890 18.000,103.890 22.500,99.890 C27.000,95.890 147.033,42.557 152.500,39.890 C156.575,37.902 168.184,38.640 171.500,39.890 C175.567,41.423 299.500,96.390 304.500,99.890 C309.500,103.390 314.500,112.890 314.500,112.890 C314.500,113.995 313.605,114.890 312.500,114.890 C312.500,114.890 248.197,114.890 248.197,114.890 C282.742,118.232 314.500,120.147 314.500,115.890 Z" id="path-1" class="cls-3" fill-rule="evenodd"/>
-    <path d="M151.500,13.062 C155.167,10.395 167.833,10.728 170.500,13.062 C173.167,15.395 296.500,89.562 301.500,93.062 C306.500,96.562 311.500,106.062 311.500,106.062 C311.500,107.166 311.500,131.062 311.500,131.062 C311.500,131.062 11.500,131.062 11.500,131.062 C11.500,131.062 11.500,107.166 11.500,106.062 C11.500,106.062 17.000,97.062 21.500,93.062 C26.000,89.062 147.833,15.729 151.500,13.062 Z" id="path-2" class="cls-4" fill-rule="evenodd"/>
-    <g id="inner_material" style="fill: #b8dbe8; filter: url(#filter-chain-1);">
-      <path d="M152.000,40.000 C156.075,38.012 167.684,38.749 171.000,40.000 C175.067,41.533 294.000,96.499 299.000,100.000 C304.000,103.500 309.000,116.000 309.000,116.000 C309.000,117.104 308.105,117.999 307.000,117.999 C307.000,117.999 17.000,117.999 17.000,117.999 C15.895,117.999 15.000,117.104 15.000,116.000 C15.000,116.000 20.500,103.999 25.000,100.000 C29.500,96.000 146.533,42.666 152.000,40.000 Z" id="path-3" class="cls-5" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
+  <g>
+    <path d="M306.000,273.999 C306.000,275.104 305.104,275.999 304.000,275.999 L2.000,277.999 C0.895,277.999 -0.000,277.104 -0.000,275.999 L-0.000,109.000 C0.225,108.514 0.496,108.045 0.795,107.586 C0.315,107.221 -0.000,106.649 -0.000,106.000 C-0.000,106.000 7.500,96.999 12.000,92.999 C16.500,88.999 136.533,36.666 142.000,34.000 C146.075,32.012 157.684,32.749 161.000,34.000 C165.067,35.533 289.000,90.499 294.000,93.999 C299.000,97.499 306.000,107.000 306.000,107.000 C306.000,107.594 305.736,108.121 305.325,108.488 C305.663,108.972 305.899,109.474 306.000,110.000 L306.000,273.999 Z" class="cls-1"/>
+    <path d="M143.000,12.999 C146.667,10.333 159.333,10.666 162.000,12.999 C164.667,15.333 288.000,89.499 293.000,92.999 C298.000,96.500 302.000,105.999 302.000,105.999 C302.000,107.104 302.000,117.999 302.000,117.999 L3.000,117.999 C3.000,117.999 3.000,107.104 3.000,105.999 C3.000,105.999 8.500,97.000 13.000,92.999 C17.500,88.999 139.333,15.666 143.000,12.999 Z" class="cls-2"/>
+    <path d="M144.500,40.500 C148.575,38.512 160.184,39.249 163.500,40.500 C167.567,42.033 289.500,96.999 294.500,100.500 C299.500,104.000 300.500,113.500 300.500,113.500 C300.500,114.604 301.604,115.499 300.500,115.499 L6.500,115.499 C5.395,115.499 6.500,114.604 6.500,113.500 C6.500,113.500 10.000,104.499 14.500,100.500 C19.000,96.500 139.033,43.166 144.500,40.500 Z" class="cls-3"/>
+    <rect x="4" y="107" width="298" height="8" rx="2" ry="2" class="cls-4"/>
+    <rect x="15" width="276" height="165" class="cls-5"/>
+    <g style="fill: #fff; filter: url(#gradient-overlay-1)">
+      <rect x="18" y="2" width="270" height="158" id="rect-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-6"/>
     </g>
-    <use xlink:href="#path-3" style="stroke: #8ed5ef; fill: none; filter: none;"/>
-    <g id="paper" style="fill: #000000; filter: url(#filter-chain-2);">
-      <rect id="rect-1" class="cls-7" x="29" y="3" width="266" height="156" style="stroke: inherit; filter: none; fill: inherit;"/>
+    <use xlink:href="#rect-1" style="stroke: #fff; filter: none; fill: none"/>
+    <path d="M23.000,109.999 C31.333,113.333 143.000,149.999 143.000,149.999 L152.500,162.000 L162.000,149.999 C162.000,149.999 277.333,112.000 283.000,109.999 C288.667,107.999 303.000,106.895 303.000,107.999 L303.000,270.999 C303.000,272.104 302.105,272.999 301.000,272.999 L5.000,272.999 C3.895,272.999 3.000,272.104 3.000,270.999 L3.000,107.999 C3.000,106.895 14.667,106.666 23.000,109.999 Z" class="cls-7"/>
+    <path d="M23.000,113.000 C31.333,116.333 143.000,152.999 143.000,152.999 L152.500,165.000 L162.000,152.999 C162.000,152.999 277.333,115.000 283.000,113.000 C288.667,110.999 303.000,109.895 303.000,110.999 L303.000,274.000 C303.000,275.104 302.105,275.999 301.000,275.999 L5.000,275.999 C3.895,275.999 3.000,275.104 3.000,274.000 L3.000,110.999 C3.000,109.895 14.667,109.666 23.000,113.000 Z" class="cls-8"/>
+    <path d="M137.000,153.999 C143.000,147.142 161.143,146.999 167.000,153.999 C172.857,160.999 196.562,182.137 203.000,186.999 C236.125,212.020 303.000,248.666 303.000,256.999 C303.000,267.333 303.000,274.000 303.000,274.000 C303.000,275.104 302.105,275.999 301.000,275.999 L5.000,275.999 C3.895,275.999 3.000,275.104 3.000,274.000 C3.000,274.000 3.000,268.999 3.000,256.999 C3.000,246.333 64.591,215.256 98.000,189.999 C104.560,185.040 131.000,160.857 137.000,153.999 Z" class="cls-9"/>
+    <path d="M143.500,151.499 C147.167,148.833 159.833,149.166 162.500,151.499 C165.167,153.833 303.500,250.499 303.500,261.499 C303.500,272.499 303.500,274.500 303.500,274.500 C303.500,275.604 302.605,276.499 301.500,276.499 L5.500,276.499 C4.395,276.499 3.500,275.604 3.500,274.500 C3.500,274.500 3.500,273.500 3.500,261.499 C3.500,249.500 139.833,154.166 143.500,151.499 Z" class="cls-10"/>
+    <g>
+      <path d="M301.000,276.000 L278.000,276.000 L288.000,266.000 L303.000,266.000 C303.000,266.000 303.000,270.242 303.000,273.200 C303.000,274.784 301.000,276.000 301.000,276.000 ZM228.000,276.000 L238.000,266.000 L263.000,266.000 L253.000,276.000 L228.000,276.000 ZM178.000,276.000 L188.000,266.000 L213.000,266.000 L203.000,276.000 L178.000,276.000 ZM128.000,276.000 L138.000,266.000 L163.000,266.000 L153.000,276.000 L128.000,276.000 ZM78.000,276.000 L88.000,266.000 L113.000,266.000 L103.000,276.000 L78.000,276.000 ZM28.000,276.000 L38.000,266.000 L63.000,266.000 L53.000,276.000 L28.000,276.000 ZM3.000,275.000 L3.000,266.000 L13.000,266.000 C13.000,266.000 7.007,271.993 4.300,274.700 C3.510,275.490 3.000,275.000 3.000,275.000 Z" class="cls-11"/>
+      <path d="M278.000,276.000 L253.000,276.000 L263.000,266.000 L288.000,266.000 L278.000,276.000 ZM203.000,276.000 L213.000,266.000 L238.000,266.000 L228.000,276.000 L203.000,276.000 ZM153.000,276.000 L163.000,266.000 L188.000,266.000 L178.000,276.000 L153.000,276.000 ZM103.000,276.000 L113.000,266.000 L138.000,266.000 L128.000,276.000 L103.000,276.000 ZM53.000,276.000 L63.000,266.000 L88.000,266.000 L78.000,276.000 L53.000,276.000 ZM5.000,276.000 C5.000,276.000 3.425,275.575 4.100,274.900 C6.698,272.301 13.000,266.000 13.000,266.000 L38.000,266.000 L28.000,276.000 L5.000,276.000 Z" class="cls-12"/>
+      <path d="M3.000,273.000 L303.000,273.000 C303.000,273.000 301.657,276.000 300.000,276.000 L6.000,276.000 C4.343,276.000 3.000,274.657 3.000,273.000 L3.000,273.000 Z" class="cls-13"/>
     </g>
-    <use xlink:href="#rect-1" style="stroke: #ffffff; fill: none; filter: none;"/>
-    <path d="M31.500,116.640 C39.833,119.974 151.500,156.640 151.500,156.640 C151.500,156.640 161.000,168.640 161.000,168.640 C161.000,168.640 170.500,156.640 170.500,156.640 C170.500,156.640 285.833,118.640 291.500,116.640 C297.167,114.640 311.500,113.536 311.500,114.640 C311.500,114.640 311.500,277.640 311.500,277.640 C311.500,278.745 310.605,279.640 309.500,279.640 C309.500,279.640 13.500,279.640 13.500,279.640 C12.395,279.640 11.500,278.745 11.500,277.640 C11.500,277.640 11.500,114.640 11.500,114.640 C11.500,113.536 23.167,113.307 31.500,116.640 Z" id="path-4" class="cls-8" fill-rule="evenodd"/>
-    <path d="M146.500,157.906 C152.500,151.049 169.643,150.906 175.500,157.906 C181.357,164.906 205.062,185.043 211.500,189.906 C244.625,214.926 309.500,255.572 309.500,263.906 C309.500,274.239 309.500,275.906 309.500,275.906 C309.500,277.010 308.605,277.906 307.500,277.906 C307.500,277.906 15.500,277.906 15.500,277.906 C14.395,277.906 13.500,277.010 13.500,275.906 C13.500,275.906 13.500,275.906 13.500,263.906 C13.500,253.239 73.091,217.162 106.500,191.906 C113.060,186.947 140.500,164.763 146.500,157.906 Z" id="path-5" class="cls-9" fill-rule="evenodd"/>
-    <g id="bottom" style="fill: url(#linear-gradient-5); filter: url(#inner-shadow-1);">
-      <path d="M151.500,153.499 C155.167,150.833 167.833,151.166 170.500,153.499 C173.167,155.833 309.500,252.499 309.500,263.499 C309.500,274.499 309.500,276.500 309.500,276.500 C309.500,277.604 308.605,278.499 307.500,278.499 C307.500,278.499 15.500,278.499 15.500,278.499 C14.395,278.499 13.500,277.604 13.500,276.500 C13.500,276.500 13.500,275.500 13.500,263.499 C13.500,251.500 147.833,156.166 151.500,153.499 Z" id="path-6" class="cls-10" style="stroke: inherit; filter: none; fill: inherit;" fill-rule="evenodd"/>
-    </g>
-    <use xlink:href="#path-6" style="stroke: url(#linear-gradient-6); fill: none; filter: none;"/>
   </g>
 </svg>
